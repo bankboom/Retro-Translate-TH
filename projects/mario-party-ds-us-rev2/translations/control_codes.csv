@@ -1,2 +1,4 @@
 ﻿Token,Meaning,Example,Preservation_Rule,Verified
 [1],Unknown runtime substitution/control token,Save File [1],Preserve exact token and order; do not translate or remove,No
+[c1],Unknown opening markup tag; semantics unverified,[c1]text[/c],"Preserve exact spelling, order, and position; do not infer tag behavior until verified.",No
+[/c],Unknown closing markup tag; semantics unverified,[c1]text[/c],"Preserve exact spelling, order, and position; do not infer tag behavior until verified.",No

@@ -105,3 +105,16 @@ voice input.","คุณพูดดังเกินไปสำหรับ�
 US_MAIN_MENU,44,,"Speak into the DS microphone from a
 comfortable distance.","พูดใส่ไมโครโฟน DS จากระยะ
 ที่เหมาะสม",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; microphone-test context inferred from text; runtime scene/width not verified; not injected. Preserve source line break and distance instruction; exact screen and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,microphone_test_ui,UI,DS microphone test UI (inferred from text; emulator scene not verified)
+US_MAIN_MENU,45,,You are P1.,คุณคือ P1,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Keep the source player identifier P1; assignment context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,player_assignment_ui,UI,Player assignment UI (inferred from label; emulator scene not verified)
+US_MAIN_MENU,46,,You are P2.,คุณคือ P2,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Keep the source player identifier P2; assignment context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,player_assignment_ui,UI,Player assignment UI (inferred from label; emulator scene not verified)
+US_MAIN_MENU,47,,You are P3.,คุณคือ P3,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Keep the source player identifier P3; assignment context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,player_assignment_ui,UI,Player assignment UI (inferred from label; emulator scene not verified)
+US_MAIN_MENU,48,,You are P4.,คุณคือ P4,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Keep the source player identifier P4; assignment context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,player_assignment_ui,UI,Player assignment UI (inferred from label; emulator scene not verified)
+US_MAIN_MENU,49,,"    　[c1]Note for the Party Host[/c]
+During multiplayer sessions, any new
+minigames that you play will be saved,
+but Mario Party Points and gameplay
+records will not be saved.","    　[c1]หมายเหตุสำหรับผู้จัดปาร์ตี้[/c]
+ระหว่างเล่นหลายคน มินิเกมใหม่ที่คุณ
+เล่นจะถูกบันทึกไว้
+แต่ Mario Party Points และสถิติการเล่น
+จะไม่ถูกบันทึก",DRAFT,NOT_INJECTED,"DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve leading spaces, ideographic space, five-line layout, and exact [c1]/[/c] tags. Tag meaning and runtime context remain unverified.",data/US/mpd_010_main_manu_LZ.bin,[c1][/c],,multiplayer_save_notice,UI,Multiplayer save notice (inferred from text; emulator scene not verified)
