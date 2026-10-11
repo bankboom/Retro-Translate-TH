@@ -129,3 +129,16 @@ sure that you want to erase all data?","ข้อมูลที่ลบแล�
 US_MAIN_MENU,54,,"Erasing data. Please don't turn off the
 power or remove the Game Card.","กำลังลบข้อมูล โปรดอย่าปิดเครื่องหรือ
 ถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve both safety instructions and source line break; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,erase_data_progress_warning,UI,Erase-data progress warning (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,55,,Data has been erased.,ลบข้อมูลเรียบร้อยแล้ว,DRAFT,NOT_INJECTED,DRAFT; translated from extracted source; erase-complete context inferred; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,erase_complete_notice,UI,Data-erased confirmation (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,56,,"Unable to read data. Please turn off the
+power and reinsert the Game Card.","อ่านข้อมูลไม่ได้ โปรดปิดเครื่อง
+แล้วถอดการ์ดเกมใส่ใหม่",DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source. Preserve read-error meaning, power-off and remove/reinsert instructions; source line-break count retained; exact scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,,,read_error_recovery,UI,Read-error recovery notice (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,57,,"Unable to write data. Please turn off the
+power and reinsert the Game Card.","เขียนข้อมูลไม่ได้ โปรดปิดเครื่อง
+แล้วถอดการ์ดเกมใส่ใหม่",DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source. Preserve write-error meaning, power-off and remove/reinsert instructions; source line-break count retained; exact scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,,,write_error_recovery,UI,Write-error recovery notice (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,58,,"Unable to erase data. Please turn off the
+power and reinsert the Game Card.","ลบข้อมูลไม่ได้ โปรดปิดเครื่อง
+แล้วถอดการ์ดเกมใส่ใหม่",DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source. Preserve erase-error meaning, power-off and remove/reinsert instructions; source line-break count retained; exact scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,,,erase_error_recovery,UI,Erase-error recovery notice (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,59,,"[c1]Saving[/c]... Please don't turn off the
+power or remove the Game Card.","[c1]กำลังบันทึก[/c]... โปรดอย่าปิดเครื่อง
+หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source; preserve exact [c1]/[/c] tags and order; tag semantics, scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,[c1][/c],,save_progress_notice,UI,Save progress notice (inferred from source text; emulator scene not verified)
