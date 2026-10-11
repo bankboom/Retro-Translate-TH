@@ -33,3 +33,14 @@ remove the Game Card.","กำลังคัดลอก... อย่าปิ�
 US_MAIN_MENU,14,,"Save File [1] has been corrupted.
 The file will be deleted.","ไฟล์บันทึก [1] เสียหาย
 ไฟล์นี้จะถูกลบ",DRAFT,NOT_INJECTED,[1] preserved exactly; translated from source; 2-line break is provisional; UI context inferred; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,15,,"Erasing data. Don't turn off power or
+remove the Game Card.","กำลังลบข้อมูล อย่าปิดเครื่องหรือ
+ถอดการ์ดเกม",DRAFT,NOT_INJECTED,"DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve source line break. Table context suggests save-file UI, but runtime scene/width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,16,,Save data has been erased.,ลบข้อมูลบันทึกแล้ว,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Draft wording; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,17,,"Unable to erase data. Please turn off
+the power and reinsert the Game Card.","ลบข้อมูลไม่ได้ โปรดปิดเครื่อง
+แล้วถอดการ์ดเกมใส่ใหม่",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve source line break and required remove/reinsert sequence; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,18,,"Creating data... Don't turn off power
+or remove the Game Card.","กำลังสร้างข้อมูล... อย่าปิดเครื่อง
+หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve source line break; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,19,,Data has been created.,สร้างข้อมูลแล้ว,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Draft wording; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
