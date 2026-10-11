@@ -16,3 +16,12 @@ Status: **PENDING** for binary/patch integrity.
 - A generated synthetic BPS patch applied clean → rebuilt, and a reverse synthetic BPS patch restored rebuilt → clean byte-for-byte. The test uses the framework BPS applier; no production patch was generated.
 - The prototype rejects unknown IDs, malformed images, overlapping file ranges, and known metadata that overlaps or follows FAT payloads. It has not been run against the actual game ROM. This is implementation evidence for synthetic behavior only; G1 remains PENDING, and no injection is authorized by this result.
 - The unknown leading compression byte, control-token grammar, `ohanashi_event_data.bin`, overlay contents and other binary containers remain outside this probe.
+
+## Read-only full-image layout review (2026-10-11)
+
+- Re-ran the profile identity inspection: 32 MiB physical file, SHA-256 unchanged at `50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433`.
+- First FAT payload is at `0x75E00`; ARM9 is `0x4000–0x74E80`, ARM9 overlay table `0x75000–0x75D80`. ARM7 is `0x2DEA00–0x305C58`, FNT `0x305E00–0x30740A`, FAT `0x307600–0x3081A8`, and banner pointer `0x308200`. Those latter references are later than the first file and lie in the gap between FAT payloads; they do not overlap FAT file ranges.
+- All 373 FAT ranges are nonempty and nonoverlapping, with 367 gaps. The last FAT end is `0x16364A0`, equal to the observed header word at `0x80`; the physical 32 MiB file continues after that point. Preserve this observed distinction and do not assume physical file length is the correct header value.
+- Static precondition review shows the current suffix-only synthetic prototype would refuse this ROM because FNT/FAT and other known referenced regions occur after the first FAT payload. The function was not invoked on the clean ROM. A future image-specific plan must relocate/update those offsets and classify any embedded references first.
+- `ohanashi_event_data.bin` (FAT ID 281, 1,784,728 bytes) begins with count 102 and 102 in-bounds, nonmonotonic 32-bit values; its payload did not yield coherent text in a naive ASCII/UTF-16 scan. ARM9 overlay descriptors map 108 unnamed FAT files, 107 marked compressed; their format and contents remain unclassified. No standard font/graphics signatures were found in a limited raw-file signature scan, which does not establish font absence.
+- No actual ROM rebuild, candidate, patch, or emulator test was performed. G1 remains PENDING.
