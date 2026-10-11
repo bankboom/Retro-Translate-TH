@@ -1,0 +1,5 @@
+Scene_ID,Category,Setup,Steps,Expected_Result,Result,Screenshot,Save_State,Notes
+S001,Boot,clean ROM and candidate patch,Start game,Game starts without crash,PENDING,,,
+S002,Menu,game booted,Visit main menu,Thai characters display properly,PENDING,,,
+S003,Font,Thai text displayed,Check กา มา ภาษา สำ ต้ ตุ,No clipping/overlap/spacing defects,PENDING,,,
+S004,SaveLoad,in-game save supported,Save and reload,No corruption or freeze,PENDING,,,

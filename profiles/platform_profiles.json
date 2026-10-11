@@ -1,0 +1,130 @@
+{
+  "schema_version": "3.0",
+  "policy": "No assumptions; confirm header/game-specific formats before editing",
+  "supported_by_cli_deep_header": [
+    "NDS",
+    "GBA"
+  ],
+  "platforms": {
+    "NES": {
+      "identify": "iNES/NES2 header",
+      "likely_analysis_targets": "fixed banks, mapper, tile fonts",
+      "cli_support": "NES-specific adapter required"
+    },
+    "SNES": {
+      "identify": "LoROM/HiROM mapping, header",
+      "likely_analysis_targets": "banked pointers, compression, graphics",
+      "cli_support": "SNES-specific adapter required"
+    },
+    "GB": {
+      "identify": "cartridge header",
+      "likely_analysis_targets": "tile font/16-bit pointers",
+      "cli_support": "GB-specific adapter required"
+    },
+    "GBC": {
+      "identify": "cartridge header",
+      "likely_analysis_targets": "banked ROM, VRAM glyphs",
+      "cli_support": "GBC-specific adapter required"
+    },
+    "GBA": {
+      "identify": "GBA game code/header checksum",
+      "likely_analysis_targets": "LZ77, glyph tile, pointers",
+      "cli_support": "header audit supported"
+    },
+    "NDS": {
+      "identify": "NDS Game ID, FNT/FAT, ARM9/7",
+      "likely_analysis_targets": "NitroFS, overlays, NFTR, custom codecs",
+      "cli_support": "header and FAT audit supported"
+    },
+    "Master System": {
+      "identify": "Sega header / ROM size",
+      "likely_analysis_targets": "8x8 tiles, bank switching",
+      "cli_support": "adapter required"
+    },
+    "Game Gear": {
+      "identify": "Sega cartridge header",
+      "likely_analysis_targets": "tile/VRAM limitations",
+      "cli_support": "adapter required"
+    },
+    "Mega Drive": {
+      "identify": "Sega Genesis header",
+      "likely_analysis_targets": "68k-endian pointers, VDP fonts",
+      "cli_support": "adapter required"
+    },
+    "WonderSwan": {
+      "identify": "footer metadata",
+      "likely_analysis_targets": "tile fonts, pointers",
+      "cli_support": "adapter required"
+    },
+    "Neo Geo Pocket": {
+      "identify": "ROM identification",
+      "likely_analysis_targets": "graphics text / bank mapping",
+      "cli_support": "adapter required"
+    },
+    "PC Engine": {
+      "identify": "HuCard/CD media layout",
+      "likely_analysis_targets": "tile fonts, bank windows",
+      "cli_support": "adapter required"
+    },
+    "Neo Geo": {
+      "identify": "ROM set identification",
+      "likely_analysis_targets": "P/S/M ROM assets, system-specific text",
+      "cli_support": "adapter required"
+    },
+    "N64": {
+      "identify": "ROM byte order/magic",
+      "likely_analysis_targets": "MIO0/Yay0, segmented addresses",
+      "cli_support": "adapter required"
+    },
+    "PS1": {
+      "identify": "ISO9660/BIN+CUE",
+      "likely_analysis_targets": "TIM fonts, EXE, XA/sector alignment",
+      "cli_support": "disc adapter required"
+    },
+    "PS2": {
+      "identify": "ISO/UDF",
+      "likely_analysis_targets": "ELF overlays, bespoke packfiles",
+      "cli_support": "disc adapter required"
+    },
+    "PSP": {
+      "identify": "ISO/CSO, UMD data",
+      "likely_analysis_targets": "PGF, archives, AT3 assets",
+      "cli_support": "adapter required"
+    },
+    "GameCube": {
+      "identify": "GCM/ISO/DOL",
+      "likely_analysis_targets": "REL, game archives, big-endian text",
+      "cli_support": "adapter required"
+    },
+    "Wii": {
+      "identify": "WBFS/ISO, partition keys",
+      "likely_analysis_targets": "U8 archives, BRFNT, game-specific",
+      "cli_support": "adapter required"
+    },
+    "3DS": {
+      "identify": "NCSD/NCCH/CIA",
+      "likely_analysis_targets": "RomFS/ExeFS, MSBT, BCFNT, fonts",
+      "cli_support": "adapter required"
+    },
+    "Saturn": {
+      "identify": "CD image + executable",
+      "likely_analysis_targets": "VFont, SH-2 addressing",
+      "cli_support": "adapter required"
+    },
+    "Dreamcast": {
+      "identify": "GDI/CDI and data track",
+      "likely_analysis_targets": "PVR, SH4 references",
+      "cli_support": "adapter required"
+    },
+    "Arcade": {
+      "identify": "board-specific ROM set",
+      "likely_analysis_targets": "CPU / graphics / banked assets",
+      "cli_support": "adapter required"
+    },
+    "PC classics": {
+      "identify": "DOS/Windows executable + resource archives",
+      "likely_analysis_targets": "bitmap fonts/locale config",
+      "cli_support": "game-specific adapter required"
+    }
+  }
+}

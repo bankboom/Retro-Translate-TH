@@ -1,0 +1,11 @@
+{
+  "build_id": "SET_AFTER_REAL_BUILD",
+  "clean_rom_sha256": "FILL_FROM_VERIFIED_CLEAN_ROM",
+  "patch_sha256": "FILL_FROM_OUTPUT_PATCH",
+  "patch_path": "patches/ACTUAL_BUILD.bps",
+  "patch_format": "BPS",
+  "rollback": "Relative path or instructions to restore known-good build",
+  "emulator_results": "NOT_TESTED",
+  "known_issues": [],
+  "signed_off_by": null
+}

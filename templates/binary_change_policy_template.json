@@ -1,0 +1,5 @@
+{
+  "allowed_changes": [],
+  "protected_ranges": [],
+  "note": "Only add evidence-backed offsets. Empty allowed_changes keeps modified candidates PENDING."
+}

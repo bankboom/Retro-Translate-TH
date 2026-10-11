@@ -1,0 +1,41 @@
+# Never commit proprietary game images or locally generated ROMs/BIOS
+*.nds
+*.gba
+*.gb
+*.gbc
+*.nes
+*.sfc
+*.smc
+*.n64
+*.z64
+*.v64
+*.3ds
+*.cia
+*.cci
+*.iso
+*.cso
+*.wbfs
+*.gcm
+*.cue
+*.bin
+*.rom
+*.bios
+*.sav
+*.dsv
+*.state
+*.st0
+# Build files (patches .bps/.ips/.xdelta intentionally permitted, subject to rights)
+**/builds/*
+!**/builds/.gitkeep
+**/working/*
+!**/working/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.DS_Store
+
+# Local cross-project memory (may contain proprietary localization text)
+shared_memory/*.sqlite
+shared_memory/*.sqlite-*
