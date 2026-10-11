@@ -18,3 +18,18 @@ Card.","กำลังลบไฟล์บันทึก [1]...
 ถอดการ์ดเกม",DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
 US_MAIN_MENU,8,22753792,Save File [1] has been erased.,ไฟล์บันทึก [1] ถูกลบแล้ว,DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
 US_MAIN_MENU,9,22753792,Save file empty.,ไม่มีข้อมูลบันทึก,DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,10,,Save File [1] has been created.,สร้างไฟล์บันทึก [1] แล้ว,DRAFT,NOT_INJECTED,[1] preserved exactly; draft translated from source; UI context inferred from table name; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,11,,"Unable to erase Save File [1]. Please
+turn off the power and reinsert the
+Game Card.","ลบไฟล์บันทึก [1] ไม่ได้
+โปรดปิดเครื่องแล้ว
+ถอดการ์ดเกมใส่ใหม่",DRAFT,NOT_INJECTED,[1] preserved exactly; translated from source; 3-line breaks are provisional; UI context inferred; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,12,,"Saving... Don't turn off the power or
+remove the Game Card.","กำลังบันทึก... อย่าปิดเครื่องหรือ
+ถอดการ์ดเกม",DRAFT,NOT_INJECTED,Translated from source; 2-line break is provisional; UI context inferred; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,13,,"Copying... Don't turn off the power or
+remove the Game Card.","กำลังคัดลอก... อย่าปิดเครื่องหรือ
+ถอดการ์ดเกม",DRAFT,NOT_INJECTED,Translated from source; 2-line break is provisional; UI context inferred; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; width/runtime unverified)
+US_MAIN_MENU,14,,"Save File [1] has been corrupted.
+The file will be deleted.","ไฟล์บันทึก [1] เสียหาย
+ไฟล์นี้จะถูกลบ",DRAFT,NOT_INJECTED,[1] preserved exactly; translated from source; 2-line break is provisional; UI context inferred; width/runtime unverified.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
