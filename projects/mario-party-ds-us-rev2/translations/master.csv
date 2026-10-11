@@ -59,3 +59,22 @@ crazy competitions!","เล่นมินิเกมสุดสนุกใ�
 US_MAIN_MENU,24,,"Play classic Mario Party puzzle games, plus
 one new twist on puzzle games!","เล่นเกมปริศนา Mario Party สุดคลาสสิก
 พร้อมลูกเล่นใหม่ให้ลองเล่น!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Preserve source line break and Mario Party name; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
+US_MAIN_MENU,25,,"Bring your friends in on the fun with
+DS Download Play! Start a party for up
+to four local-wireless players using
+just your one Game Card!","ชวนเพื่อนมาร่วมสนุกกับ
+DS Download Play! เริ่มปาร์ตี้ได้สูงสุด
+4 คนผ่านระบบไร้สายในพื้นที่ โดยใช้
+Game Card เพียงใบเดียว!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve all four source lines and the local-wireless player limit; UI context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,ds_download_play_info_ui,UI,DS Download Play information UI (inferred from text; emulator scene not verified)
+US_MAIN_MENU,26,,"See all the fun stuff you've collected!
+Prizes, sounds, cut scenes, and even
+your play records are all here.","ดูของสนุกๆ ที่คุณสะสมไว้ทั้งหมด!
+ทั้งของรางวัล เสียง ฉากคัตซีน และแม้แต่
+สถิติการเล่นของคุณก็อยู่ที่นี่",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve three source lines; UI context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,collection_records_ui,UI,Collection/records UI (inferred from text; emulator scene not verified)
+US_MAIN_MENU,27,,"Play games that are great for two-player
+action: compete in Desert Duel or
+cooperate in Pen Pals!","เล่นเกมที่เหมาะกับการเล่นสองคน:
+แข่งกันใน Desert Duel หรือ
+ร่วมมือกันใน Pen Pals!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve source line breaks and game names; UI context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,two_player_games_ui,UI,Two-player games UI (inferred from text; emulator scene not verified)
+US_MAIN_MENU,28,,Select a game mode.,เลือกโหมดเกม,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Same wording as ID 20 for consistency; both remain drafts pending context review.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from text; emulator scene not verified)
+US_MAIN_MENU,29,,End DS Download Play?,ออกจาก DS Download Play?,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Natural confirmation wording; exact runtime action and context remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,ds_download_play_exit_confirmation,UI,DS Download Play exit confirmation (inferred from text; emulator scene not verified)
