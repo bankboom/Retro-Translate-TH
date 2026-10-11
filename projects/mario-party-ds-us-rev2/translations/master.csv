@@ -7,3 +7,14 @@ turn off the power or remove the Game
 Card.","กำลังสร้างไฟล์บันทึก [1]... โปรดอย่าปิดเครื่อง
 หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve [1] exactly; runtime meaning not yet confirmed.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
 US_MAIN_MENU,4,,Copy data to Save File [1]?,คัดลอกข้อมูลไปยังไฟล์บันทึก [1] หรือไม่?,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve [1] exactly; runtime meaning not yet confirmed.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,5,22753792,"Copying... Please don't turn off the
+power or remove the Game Card.","กำลังคัดลอก... โปรดอย่าปิดเครื่อง
+หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,6,22753792,Erase Save File [1]?,ลบไฟล์บันทึก [1] หรือไม่?,DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,7,22753792,"Erasing Save File [1]... Please don't
+turn off the power or remove the Game
+Card.","กำลังลบไฟล์บันทึก [1]...
+โปรดอย่าปิดเครื่องหรือ
+ถอดการ์ดเกม",DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,8,22753792,Save File [1] has been erased.,ไฟล์บันทึก [1] ถูกลบแล้ว,DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,9,22753792,Save file empty.,ไม่มีข้อมูลบันทึก,DRAFT,NOT_INJECTED,"DRAFT; adjacent save-file UI inferred from table; source line breaks retained; scene, width, renderer and runtime token behavior unverified.",data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file flow (inferred from table name; emulator scene not verified)

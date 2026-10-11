@@ -67,7 +67,7 @@
 ### 4. เชื่อม CSV และเริ่มแปลเป็นชุด
 
 - เพิ่ม extractor ที่เขียน source-only CSV แยกจาก `master.csv` โดยเก็บเฉพาะ Bank, ID, ROM_Offset, English, File_Path และ token candidates; ไม่กำหนด TranslationStatus/InjectionStatus ให้แถวที่ยังไม่ใช่คำแปล
-- เขียน source inventory ไปยัง path ใหม่หรือตำแหน่งชั่วคราวเท่านั้น; ย้ายเฉพาะ IDs ที่เลือกและมีบริบทไปยัง `master.csv` หลังตรวจ schema/diff โดยคงสถานะห้า DRAFT เดิมไว้จนกว่าเส้นทาง micro-patch จะผ่าน
+- เขียน source inventory ไปยัง path ใหม่หรือตำแหน่งชั่วคราวเท่านั้น; ย้ายเฉพาะ IDs ที่เลือกและมีบริบทไปยัง `master.csv` หลังตรวจ schema/diff; เพิ่มแถวแปลตามคำสั่งผู้ใช้เป็นชุดเล็กชุดละ 5 โดยคง `DRAFT` / `NOT_INJECTED` จนผ่านการตรวจบริบท; ก่อนฉีดหรือขยายเกิน 10 แถว ต้องพิสูจน์เส้นทาง micro-patch/repack และฟอนต์
 - ตรวจจำนวน source rows เทียบ inventory, uniqueness ของ (bank, ID), CSV quoting/newlines, UTF-16 round-trip และจำนวน tokens
 - ใช้ glossary/TM ที่ context ตรงกัน; ตรวจตัวอย่าง 5 DRAFT ปัจจุบันก่อนเพิ่ม batch; คง `[1]` เป็น token ที่ยังไม่ทราบความหมาย
 - แปลเป็น batch เล็กพร้อม scene/context evidence; ให้ AI ส่งเฉพาะ changed rows แล้วทำ human/contextual review ก่อนเปลี่ยนเป็น REVIEWED
