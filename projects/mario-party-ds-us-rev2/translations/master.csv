@@ -1,0 +1,9 @@
+﻿Bank,ID,ROM_Offset,English,Thai,TranslationStatus,InjectionStatus,QA_Note,File_Path,Control_Tokens,Max_Width_Px,Context_Key,Speaker,Scene
+US_MAIN_MENU,0,,Touch to start!,แตะเพื่อเริ่ม!,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,1,,Select a save file.,เลือกไฟล์บันทึก,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,2,,Name your file.,ตั้งชื่อไฟล์,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,3,,"Creating Save File [1]... Please don't
+turn off the power or remove the Game
+Card.","กำลังสร้างไฟล์บันทึก [1]... โปรดอย่าปิดเครื่อง
+หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve [1] exactly; runtime meaning not yet confirmed.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,4,,Copy data to Save File [1]?,คัดลอกข้อมูลไปยังไฟล์บันทึก [1] หรือไม่?,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve [1] exactly; runtime meaning not yet confirmed.,data/US/mpd_010_main_manu_LZ.bin,[1],,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)

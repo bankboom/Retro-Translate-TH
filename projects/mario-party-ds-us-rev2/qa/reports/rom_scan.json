@@ -1,0 +1,56 @@
+{
+  "filename": "Mario Party DS (USA) (Rev 2).nds",
+  "size_bytes": 33554432,
+  "crc32": "4FCBB5C3",
+  "sha256": "50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433",
+  "platform": "NDS",
+  "game_title": "MARIOPARTYDS",
+  "game_code": "A8TE",
+  "maker_code": "01",
+  "sections": {
+    "ARM9": {
+      "offset": 16384,
+      "size": 462464,
+      "in_bounds": true
+    },
+    "ARM7": {
+      "offset": 3009024,
+      "size": 160344,
+      "in_bounds": true
+    },
+    "FNT": {
+      "offset": 3169792,
+      "size": 5642,
+      "in_bounds": true
+    },
+    "FAT": {
+      "offset": 3175936,
+      "size": 2984,
+      "in_bounds": true
+    },
+    "ARM9_OVERLAY_TABLE": {
+      "offset": 479232,
+      "size": 3456,
+      "in_bounds": true
+    },
+    "ARM7_OVERLAY_TABLE": {
+      "offset": 0,
+      "size": 0,
+      "in_bounds": true
+    }
+  },
+  "section_bounds_pass": true,
+  "nitrofs_fat": {
+    "file_count": 373,
+    "nonempty_files": 373,
+    "invalid_entries": 0,
+    "bounds_pass": true
+  },
+  "sha1": "96054049ac831720f1c7c63023cf18907352d45c",
+  "header_revision_byte": 2,
+  "nitrofs_named_file_count": 265,
+  "fat_entry_count": 373,
+  "named_fnt_directory_count": 3,
+  "unlisted_fat_entries_before_first_named_file": 108,
+  "fnt_fat_bounds_pass": true
+}

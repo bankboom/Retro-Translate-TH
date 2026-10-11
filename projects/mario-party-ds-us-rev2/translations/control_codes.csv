@@ -1,0 +1,2 @@
+﻿Token,Meaning,Example,Preservation_Rule,Verified
+[1],Unknown runtime substitution/control token,Save File [1],Preserve exact token and order; do not translate or remove,No

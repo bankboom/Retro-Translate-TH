@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.2",
+  "gates": {
+    "G0": {
+      "status": "PASS",
+      "description": "ROM identity / baseline provenance",
+      "evidence": [
+        "qa/reports/rom_scan.json",
+        "qa/reports/g0_identity.md"
+      ],
+      "reviewer": "automated hash/header comparison; human review pending"
+    },
+    "G1": {
+      "status": "PENDING",
+      "description": "Binary and patch integrity",
+      "evidence": [
+        "qa/reports/g1_roundtrip.md",
+        "qa/reports/text_table_scan.csv"
+      ],
+      "reviewer": null
+    },
+    "G2": {
+      "status": "PENDING",
+      "description": "Translation inventory, context and token QA",
+      "evidence": [],
+      "reviewer": null
+    },
+    "G3": {
+      "status": "PENDING",
+      "description": "Thai font, diacritics and layout visual QA",
+      "evidence": [],
+      "reviewer": null
+    },
+    "G4": {
+      "status": "PENDING",
+      "description": "Emulator gameplay, save and load QA",
+      "evidence": [],
+      "reviewer": null
+    },
+    "G5": {
+      "status": "PENDING",
+      "description": "Release readiness and reproducibility",
+      "evidence": [],
+      "reviewer": null
+    }
+  }
+}

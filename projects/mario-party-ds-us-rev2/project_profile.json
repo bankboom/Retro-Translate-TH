@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "project_slug": "mario-party-ds-us-rev2",
+  "game_title": "Mario Party DS",
+  "platform": "NDS",
+  "region": "USA",
+  "revision": "Rev 2 (header revision byte 0x1E = 02; reference hash match)",
+  "created_utc": "2026-10-11T09:22:00.393639+00:00",
+  "source_rom": {
+    "path": null,
+    "provenance": "User-provided attachment; content matches a No-Intro-labeled USA Rev 2 reference by SHA-1 and CRC32. Upload chain-of-custody not independently verified; source ROM remains outside repository.",
+    "observed_sha256": "50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433",
+    "observed_sha1": "96054049ac831720f1c7c63023cf18907352d45c",
+    "observed_crc32": "4FCBB5C3",
+    "expected_clean_sha256": null,
+    "expected_clean_sha1": "96054049ac831720f1c7c63023cf18907352d45c",
+    "expected_clean_crc32": "4FCBB5C3",
+    "size_bytes": 33554432
+  },
+  "baseline_patch": null,
+  "candidate_patch": null,
+  "emulator": null,
+  "adapter_status": "READ_ONLY_NITROFS_AND_MPD_TEXT_TABLE_FORMAT_CONFIRMED; INJECTION_NOT_IMPLEMENTED",
+  "notes": "The attached ROM was read-only. No ROM copy or game data file is stored in this repository. 35 US mpd_* LZ77/UTF-16LE text tables round-trip byte-identically after decode/parse/serialize. Additional story-event, font/rendering, and other binary formats remain unmapped."
+}
