@@ -1,6 +1,6 @@
 # แผนพัฒนา Adapter และเริ่มงานแปล Mario Party DS (USA Rev 2)
 
-> สถานะ: แผนรอเลือกวิธีดำเนินการ  
+> สถานะ: อนุมัติแล้ว — ดำเนินการแบบ Native บน GitHub  
 > สเปกที่อนุมัติ: [MPDS_TRANSLATION_ADAPTER_SPEC.md](MPDS_TRANSLATION_ADAPTER_SPEC.md)  
 > เป้าหมาย: ทำให้การสำรวจ/แยก/ตรวจข้อความที่ยืนยันรูปแบบแล้วทำซ้ำได้ ก่อนขยายงานแปลหรือสร้างแพตช์
 
@@ -66,8 +66,8 @@
 
 ### 4. เชื่อม CSV และเริ่มแปลเป็นชุด
 
-- เพิ่ม extractor ที่สร้าง source rows พร้อม `Bank, ID, ROM_Offset, English, Thai, TranslationStatus, InjectionStatus, File_Path, Control_Tokens, Context_Key, Speaker, Scene` ตาม schema ปัจจุบัน
-- ออกไฟล์ผลลัพธ์ไปยัง path ใหม่หรือ temporary output; ห้ามเขียนทับ `master.csv` ก่อนตรวจ diff และ schema audit
+- เพิ่ม extractor ที่เขียน source-only CSV แยกจาก `master.csv` โดยเก็บเฉพาะ Bank, ID, ROM_Offset, English, File_Path และ token candidates; ไม่กำหนด TranslationStatus/InjectionStatus ให้แถวที่ยังไม่ใช่คำแปล
+- เขียน source inventory ไปยัง path ใหม่หรือตำแหน่งชั่วคราวเท่านั้น; ย้ายเฉพาะ IDs ที่เลือกและมีบริบทไปยัง `master.csv` หลังตรวจ schema/diff โดยคงสถานะห้า DRAFT เดิมไว้จนกว่าเส้นทาง micro-patch จะผ่าน
 - ตรวจจำนวน source rows เทียบ inventory, uniqueness ของ (bank, ID), CSV quoting/newlines, UTF-16 round-trip และจำนวน tokens
 - ใช้ glossary/TM ที่ context ตรงกัน; ตรวจตัวอย่าง 5 DRAFT ปัจจุบันก่อนเพิ่ม batch; คง `[1]` เป็น token ที่ยังไม่ทราบความหมาย
 - แปลเป็น batch เล็กพร้อม scene/context evidence; ให้ AI ส่งเฉพาะ changed rows แล้วทำ human/contextual review ก่อนเปลี่ยนเป็น REVIEWED
@@ -120,4 +120,4 @@ Milestone แรกจบเมื่อ adapter อ่านอย่างเ�
 - **Native บน GitHub (แนะนำ):** ทำ working copy ใน workspace เพื่อรันทดสอบ แล้วเผยแพร่ commit แบบ additive ไปที่ branch ที่เลือกผ่าน GitHub API พร้อม expected-head guard; ไม่ force update
 - **Branch + PR:** ทำ working copy เช่นกัน แต่เผยแพร่บน feature branch แล้วเปิด PR เพื่อ review ก่อน merge
 
-ทั้งสองทางใช้แผนและเกณฑ์เดียวกัน; ยังไม่มีการเขียน adapter code จนกว่าจะเลือกวิธีดำเนินงาน
+เลือกวิธี Native บน GitHub แล้ว; implementation และการตรวจทานดำเนินการใน workspace จากนั้นเผยแพร่ด้วย commit ที่อิง expected head โดยไม่ force push

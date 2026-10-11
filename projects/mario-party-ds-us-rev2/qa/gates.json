@@ -3,7 +3,7 @@
   "gates": {
     "G0": {
       "status": "PASS",
-      "description": "ROM identity / baseline provenance",
+      "description": "ROM identity and revision match",
       "evidence": [
         "qa/reports/rom_scan.json",
         "qa/reports/g0_identity.md"
@@ -15,7 +15,8 @@
       "description": "Binary and patch integrity",
       "evidence": [
         "qa/reports/g1_roundtrip.md",
-        "qa/reports/text_table_scan.csv"
+        "qa/reports/text_table_scan.csv",
+        "qa/reports/mpds_adapter_validation.json"
       ],
       "reviewer": null
     },

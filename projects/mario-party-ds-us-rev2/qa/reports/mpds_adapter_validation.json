@@ -1,0 +1,46 @@
+{
+  "report_schema": "mpds-adapter-validation-v1",
+  "adapter_version": "0.1.0",
+  "source_identity": {
+    "title": "MARIOPARTYDS",
+    "game_code": "A8TE",
+    "maker_code": "01",
+    "revision_byte": 2,
+    "size_bytes": 33554432,
+    "sha256_before": "50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433",
+    "sha256_after": "50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433",
+    "sha1": "96054049ac831720f1c7c63023cf18907352d45c",
+    "crc32": "4FCBB5C3",
+    "identity_check": "PASS",
+    "provenance_note": "Identity/revision match only; upload chain of custody is not authenticated."
+  },
+  "nitrofs": {
+    "fat_entries": 373,
+    "named_files": 265,
+    "unnamed_fat_ids": 108,
+    "all_file_ranges_in_bounds": true
+  },
+  "overlays": {
+    "arm9_entries": 108,
+    "arm7_entries": 0,
+    "unique_fat_file_ids": 108,
+    "fat_file_ids_are_0_through_107": true,
+    "mapping_note": "Overlay descriptor-to-FAT mapping only; overlay contents and text remain unmapped."
+  },
+  "mpd_tables": {
+    "table_count": 35,
+    "total_rows": 2672,
+    "expanded_parse_serialize": "PASS",
+    "compressed_redecode": "PASS",
+    "byte_identical_recompressed_files": 0,
+    "g1_status": "PENDING",
+    "reason": "No NitroFS repack, FAT update, BPS/candidate ROM, or emulator validation."
+  },
+  "source_inventory_rows": 2672,
+  "source_inventory_unique_bank_id_pairs": 2672,
+  "source_inventory_has_translation_state": false,
+  "master_translation_rows": 5,
+  "master_rows_preserved_as_draft_not_injected": true,
+  "cli_output_overwrite_refused": true,
+  "clean_rom_modified": false
+}
