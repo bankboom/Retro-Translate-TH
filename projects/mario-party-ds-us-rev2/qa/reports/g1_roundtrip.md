@@ -33,3 +33,10 @@ Status: **PENDING** for binary/patch integrity.
 - ASCII literals expose data-file references from overlay IDs 84, 86, 87, 96, 106 and 107, including title/menu/mode-select assets and `data/ohanashi_event_data.bin`. These findings identify filenames only; no function-level code reference or scene assignment is confirmed.
 - A separate event-container check found a 102-entry prefix followed by 102 unique, aligned, in-bounds values (range `0x330`–`0x12B38C`). Treating them as indexed offsets is still a hypothesis; event record boundaries and grammar are unknown.
 - ROM SHA-256 before and after remained `50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433`. No file, ROM, candidate, patch, or emulator output was created. This read-only inspection does not change G1–G5: G0 PASS; G1–G5 PENDING.
+
+## Read-only menu/event container probe (2026-10-11)
+
+- Known MPDS-LZ decoding succeeded for title (133,280→122,308 bytes), main menu (19,555→20,052), mode select (10,446→11,424) and story mode (42,691→43,868). Overlay literals cross-reference title/menu/mode-select/story-mode filenames from IDs 84/86/87/98.
+- Their leading words (34/23/21/77 respectively) are followed by integer arrays, but the values do not establish a simple file-relative offset table: some lie inside the presumed count/table prefix. These files stay classified as decoded containers with unknown internal record semantics.
+- Treating each of the 102 event-table values as a candidate MPDS-LZ start, bounded by the next sorted value, yielded 99 format errors and three zero-size outputs; there were no positive-size decodes. Since these values may not be chunk starts and the event format may use a different codec, this is only a negative probe, not evidence that the container is uncompressed.
+- The ROM stayed read-only and its SHA-256 remained unchanged. No build or emulator evidence was produced; G0 PASS and G1–G5 PENDING.

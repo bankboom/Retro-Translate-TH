@@ -11,6 +11,7 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 3. 35 `data/US/mpd_*_LZ.bin` tables contain 2,672 validated UTF-16LE rows. The local adapter reproduces expanded bytes after parse/serialize and after recompress/decompress for all 35; compressed bytes differ. A conservative in-memory NitroFS replacement prototype passes synthetic two-file relocation/FAT and reversible BPS tests only; it has not been run against the game image. See `qa/reports/text_table_scan.csv` and `qa/reports/g1_roundtrip.md`.
 4. Ten UI strings are drafts in `translations/master.csv`; `[1]` appears as an unresolved runtime token and must be preserved.
 5. Read-only layout review found the first FAT payload at `0x75E00`, followed by ARM7, FNT, FAT and the banner pointer in inter-file space. These header-referenced regions would move under a simple suffix rebuild, while their header pointers would not. The synthetic prototype's guard would reject this image; it was not called with the clean ROM. Details and unresolved asset findings are in `analysis/ROM_MAP.md`.
+6. The title, main-menu, mode-select and story-mode `*_LZ.bin` resources decode with the known MPDS LZ codec. Overlays 84/86/87/98 contain matching filename literals. Their expanded payload structures are not yet understood; the story-event archive remains unmapped.
 
 ## Work sequence
 
@@ -22,6 +23,7 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 - [x] Test a size-changing NitroFS replacement on a synthetic NDS with two FAT files; verify downstream relocation, FAT references, header size/checksum, and synthetic BPS apply/reverse byte equality.
 - [x] Inspect header, overlay-table, FAT and banner-pointer placement against physical FAT ranges read-only; confirm that the current synthetic rebuild precondition fails for this image without invoking it.
 - [x] Decode all 107 compressed ARM9 overlays in memory, match decoded sizes to descriptor RAM sizes, and classify embedded asset-path literals.
+- [x] Decode the title/main-menu/mode-select/story-mode MPDS-LZ assets and map their filename literals to overlays; keep table/layout semantics unconfirmed.
 - [ ] Map `ohanashi_event_data.bin`, ARM9/overlay text and other non-MPD text containers; establish complete game text scope before progress percentages.
 - [ ] Disassemble ARM9/overlay code and trace filename references to callers and loaded tables; an ARM-capable disassembler is not currently available in the environment.
 - [ ] Determine record boundaries and semantics for the 102-entry `ohanashi_event_data.bin` table; aligned in-bounds offsets are observed, but their interpretation is still hypothetical.
