@@ -41,8 +41,10 @@ ROM, patch, translation, font, or emulator results.
 3. Preserve package files byte-for-byte and retain the upstream package hash
    manifest. Only the new `quality_gates/README.md` and this repository's
    design/plan records are additional files.
-4. Before remote writes, re-read repository contents and confirm they remain
-   empty; abort rather than overwrite if any path has appeared.
+4. Before the initial bootstrap, re-read repository contents and confirm they
+   are empty. For later writes, compare every intended path with the current
+   tree, preserve the already committed design/plan records, and abort rather
+   than replace any other existing path.
 5. Initialize `main` through the GitHub connector. Since the repository has no
    existing parent commit, use the supported bootstrap path and record any
    resulting intermediate commit explicitly; finish with one commit containing
