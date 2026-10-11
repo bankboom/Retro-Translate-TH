@@ -20,6 +20,6 @@
   "baseline_patch": null,
   "candidate_patch": null,
   "emulator": null,
-  "adapter_status": "READ_ONLY_NITROFS_AND_MPD_TABLE_CODEC_AVAILABLE; NITROFS_REPACK_AND_INJECTION_NOT_IMPLEMENTED",
-  "notes": "The attached ROM was read-only. No ROM copy or game data file is stored in this repository. 35 US mpd_* LZ77/UTF-16LE text tables round-trip byte-identically after decode/parse/serialize. Additional story-event, font/rendering, and other binary formats remain unmapped."
+  "adapter_status": "READ_ONLY_NITROFS_AND_MPD_TABLE_CODEC_AVAILABLE; SYNTHETIC_REPACK_PROTOTYPE_ONLY; REAL_IMAGE_LAYOUT_UNVALIDATED; INJECTION_NOT_IMPLEMENTED",
+  "notes": "The attached ROM was read-only. No ROM copy or game data file is stored in this repository. 35 US mpd_* LZ77/UTF-16LE text tables round-trip byte-identically after decode/parse/serialize. A conservative in-memory NitroFS replacement prototype passes synthetic fixtures only; it has not been run against the game ROM and does not establish candidate build or patch validity. Additional story-event, font/rendering, and other binary formats remain unmapped."
 }

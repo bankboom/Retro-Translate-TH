@@ -21,7 +21,7 @@
 - The project-local `tools/mpds_adapter/` now performs bounds-checked identity/NitroFS/overlay inspection, extraction to a source-only CSV, and table round-trip checks. Synthetic unit tests cover NDS and overlay bounds, MPDS LZ, UTF-16LE tables and refuse-overwrite behavior.
 - All 35 tables parse and serialize back to byte-identical expanded bytes: 2,672 rows total. Recompressing and decompressing each table also restores the exact expanded bytes, but the compressed container bytes differ for all 35 files. This proves codec round-trip only; it does not prove NitroFS repacking, patch correctness, or runtime behavior.
 - Metadata-only adapter evidence: [`../qa/reports/mpds_adapter_validation.json`](../qa/reports/mpds_adapter_validation.json). Full source inventory is intentionally not stored in the repository; the CLI writes it only to the caller-selected output.
-- Full table metadata: [`../qa/reports/text_table_scan.csv`](../qa/reports/text_table_scan.csv). Only the first five main-menu rows are in the translation master; the rest of the game text is not bulk-exported here.
+- Full table metadata: [`../qa/reports/text_table_scan.csv`](../qa/reports/text_table_scan.csv). Only the first ten main-menu rows are in the translation master; the rest of the game text is not bulk-exported here.
 - Game-specific format reference: [Mario Party DS Editor README/source](https://github.com/aleokdev/mario-party-editor), which documents the MPDS LZ77 and UTF-16 text-table layout. This repository's reference implementation is not treated as a verified injector for Rev 2.
 
 ## Unknown / not yet mapped
@@ -29,14 +29,14 @@
 - `data/ohanashi_event_data.bin` (story/event data), ARM9/overlay strings and code, font glyph mapping, text renderer, pointer semantics beyond the confirmed table format, and all non-`mpd_*` candidate containers remain unmapped. Overlay descriptors map to FAT entries, but their content formats are not classified.
 - A broad scan of other `_LZ.bin` files produced candidates and decompression failures; those results are not promoted to confirmed text tables.
 - No named NitroFS path includes `font` in its filename. This does not establish that fonts are absent; font resources may be unnamed, embedded, or referenced through overlays.
-- NitroFS size-changing edits require a tested image rebuild/relocation strategy and FAT updates. No such repacker exists in this project yet; the third-party editor's workflow is a format reference, not a verified Rev 2 injector.
+- A conservative in-memory single-file replacement prototype passes synthetic size-change, relocation, FAT/header update and reversible BPS tests. It has not been checked against the full image's metadata references and is not a verified Rev 2 repacker or injector; the third-party editor's workflow remains a format reference.
 - Runtime scene assignment, line width, control token `[1]` semantics, Thai glyph availability, and emulator behavior are unverified.
 
 ## Current gate state
 
 - G0 identity: PASS for exact revision/hash identity match; upload origin itself is not authenticated.
-- G1 binary/patch: PENDING; codec/table round trips are proven, but no NitroFS repack, candidate ROM build or patch exists.
-- G2 translation: PENDING; five rows are DRAFT and scope coverage is not complete.
+- G1 binary/patch: PENDING; synthetic relocation/rollback is proven on fixtures, but no game-image repack, candidate ROM build or production patch exists.
+- G2 translation: PENDING; ten rows are DRAFT and scope coverage is not complete.
 - G3 font/layout: PENDING; no Thai glyph or real emulator screenshot verification.
 - G4 gameplay/save/load: PENDING; not tested in an emulator.
 - G5 release: PENDING; no release artifact.

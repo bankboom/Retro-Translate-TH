@@ -34,12 +34,12 @@
     "compressed_redecode": "PASS",
     "byte_identical_recompressed_files": 0,
     "g1_status": "PENDING",
-    "reason": "No NitroFS repack, FAT update, BPS/candidate ROM, or emulator validation."
+    "reason": "Synthetic rebuild/FAT relocation and reversible BPS fixtures pass, but no full-image validation, candidate ROM/production patch, or emulator validation exists."
   },
   "source_inventory_rows": 2672,
   "source_inventory_unique_bank_id_pairs": 2672,
   "source_inventory_has_translation_state": false,
-  "master_translation_rows": 5,
+  "master_translation_rows": 10,
   "master_rows_preserved_as_draft_not_injected": true,
   "cli_output_overwrite_refused": true,
   "clean_rom_modified": false

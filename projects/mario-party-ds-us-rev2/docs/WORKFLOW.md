@@ -8,8 +8,8 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 
 1. G0 identity matches the No-Intro-labeled USA Rev 2 SHA-1/CRC32 reference; see `qa/reports/g0_identity.md` and `qa/reports/rom_scan.json`.
 2. The NitroFS names 265 files and 373 FAT entries. The 108 ARM9 overlay descriptors map to unnamed FAT IDs 0–107; overlay contents remain unmapped. See `qa/reports/nitrofs_inventory.csv` and `qa/reports/mpds_adapter_validation.json`.
-3. 35 `data/US/mpd_*_LZ.bin` tables contain 2,672 validated UTF-16LE rows. The local adapter reproduces expanded bytes after parse/serialize and after recompress/decompress for all 35; compressed bytes differ, and no NitroFS repack has been tested. See `qa/reports/text_table_scan.csv`, `qa/reports/g1_roundtrip.md`, and `qa/reports/mpds_adapter_validation.json`.
-4. The first five UI strings are drafts in `translations/master.csv`; `[1]` appears as an unresolved runtime token and must be preserved.
+3. 35 `data/US/mpd_*_LZ.bin` tables contain 2,672 validated UTF-16LE rows. The local adapter reproduces expanded bytes after parse/serialize and after recompress/decompress for all 35; compressed bytes differ. A conservative in-memory NitroFS replacement prototype passes synthetic two-file relocation/FAT and reversible BPS tests only; it has not been run against the game image. See `qa/reports/text_table_scan.csv` and `qa/reports/g1_roundtrip.md`.
+4. Ten UI strings are drafts in `translations/master.csv`; `[1]` appears as an unresolved runtime token and must be preserved.
 
 ## Work sequence
 
@@ -17,11 +17,12 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 - [x] Implement read-only NDS/NitroFS inventory, MPDS LZ/table codec and source-only extraction CLI with synthetic unit tests.
 - [x] Map ARM9 overlay descriptors to FAT entries with bounds checks and synthetic tests; do not infer text from the mapping.
 - [x] Validate all 35 known MPD tables and compressed decode-after-reencode round trip; keep output bytes and ROM separate.
-- [x] Draft five main-menu/save-file strings; keep DRAFT and NOT_INJECTED separate.
+- [x] Draft ten main-menu/save-file strings; keep DRAFT and NOT_INJECTED separate.
+- [x] Test a size-changing NitroFS replacement on a synthetic NDS with two FAT files; verify downstream relocation, FAT references, header size/checksum, and synthetic BPS apply/reverse byte equality.
 - [ ] Map `ohanashi_event_data.bin`, ARM9/overlay text and other non-MPD text containers; establish complete game text scope before progress percentages.
 - [ ] Identify font resources, encoding/glyph mapping, renderer and line/width constraints from source and real emulator evidence.
-- [ ] Map the remaining story/event, ARM9/overlay and font/rendering formats; then design and test a size-changing NitroFS repacker/FAT update path without altering input ROM.
-- [ ] Verify round-trip of extracted/rebuilt files, then make a reversible 1–5-string candidate patch from the exact baseline.
+- [ ] Map story/event, ARM9/overlay and font/rendering formats; inspect all relevant NDS metadata read-only and determine whether the synthetic rebuild restrictions cover this image before considering real-image rebuild.
+- [ ] Verify exact-file round-trip and relocation on a disposable validated fixture; only then consider a reversible 1–5-string candidate patch from the exact baseline.
 - [ ] Context-review translations, tokens, spelling, terminology and length in small batches; use reviewed glossary/TM only.
 - [ ] Run real emulator screenshot checks (including Thai vowels/tone marks) and gameplay/save/load checks. Keep G3/G4 PENDING until evidence is recorded.
 - [ ] Release only a patch, manifest, hashes, rollback steps and known issues after G0–G4 pass for stated scope and human sign-off.
@@ -32,4 +33,4 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 - Thai font/rendering support is unknown; no injection candidate has been built.
 - `[1]` substitution semantics are not yet confirmed.
 - No emulator/version or screenshots were supplied; G3/G4 cannot pass yet.
-- Compressed table outputs do not match original compressed bytes, and no NitroFS relocation/FAT updater is implemented; do not create a patch until rebuild and rollback behavior are proven.
+- Compressed table outputs do not match original compressed bytes. The synthetic rebuild prototype is not validated for this game image; do not use it on the clean ROM or create a candidate patch until full-image metadata and rollback behavior are reviewed.
