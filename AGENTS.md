@@ -36,3 +36,6 @@ Scope: This is a reusable framework; one game per `projects/<slug>/`. Reply in T
 - Continue using cross-project approved TM and project checkpoints from V3.1.1; do not duplicate user project data or migrate ROM binaries into the framework.
 - New V3.2 docs and skills: `docs/V3_2_REGRESSION_AND_RELEASE_TH.md`, `.agents/skills/regression-quality/SKILL.md`, `.agents/skills/evidence-release/SKILL.md`. Load on demand only.
 - Chat triggers `คู่มือ V3.2`, `Framework V3.2`, or older `V3.1` (compatibility). Maintain the existing managed user skill/paths where installed to avoid breaking previous Codex setup.
+
+## V3.2.1 offline/no-disassembler policy (all projects)
+When an external disassembler or pip cache is unavailable, read `docs/OFFLINE_REVERSE_ENGINEERING_TH.md` on demand; use `python tools/portable_code_probe.py capabilities`. For verified **ARM/Thumb decoded-code ranges only**, the standard-library probe may collect bounded candidate branches/literal references. It is NOT a full disassembler. Never guess ISA/RAM base/code boundaries, invent code xrefs or event record grammar, or borrow another game's TraceKit. Continue independent read-only text/container QA instead of blocking the entire project; unresolved reverse-engineering work stays PENDING and cannot authorize ROM writes.

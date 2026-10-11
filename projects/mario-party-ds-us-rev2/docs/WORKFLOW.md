@@ -25,7 +25,7 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 - [x] Decode all 107 compressed ARM9 overlays in memory, match decoded sizes to descriptor RAM sizes, and classify embedded asset-path literals.
 - [x] Decode the title/main-menu/mode-select/story-mode MPDS-LZ assets and map their filename literals to overlays; keep table/layout semantics unconfirmed.
 - [ ] Map `ohanashi_event_data.bin`, ARM9/overlay text and other non-MPD text containers; establish complete game text scope before progress percentages.
-- [ ] Disassemble ARM9/overlay code and trace filename references to callers and loaded tables; an ARM-capable disassembler is not currently available in the environment.
+- [ ] Trace ARM9/overlay references only after a code-only range and ARM/Thumb mode are independently established. V3.2.1 `portable_code_probe.py` may produce bounded candidates without a full disassembler; do not scan mixed code/data images or treat pattern hits as verified xrefs. Current state: no verified code range/mode, so no scan was run.
 - [ ] Determine record boundaries and semantics for the 102-entry `ohanashi_event_data.bin` table; aligned in-bounds offsets are observed, but their interpretation is still hypothetical.
 - [ ] Identify font resources, encoding/glyph mapping, renderer and line/width constraints from source and real emulator evidence.
 - [ ] Determine whether a game-specific relocator can update every header and embedded offset reference, while preserving observed logical-size/padding behavior, before considering any candidate build.

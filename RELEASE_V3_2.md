@@ -7,3 +7,5 @@ Added: `regression_guard.py` approved byte-range guard; `quality_queue.py` delta
 Unchanged: offline cross-project TM, Thai lint, token saver, Codex install/Workspace tools, project manager, BPS/NDS/GBA static auditing, G0–G5 conservative gate design.
 
 Never conflate checksum PASS with G3/G4. Emulator required. No token-savings percentage is claimed without measured usage. This is not a universal ROM injection engine.
+
+See [`RELEASE_V3_2_1.md`](RELEASE_V3_2_1.md) for the universal offline ARM/Thumb fallback patch.
