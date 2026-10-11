@@ -113,8 +113,8 @@ US_MAIN_MENU,49,,"    　[c1]Note for the Party Host[/c]
 During multiplayer sessions, any new
 minigames that you play will be saved,
 but Mario Party Points and gameplay
-records will not be saved.","    　[c1]หมายเหตุสำหรับผู้จัดปาร์ตี้[/c]
+records will not be saved.","    　[c1]หมายเหตุสำหรับเจ้าภาพปาร์ตี้[/c]
 ระหว่างเล่นหลายคน มินิเกมใหม่ที่คุณ
 เล่นจะถูกบันทึกไว้
 แต่ Mario Party Points และสถิติการเล่น
-จะไม่ถูกบันทึก",DRAFT,NOT_INJECTED,"DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve leading spaces, ideographic space, five-line layout, and exact [c1]/[/c] tags. Tag meaning and runtime context remain unverified.",data/US/mpd_010_main_manu_LZ.bin,[c1][/c],,multiplayer_save_notice,UI,Multiplayer save notice (inferred from text; emulator scene not verified)
+จะไม่ถูกบันทึก",DRAFT,NOT_INJECTED,"DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve leading spaces, ideographic space, five-line layout, and exact [c1]/[/c] tags. Tag meaning and runtime context remain unverified. Linguistic review renders "Party Host" as "เจ้าภาพปาร์ตี้"; exact scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,[c1][/c],,multiplayer_save_notice,UI,Multiplayer save notice (inferred from text; emulator scene not verified)
