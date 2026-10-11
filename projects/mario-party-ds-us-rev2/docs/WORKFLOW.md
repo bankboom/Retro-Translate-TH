@@ -9,7 +9,7 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 1. G0 identity matches the No-Intro-labeled USA Rev 2 SHA-1/CRC32 reference; see `qa/reports/g0_identity.md` and `qa/reports/rom_scan.json`.
 2. The NitroFS names 265 files and 373 FAT entries. The 108 ARM9 overlay descriptors map to unnamed FAT IDs 0–107. All 107 compressed overlays now decode to their descriptor RAM sizes; embedded path literals reference title, menu, minigame and story-event assets. Function-level code references remain untraced. See `qa/reports/nitrofs_inventory.csv`, `qa/reports/mpds_adapter_validation.json` and `qa/reports/g1_roundtrip.md`.
 3. 35 `data/US/mpd_*_LZ.bin` tables contain 2,672 validated UTF-16LE rows. The local adapter reproduces expanded bytes after parse/serialize and after recompress/decompress for all 35; compressed bytes differ. A conservative in-memory NitroFS replacement prototype passes synthetic two-file relocation/FAT and reversible BPS tests only; it has not been run against the game image. See `qa/reports/text_table_scan.csv` and `qa/reports/g1_roundtrip.md`.
-4. Twenty UI strings are drafts in `translations/master.csv`; `[1]` appears as an unresolved runtime token and must be preserved.
+4. Twenty-five UI strings are drafts in `translations/master.csv`; `[1]` appears as an unresolved runtime token and must be preserved.
 5. Read-only layout review found the first FAT payload at `0x75E00`, followed by ARM7, FNT, FAT and the banner pointer in inter-file space. These header-referenced regions would move under a simple suffix rebuild, while their header pointers would not. The synthetic prototype's guard would reject this image; it was not called with the clean ROM. Details and unresolved asset findings are in `analysis/ROM_MAP.md`.
 6. The title, main-menu, mode-select and story-mode `*_LZ.bin` resources decode with the known MPDS LZ codec. Overlays 84/86/87/98 contain matching filename literals. Their expanded payload structures are not yet understood; the story-event archive remains unmapped.
 
@@ -19,7 +19,7 @@ Translate grounded English strings to natural Thai while preserving story, UI be
 - [x] Implement read-only NDS/NitroFS inventory, MPDS LZ/table codec and source-only extraction CLI with synthetic unit tests.
 - [x] Map ARM9 overlay descriptors to FAT entries with bounds checks and synthetic tests; do not infer text from the mapping.
 - [x] Validate all 35 known MPD tables and compressed decode-after-reencode round trip; keep output bytes and ROM separate.
-- [x] Draft twenty main-menu/save-file strings in four small batches; keep DRAFT and NOT_INJECTED separate.
+- [x] Draft twenty-five main-menu/save-file/mode strings in five small batches; keep DRAFT and NOT_INJECTED separate.
 - [x] Test a size-changing NitroFS replacement on a synthetic NDS with two FAT files; verify downstream relocation, FAT references, header size/checksum, and synthetic BPS apply/reverse byte equality.
 - [x] Inspect header, overlay-table, FAT and banner-pointer placement against physical FAT ranges read-only; confirm that the current synthetic rebuild precondition fails for this image without invoking it.
 - [x] Decode all 107 compressed ARM9 overlays in memory, match decoded sizes to descriptor RAM sizes, and classify embedded asset-path literals.

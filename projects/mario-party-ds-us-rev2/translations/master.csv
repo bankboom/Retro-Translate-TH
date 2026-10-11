@@ -44,3 +44,18 @@ US_MAIN_MENU,18,,"Creating data... Don't turn off power
 or remove the Game Card.","กำลังสร้างข้อมูล... อย่าปิดเครื่อง
 หรือถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Preserve source line break; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
 US_MAIN_MENU,19,,Data has been created.,สร้างข้อมูลแล้ว,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; runtime scene/width not verified; not injected. Draft wording; context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,main_menu_save_file_ui,UI,Main menu/save-file UI (inferred from table name; emulator scene not verified)
+US_MAIN_MENU,20,,Select a game mode.,เลือกโหมดเกม,DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Mode-selection wording is inferred from the source sequence; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
+US_MAIN_MENU,21,,"Play a solo adventure where tiny Mario
+and friends romp across the party boards.","ผจญภัยเดี่ยวไปกับมาริโอตัวจิ๋ว
+และผองเพื่อนบนกระดานปาร์ตี้",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Preserve source line break; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
+US_MAIN_MENU,22,,"Party with the Mario crew on five boards!
+Throw a big party for four, a quick party
+for two, or a tag-team party.","ปาร์ตี้กับแก๊งมาริโอบนกระดานทั้งห้า!
+เลือกปาร์ตี้ใหญ่ 4 คน ปาร์ตี้ด่วน 2 คน
+หรือปาร์ตี้แบบแท็กทีม!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Preserve source line breaks and player counts; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
+US_MAIN_MENU,23,,"Play minigames in fun challenges and
+crazy competitions!","เล่นมินิเกมสุดสนุกในด่านท้าทาย
+และการแข่งขันสุดป่วน!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Preserve source line break; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
+US_MAIN_MENU,24,,"Play classic Mario Party puzzle games, plus
+one new twist on puzzle games!","เล่นเกมปริศนา Mario Party สุดคลาสสิก
+พร้อมลูกเล่นใหม่ให้ลองเล่น!",DRAFT,NOT_INJECTED,DRAFT only; extracted from validated UTF-16LE table; mode-selection context inferred from text; runtime scene/width not verified; not injected. Preserve source line break and Mario Party name; runtime context and width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,game_mode_select_ui,UI,Game mode selection UI (inferred from source sequence; emulator scene not verified)
