@@ -118,3 +118,14 @@ records will not be saved.","    　[c1]หมายเหตุสำหรั�
 เล่นจะถูกบันทึกไว้
 แต่ Mario Party Points และสถิติการเล่น
 จะไม่ถูกบันทึก",DRAFT,NOT_INJECTED,"DRAFT only; extracted from validated UTF-16LE table; context inferred from source text; runtime scene/width not verified; not injected. Preserve leading spaces, ideographic space, five-line layout, and exact [c1]/[/c] tags. Tag meaning and runtime context remain unverified. Linguistic review renders "Party Host" as "เจ้าภาพปาร์ตี้"; exact scene and UI width remain unverified.",data/US/mpd_010_main_manu_LZ.bin,[c1][/c],,multiplayer_save_notice,UI,Multiplayer save notice (inferred from text; emulator scene not verified)
+US_MAIN_MENU,50,,"Would you like to end DS Download Play
+and return to the main menu?","ต้องการจบ DS Download Play
+แล้วกลับไปยังเมนูหลักหรือไม่?",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve DS Download Play and source line break; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,download_play_exit_confirm,UI,DS Download Play exit confirmation (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,51,,Ending play and turning off power...,กำลังยุติการเล่นและปิดเครื่อง...,DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Progress context inferred; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,shutdown_progress_notice,UI,Power-off progress notice (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,52,,OK to erase all data?,ต้องการลบข้อมูลทั้งหมดหรือไม่?,DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve the all-data scope; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,erase_all_data_confirm,UI,Erase-all-data confirmation (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,53,,"Erased data cannot be recovered. Are you
+sure that you want to erase all data?","ข้อมูลที่ลบแล้วจะกู้คืนไม่ได้
+คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลทั้งหมด?",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve irreversible-loss warning and confirmation intent; source line break retained; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,erase_all_data_warning_confirm,UI,Erase-all-data warning confirmation (inferred from source text; emulator scene not verified)
+US_MAIN_MENU,54,,"Erasing data. Please don't turn off the
+power or remove the Game Card.","กำลังลบข้อมูล โปรดอย่าปิดเครื่องหรือ
+ถอดการ์ดเกม",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve both safety instructions and source line break; exact scene and UI width remain unverified.,data/US/mpd_010_main_manu_LZ.bin,,,erase_data_progress_warning,UI,Erase-data progress warning (inferred from source text; emulator scene not verified)
