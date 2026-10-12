@@ -20,3 +20,7 @@
 - G3 = PASS เมื่อมีภาพจริงจาก emulator พร้อม build ID/scene/font size และไม่มี defect ที่ทำให้เข้าใจผิด/อ่านลำบาก; การตัดสินความงามต้องใช้ผู้ตรวจมนุษย์เมื่อเป็นไปได้
 - G4 ต้องทดสอบบูต เส้นทางเกมที่เกี่ยวข้อง เซฟ/โหลด ไม่ใช่แค่ ROM checksum
 - ระบุความคืบหน้า 5 ตัวแยกกัน: discovered / drafted / reviewed / injected / on-screen-verified; ตัวหารและ scope ต้องตรงกัน
+
+## D. ตรวจความถูกต้องตามบริบทตลอด 6 เฟส
+
+กำหนดการตรวจ **Meaning, Context, Thai grammar/style, Terminology, Continuity, Technical tokens/width** ก่อนเลื่อนคำแปลแต่ละรายการเป็น `REVIEWED`. Phase 1 ตรวจเฉพาะแถวทดลอง, Phase 2 ตรวจเสียงและความเหมาะสมในฉาก Emulator, Phase 3/4/5 ตรวจทุกแถวที่จะนับเข้า reviewed coverage 50/70/100% ของ scope ที่ยืนยันแล้ว, Phase 6 ตรวจทวนการเล่นจริงและ regression. ผู้ตรวจต้องแยกสมมติฐานเรื่องฉาก/ผู้พูดออกจากหลักฐาน. หากยังไม่แน่ใจให้ `NEEDS_CONTEXT` แม้สำนวนจะอ่านสวย. ดู `docs/SIX_PHASE_CONTEXT_QA_TH.md` สำหรับเกณฑ์นับผลและข้อยกเว้น ASCII smoke test.

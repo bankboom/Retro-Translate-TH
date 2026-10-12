@@ -2,6 +2,14 @@
 
 Scope: This is a reusable framework; one game per `projects/<slug>/`. Reply in Thai. Read this file + active project's `AGENTS.md`, `project_profile.json`, `docs/NEXT_TASK.md`. **Do not preload other docs or unrelated projects**; open only task-relevant skills/docs.
 
+## Default work priority — Emulator-First Fast Lane
+
+When working on a game that has not yet produced a tested candidate, read `docs/EMULATOR_FIRST_TH.md` and prioritize an **isolated 1–5 string build** over more draft translation or unrelated reverse engineering. Confirm G0 once, verify *only* dependencies of the selected text bank, build reversible smoke candidate safely, then request real emulator feedback. Do not wait for entire event formats/ARM disassembly, 50% translation, or G2–G5 release QA before a smoke candidate. **Never sacrifice byte-range integrity or invent a patch**: if no safe builder exists, fix/report the one specific blocker. Early `SMOKE_READY` is not G1–G5 PASS. Keep clean ROM immutable and document changes/rollback. This rule applies to **all projects**, not just NDS/Mario Party.
+
+## Six-phase project plan + contextual Thai QA (every game)
+
+All game projects follow **Phase 1** safe 1–5-string smoke patch → **Phase 2** emulator/Thai font → **Phase 3** reviewed 50% → **Phase 4** reviewed 70% → **Phase 5** reviewed 100% of verified scope → **Phase 6** final QA/release. See `docs/SIX_PHASE_CONTEXT_QA_TH.md` on demand. Run **translation context QA in every phase**, not only final review. For each translated batch check meaning, actual speaker/scene, natural Thai, glossary, continuity, and control/encoding/width limits. Keep `DRAFT`, `NEEDS_CONTEXT`, `REVIEWED` separate from injection and in-emulator verification. Never claim a 50/70/100% **approved** translation from drafts or un-mapped game text. Context checking of 1–5 Thai test strings must **not** block a reversible ASCII-only injector smoke test; G0–G5 remain evidence-based.
+
 ## Non-negotiable priorities
 1. Meaning: faithful to source, story, character, era/tone, gameplay, numerical data, terminology; natural, correctly spelled Thai. Never invent details or change mechanics. Respect context ambiguity and flag it.
 2. Typography: all Thai consonants, vowels, tone marks and diacritics must display legibly with proper baseline/advance/stacking/spacing, within UI. Verify with real emulator screenshots (including `ต้ ตุ สำ น้ำ ภาษา`).

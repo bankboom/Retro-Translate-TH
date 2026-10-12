@@ -30,3 +30,10 @@ G2 ต้องตรวจความหมาย เนื้อเรื่�
 - G2 requires contextual meaning/grammar approval, not just a heuristic queue or draft percentage.
 - G3/G4 require **real emulator** screenshot/log/playtest and a reviewer; `font_review_plan` itself stays PENDING.
 - `release_audit` is conservative evidence preflight; even `READY_FOR_MANUAL_RELEASE_REVIEW` leaves G5=PENDING pending human signoff. It cannot prove evidence authenticity.
+
+## Emulator-First trial vs release gates
+A statically checked, reversible 1–5-string smoke candidate may be **presented for emulator testing before full G2–G5 QA**. Record the distinct, non-gate status `SMOKE_READY`, `EMULATOR_NOT_RUN`, `SMOKE_FAIL`, or `SMOKE_PASS` with build ID and evidence. This never automatically marks G1–G5 PASS. A boot-only ASCII patch is only injection proof, not Thai-font or translation proof. If the binary cannot be constructed safely, do not issue a patch; report exact blocker. See `docs/EMULATOR_FIRST_TH.md`.
+
+## Context QA ในทุกเฟส 1–6 (Universal)
+
+ใช้ `docs/SIX_PHASE_CONTEXT_QA_TH.md` เพื่อกำหนด contextual review ต่อ batch ตั้งแต่ Phase 1, ภาพ Emulator ทบทวนคำแปลใน Phase 2, เป้าหมายแปล **reviewed** 50/70/100% ใน Phase 3–5 และ Final QA ใน Phase 6. ตรวจหกเรื่อง: ความหมาย, สถานการณ์/ผู้พูด, ภาษาไทย, ศัพท์เฉพาะ, ความต่อเนื่อง, และรูปแบบ/ตัวแปร/พื้นที่ UI. ข้อมูลไม่พอให้ `NEEDS_CONTEXT` ไม่ใช่ `REVIEWED`. ห้ามตีความ `DRAFT 50%` เป็น `G2 PASS` หรือ `release 50%`. การทดสอบไฟล์ ASCII ที่ใช้พิสูจน์ reinjection เท่านั้นไม่ใช่การผ่าน QA ภาษาไทย. ห้ามใช้ขั้นตอน QA ทั้งเกมเป็นเงื่อนไขที่ปิดกั้น micro-patch ที่ปลอดภัย.

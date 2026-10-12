@@ -1,5 +1,18 @@
 ﻿# Next Codex task — Mario Party DS USA Rev 2
 
+## สำคัญที่สุดตอนนี้: สร้างแพตช์ทดสอบ Emulator ก่อนทำงานอื่น
+
+คำสั่งผู้ใช้ปัจจุบัน: หยุดขยาย CSV/สืบสวน ARM และ event ที่ไม่เกี่ยวข้อง แล้วสร้าง **แพตช์ทดลอง 1–5 ข้อความที่มองเห็นในเมนู** จากตาราง US_MAIN_MENU ที่ตรวจรูปแบบแล้ว ด้วย workflow ใน `docs/EMULATOR_FIRST_TH.md` (root)
+
+1. ROM Rev 2 ต้องตรง G0 และอ่านจากไฟล์ต้นฉบับแบบ read-only; ถ้า Codex ไม่มีไฟล์ ให้แจ้งว่าขาด ROM ไม่สร้าง patch ปลอม
+2. เลือก text ID เมนูที่แน่ชัดและไม่มี token แฝง ทดลองแทนที่สั้น ๆ ในตารางที่ยืนยันแล้ว; 1,336 DRAFT ยังไม่ใช่ INJECTED
+3. ห้ามใช้ suffix relocator เดิม (layout เกมไม่รองรับ). เริ่มด้วย **same-offset, same-size** replacement ของ NitroFS asset พร้อม codec/table verification, binary diff, rollback. ถ้า compressed length ไม่พอดี หยุดบอกไฟล์ ID และจำนวนไบต์ที่ต้องแก้ แล้วแก้เฉพาะตัว repacker ที่จำเป็น โดยพิสูจน์ไม่ให้ชน metadata/ไฟล์ข้างเคียง
+4. เมื่อสร้าง candidate/ BPS ได้ ให้ส่งไปทดสอบใน melonDS ทันที; ถ้าเป็น ASCII-only ให้เรียก smoke-test injection ไม่ใช่แพตช์แปลไทย. แล้วค่อยทดลอง Thai font.
+5. ไม่ต้องรอถอด grammar ของ 102 event records, code xrefs, หรือแปลครบเกมเพื่อทดสอบ **เฉพาะเมนู**. G1–G5 ยังคง PENDING จนหลักฐานครบตาม Gate.
+6. รายงานเพียง `Candidate file หรือ NOT BUILT | ตรวจอะไรผ่านแล้ว | 1 blocker | Next`, ห้ามวนทำรายงานเดิม
+
+---
+
 1. Read root `AGENTS.md`, this project's `AGENTS.md`, `project_profile.json` and this file.
 2. Use `tools/mpds_adapter/` with the exact project profile for read-only inspection, inventory, extraction and round-trip checks. See its README and `qa/reports/mpds_adapter_validation.json`.
 3. Keep the extracted 2,672-row source inventory outside Git. The master now has 1,336 DRAFT / NOT_INJECTED rows: US_MAIN_MENU IDs 0–59, US_MPD_020_STORY_MODE_LZ IDs 0–12, and US_MPD_021_SCENARIO_LZ IDs 0–109; US_MPD_022_STAFFROLL_LZ IDs 0–202 covered; staff names remain in source romanization, ID 0 placeholder and ID 194 angle-bracketed header remain verbatim, and localization credit labels are translated to Thai. This is 50.00% of validated MPD-table rows; target the user-approved 50% checkpoint at 1,336/2,672 rows. This is not whole-game completion because `ohanashi_event_data.bin` is unmapped.
