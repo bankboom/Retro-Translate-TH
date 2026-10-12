@@ -27,7 +27,7 @@
 - The backward-LZ footer and stream layout follows the implementation documented by [ndspy `codeCompression.py`](https://github.com/RoadrunnerWMC/ndspy/blob/master/ndspy/codeCompression.py). This is an independently maintained NDS format reference, not a game-specific injector.
 - All 35 tables parse and serialize back to byte-identical expanded bytes: 2,672 rows total. Recompressing and decompressing each table also restores the exact expanded bytes, but the compressed container bytes differ for all 35 files. This proves codec round-trip only; it does not prove NitroFS repacking, patch correctness, or runtime behavior.
 - Metadata-only adapter evidence: [`../qa/reports/mpds_adapter_validation.json`](../qa/reports/mpds_adapter_validation.json). Full source inventory is intentionally not stored in the repository; the CLI writes it only to the caller-selected output.
-- Full table metadata: [`../qa/reports/text_table_scan.csv`](../qa/reports/text_table_scan.csv). The translation master contains sixty main-menu rows (IDs 0–59), thirteen Story Mode rows (IDs 0–12), and 110 Scenario rows (IDs 0–109) plus 40 staff-roll credit names retained in their original romanized form. This is 773/2,672 (28.93%) of the validated MPD-table inventory; the separate `ohanashi_event_data.bin` text scope remains unmapped, so this is not whole-game completion.
+- Full table metadata: [`../qa/reports/text_table_scan.csv`](../qa/reports/text_table_scan.csv). The translation master contains sixty main-menu rows (IDs 0–59), thirteen Story Mode rows (IDs 0–12), and 110 Scenario rows (IDs 0–109) plus 40 staff-roll credit names retained in their original romanized form. This is 823/2,672 (30.81%) of the validated MPD-table inventory; the separate `ohanashi_event_data.bin` text scope remains unmapped, so this is not whole-game completion.
 - Game-specific format reference: [Mario Party DS Editor README/source](https://github.com/aleokdev/mario-party-editor), which documents the MPDS LZ77 and UTF-16 text-table layout. This repository's reference implementation is not treated as a verified injector for Rev 2.
 
 ## Unknown / not yet mapped
@@ -49,7 +49,7 @@
 
 - G0 identity: PASS for exact revision/hash identity match; upload origin itself is not authenticated.
 - G1 binary/patch: PENDING; synthetic relocation/rollback is proven on fixtures, but no game-image repack, candidate ROM build or production patch exists.
-- G2 translation: PENDING; 773 rows (28.93% of the 2,672 validated MPD-table rows) are DRAFT. This percentage excludes unmapped `ohanashi_event_data.bin` and does not represent whole-game completion.
+- G2 translation: PENDING; 823 rows (30.81% of the 2,672 validated MPD-table rows) are DRAFT. This percentage excludes unmapped `ohanashi_event_data.bin` and does not represent whole-game completion.
 - G3 font/layout: PENDING; no Thai glyph or real emulator screenshot verification.
 - G4 gameplay/save/load: PENDING; not tested in an emulator.
 - G5 release: PENDING; no release artifact.
