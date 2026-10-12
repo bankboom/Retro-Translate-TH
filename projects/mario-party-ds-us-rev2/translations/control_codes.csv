@@ -5,3 +5,7 @@
 [c5],Unknown opening markup tag; semantics unverified,[c5]text[/c],"Preserve exact spelling, order, and position; do not infer tag behavior until verified.",No
 [c6],Unknown opening markup tag; semantics unverified,[c6]text[/c],"Preserve exact spelling, order, and position; do not infer tag behavior until verified.",No
 [mgname1],Unknown placeholder token; runtime meaning unverified,[mgname1],"Preserve exact spelling, order, and position; do not translate or remove until runtime behavior is verified.",No
+[c4],Unknown/unverified source control or substitution token,Observed in validated source text,"Preserve exact spelling, order and count; do not infer runtime meaning",No
+[f],Unknown/unverified source control or substitution token,Observed in validated source text,"Preserve exact spelling, order and count; do not infer runtime meaning",No
+[name1],Unknown/unverified source control or substitution token,Observed in validated source text,"Preserve exact spelling, order and count; do not infer runtime meaning",No
+[w],Unknown/unverified source control or substitution token,Observed in validated source text,"Preserve exact spelling, order and count; do not infer runtime meaning",No

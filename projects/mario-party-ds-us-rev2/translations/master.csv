@@ -169,3 +169,143 @@ everyone to play.","ใช้มินิเกมที่เล่นง่า
 US_MPD_020_STORY_MODE_LZ,12,,"Uses minigames that don't utilize the
 DS microphone.","ใช้มินิเกมที่ไม่ใช้ไมโครโฟน
 ของ DS",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve DS microphone restriction and source line-break count; exact option label and UI width remain unverified.,data/US/mpd_020_story_mode_LZ.bin,,,story_mode_minigame_set_option,UI,Story Mode minigame-set option (inferred from source text; emulator scene not verified)
+US_MPD_021_SCENARIO_LZ,0,,"The Mario crew's adventure begins late
+one night.[w]","คืนหนึ่งในยามดึก การผจญภัยของเหล่ามาริโอ
+ก็เริ่มต้นขึ้น[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,1,,"Five dazzling objects shoot across the sky
+and fall to earth. One falls near Mario![w]","วัตถุส่องประกายห้าชิ้นพุ่งข้ามท้องฟ้า
+แล้วตกลงสู่พื้นโลก ชิ้นหนึ่งตกใกล้มาริโอ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,2,,"The next day, Mario tells the crew what he
+found. It's a Sky Crystal![w]","วันต่อมา มาริโอเล่าให้เพื่อน ๆ ฟังถึงสิ่งที่เขา
+พบ มันคือ Sky Crystal![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,3,,"Just then, there's one more surprise...[w]",ทันใดนั้น ก็มีเรื่องน่าประหลาดใจอีกอย่าง...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,4,,"[c5]Hey, chumps! I'm throwing a Big Bowser Bash
+to apologize for being such a big jerk.[/c][w]","[c5]เฮ้ พวกไม่เอาไหน! ฉันจะจัดงาน Big Bowser Bash
+เพื่อขอโทษที่ทำตัวแย่มาก![/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c5] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,5,,"[c5]So I've got a buffet of free grub laid out
+for all of you. Come 'n' get it! － Bowser[/c][w]","[c5]ฉันจัดบุฟเฟต์ของกินฟรีไว้ให้พวกนายทุกคน
+แล้วนะ มากินกันได้เลย! － Bowser[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c5] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,6,,"Bowser's party invitation also gets into
+Donkey Kong's hands...[w]","คำเชิญงานเลี้ยงของ Bowser ไปถึง Donkey Kong
+ด้วย...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,7,,"DK races off to Bowser's Castle to get first
+crack at the snacks. Who can resist?[w]","DK รีบมุ่งหน้าไปยังปราสาทของ Bowser เพื่อไป
+หยิบของกินก่อนใคร ใครจะอดใจไหวล่ะ?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,8,,"Free eats can't be beat! The Mario crew also
+goes to the bash. Is it too good to be true?[w]","ของกินฟรีนี่แหละดีที่สุด! เหล่ามาริโอก็ไปงาน
+เลี้ยงด้วย หรือว่ามันจะดีเกินจริง?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,9,,Of course![w],ก็แน่อยู่แล้ว![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,10,,"[f]Bwahaha! You fell for one of my traps
+[f]AGAIN? Now gimme that Sky Crystal![w]","[f]ฮ่า ๆ ๆ! พวกแกติดกับดักของฉัน
+[f]อีกแล้วเหรอ? ส่ง Sky Crystal มา![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,11,,"[f]See my Minimizer here? Guess what
+[f]it does! It shrinks you all down to size![w]","[f]เห็น Minimizer ของฉันนี่ไหม? เดาสิว่า
+[f]มันทำอะไร! มันจะย่อพวกแกให้ตัวเล็กจิ๋ว![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,12,,"[f]Bwahaha! Your Sky Crystal is mine!
+[f]Now all I need are the other four![w]","[f]ฮ่า ๆ ๆ! Sky Crystal เป็นของฉันแล้ว!
+[f]ตอนนี้ก็เหลืออีกสี่ชิ้น![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,13,,"[f]Kamek, I'm done with these peewees.
+[f]Give 'em the boot![w]","[f]Kamek ฉันเบื่อพวกตัวจ้อยนี่แล้ว
+[f]จัดการไล่มันไปซะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,14,,"Shrunken down! Flung far away! It's a
+complete mess for the Mario crew![w]","ตัวเล็กลง! แถมถูกเหวี่ยงไปไกล! แก๊งมาริโอ
+ก็เลยวุ่นวายกันใหญ่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,15,,"The miniheroes pick themselves up and look
+at the megaworld around them.[w]","เหล่าฮีโร่ตัวจิ๋วลุกขึ้นยืน แล้วมองไปรอบ ๆ
+โลกใบยักษ์ที่อยู่ตรงหน้า[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,16,,"But there's no time for sightseeing! Not when
+there's work to be done![w]","แต่ไม่มีเวลามาชมวิวหรอก! ยังมีงานที่ต้องทำ
+รออยู่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,17,,"Our heroes must find the other Sky Crystals,
+beat Bowser, and return to normal![w]","เหล่าฮีโร่ต้องตามหา Sky Crystal ที่เหลือ
+เอาชนะ Bowser และกลับคืนร่างเดิม![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,18,,"The entire Mario crew leaps into action! They
+all want to be the one who saves the day![w]","เหล่ามาริโอออกลุยพร้อมกัน! ทุกคนอยากเป็น
+คนที่ช่วยกอบกู้สถานการณ์![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,19,,"Even the best of friends can be fierce rivals
+when it comes to being a heroic Superstar![w]","แม้เป็นเพื่อนรักกัน ก็ยังแข่งกันดุเดือดได้
+เมื่อเป้าหมายคือการเป็นซูเปอร์สตาร์ฮีโร่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,20,,"And so our tiny heroes set out on their
+big adventure to bring down Bowser...[w]","แล้วเหล่าฮีโร่ตัวจิ๋วก็ออกเดินทางสู่การผจญภัย
+ครั้งใหญ่ เพื่อโค่น Bowser...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,21,,"At least the party of small fries can agree on
+one thing: they must go to Bowser's Castle.[w]","อย่างน้อยพวกตัวจิ๋วในงานปาร์ตี้ก็เห็นตรงกัน
+เรื่องหนึ่ง: ต้องไปปราสาทของ Bowser.[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,22,,"But just as they start making their way
+through the big world...[w]","แต่พอพวกเขาเริ่มออกเดินทาง
+ไปทั่วโลกอันกว้างใหญ่...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,23,,"[f]Hey, teensy-weensy party people!
+[f]I see you're busy being small, but...[w]","[f]เฮ้ ชาวปาร์ตี้ตัวจิ๋ว!
+[f]เห็นว่ากำลังยุ่งกับการเป็นตัวจิ๋วอยู่ แต่...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,24,,"[f]I need help! That grouchy Piranha
+[f]Plant is making a mess of my garden![w]","[f]ช่วยฉันหน่อย! Piranha Plant จอมขี้หงุดหงิด
+[f]กำลังทำสวนของฉันเละเทะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,25,,"[f]Would one of you wee folk stop that
+[f]brute? Pretty please?[w]","[f]มีใครตัวจิ๋วช่วยหยุดเจ้าตัวร้ายนั่นที
+[f]ได้ไหม? ขอร้องล่ะ?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,26,,"Everyone jumps at the chance to be the
+big hero![w]","ทุกคนรีบเสนอตัว
+เป็นฮีโร่ผู้ยิ่งใหญ่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,27,,"To beat such a large enemy, they'll need to
+gather [c4]Stars[/c] and use their power.[w]","เพื่อเอาชนะศัตรูตัวมหึมา พวกเขาต้องสะสม
+[c4]ดาว[/c] แล้วใช้พลังของมัน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,28,,"The person who gets the most [c4]Stars[/c] will
+be the Superstar.[w]","คนที่เก็บ [c4]ดาว[/c] ได้มากที่สุดจะได้เป็น
+ซูเปอร์สตาร์![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,29,,"And then the Superstar will take on the
+Piranha Plant with the power of the [c4]Stars[/c].[w]","จากนั้นซูเปอร์สตาร์จะใช้พลังของ [c4]ดาว[/c]
+ต่อกรกับ Piranha Plant![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,30,,"Try to gather the most [c4]Stars[/c] to become
+the Superstar, [name1]![w]","พยายามเก็บ [c4]ดาว[/c] ให้ได้มากที่สุดเพื่อเป็น
+ซูเปอร์สตาร์ [name1]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [name1] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,31,,"[f]Oooh! Huge thanks from me to you!
+[f]Please take this, [name1]![w]","[f]โอ้โห! ขอบคุณมากเลยนะ!
+[f]รับนี่ไปสิ [name1]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [name1] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,32,,Wiggler gives you a Sky Crystal![w],Wiggler มอบ Sky Crystal ให้คุณ![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,33,,"With one Sky Crystal in hand, the pint-sized
+pack sets out for the next challenge![w]","เมื่อได้ Sky Crystal มาแล้ว เหล่าฮีโร่ตัวจิ๋ว
+ก็ออกเดินทางสู่ความท้าทายถัดไป![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,34,,"The Mario crew makes tracks for Bowser's
+Castle. And just then...[w]","เหล่ามาริโอมุ่งหน้าไปยังปราสาทของ Bowser
+และทันใดนั้น...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,35,,"[f]Hey, I see that you're small and all,
+[f]but can I ask you a big favor?[w]","[f]เฮ้ ถึงพวกเธอจะตัวจิ๋วก็เถอะ
+[f]แต่ขอร้องเรื่องใหญ่หน่อยได้ไหม?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,36,,"[f]That dumb Hammer Bro is beating up
+[f]my music instruments! Get rid of him![w]","[f]Hammer Bro ตัวโง่นั่นกำลังทุบ
+[f]เครื่องดนตรีของฉัน! ช่วยจัดการที![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,37,,"Sounds like a job for our heroes, doesn't it?
+So they plan to teach Hammer Bro a lesson![w]","ฟังดูเหมือนงานของเหล่าฮีโร่เลยใช่ไหม?
+พวกเขาจึงวางแผนสั่งสอน Hammer Bro![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,38,,"But only one hero can face Hammer Bro: the
+Superstar who gets the most [c4]Stars[/c]![w]","แต่มีฮีโร่ได้เพียงคนเดียวเท่านั้นที่จะสู้กับ
+Hammer Bro: ซูเปอร์สตาร์ที่เก็บ [c4]ดาว[/c] ได้มากที่สุด![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,39,,"[f]Thank you! Here's something for your
+[f]troubles. It fell from the sky![w]","[f]ขอบคุณมาก! เอานี่ไปเป็นของตอบแทน
+[f]มันตกลงมาจากฟ้า![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[f] [f] [w],,scenario_dialogue,,
+US_MPD_021_SCENARIO_LZ,40,,Toadette gives you another Sky Crystal![w],Toadette มอบ Sky Crystal อีกชิ้นให้คุณ![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,41,,"Two down! But Bowser's Castle is still a long
+way off, especially for our tiny heroes![w]","ได้มาแล้วสองชิ้น! แต่ปราสาทของ Bowser ยัง
+อยู่ไกล โดยเฉพาะสำหรับฮีโร่ตัวจิ๋ว![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,42,,"The Mario crew makes its way into a
+dense forest.[w]","เหล่ามาริโอเดินทางเข้าไปใน
+ป่าทึบ[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,43,,"They see Diddy Kong, who's gotten lost on
+the way to Bowser's Castle.[w]","พวกเขาพบ Diddy Kong ที่หลงทางระหว่างมุ่ง
+หน้าไปยังปราสาทของ Bowser[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,44,,Diddy is in a panic and won't settle down.[w],Diddy ตื่นตระหนกจนไม่ยอมอยู่นิ่ง[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,45,,"But then he manages to show Mario and
+friends what he's upset about.[w]","แต่แล้วเขาก็ชี้ให้มาริโอและเพื่อน ๆ ดูได้ว่า
+อะไรที่ทำให้เขาไม่สบายใจ[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,46,,"Oh, foul deed! Donkey Kong has been turned
+to stone?! And Dry Bones is responsible?![w]","แย่แล้ว! Donkey Kong กลายเป็นหิน?! และ
+Dry Bones เป็นคนทำงั้นหรือ?![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,47,,"Perhaps if our heroes defeat Dry Bones,
+DK will revert to his old self![w]","บางทีถ้าฮีโร่เอาชนะ Dry Bones ได้
+DK อาจกลับคืนสู่ร่างเดิม![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,48,,"But everyone wants dibs on Dry Bones! Who will
+have the honor of playing the hero?[w]","แต่ทุกคนอยากเป็นคนปราบ Dry Bones! ใครจะ
+ได้เกียรติเป็นฮีโร่กันนะ?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[w],,scenario_narration,,
+US_MPD_021_SCENARIO_LZ,49,,"Once again, they will settle it by seeing who
+can find the most [c4]Stars[/c].[w]","อีกครั้ง พวกเขาจะตัดสินด้วยการดูว่าใคร
+เก็บ [c4]ดาว[/c] ได้มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; scene, speaker mapping, token semantics and UI width remain unverified.",data/US/mpd_021_scenario_LZ.bin,[c4] [/c] [w],,scenario_narration,,
