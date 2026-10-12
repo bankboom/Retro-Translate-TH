@@ -14,6 +14,10 @@ This is the **default** route when the user asks to translate a game or continue
 
 **A smoke candidate is NOT a release.** It may have no Thai glyphs yet. A reversible English test is useful to validate reinjection, but it must not be called a Thai translation patch. For a Thai micro-test, use an encoded font mapping proven for this game; do not assume UTF-16 codepoints render Thai.
 
+## Context QA ทุกเฟส (ยังคงทดสอบ Emulator ให้เร็ว)
+
+งานแปลเป็นไทยต้องตรวจ **Meaning / Context / Natural Thai / Glossary / Continuity / Control Codes+UI** สำหรับแถวที่จะนับว่า `REVIEWED` ตาม `docs/SIX_PHASE_CONTEXT_QA_TH.md`. Phase 1 ตรวจเฉพาะ 1–5 แถวที่ใช้จริง; ไม่รออนุมัติทั้ง bank. หากยังไม่รู้ความหมายเพราะขาด scene/speaker ให้คง `NEEDS_CONTEXT` และนำภาพจาก Emulator กลับมาตรวจใน Phase 2. แพตช์ทดสอบ injector แบบ ASCII สามารถสร้างได้ก่อน Thai contextual review ทั้งเกม แต่ **ต้องระบุว่าไม่ใช่คำแปลไทยที่ผ่าน QA**. Phase 3/4/5 ตรวจเป็น batch ที่เปลี่ยนจริงและแยก `Draft / Reviewed / Injected / In-game verified`. ไม่เพิ่ม gate ใหม่.
+
 ## Prohibited artificial blockers
 
 - Do NOT demand that *all* story events/overlays/ARM functions be mapped before testing **an independent confirmed menu text table**.
