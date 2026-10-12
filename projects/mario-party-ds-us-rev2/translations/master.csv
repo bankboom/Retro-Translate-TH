@@ -1513,3 +1513,261 @@ US_MPD_070_BMAP_ITEM_LZ,68,,"You stole [c4][1] [star][/c] from
 US_MPD_070_BMAP_ITEM_LZ,69,,"The target has no [c4]Stars[/c], so the Hex
 has no effect.","เป้าหมายไม่มี[c4]ดาว[/c] กับดัก Hex
 จึงไม่มีผล",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; item effects, token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,[c4] [/c],,item_shop_or_use_ui,,
+US_MPD_070_BMAP_ITEM_LZ,70,,"You stole [c4][1] [star][/c] from
+[team1]!","คุณขโมย [c4][1] [star][/c] จาก
+ทีม [team1] มาได้",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,[c4] [1] [star] [/c] [team1],,board_item_event,,
+US_MPD_070_BMAP_ITEM_LZ,71,,"[name1] and [name2] have switched
+spaces.","[name1] กับ [name2] สลับ
+ตำแหน่งช่องกันแล้ว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,[name1] [name2],,board_item_event,,
+US_MPD_070_BMAP_ITEM_LZ,72,,"They're on the same space! Then the
+Hex fails!","ทั้งคู่อยู่ช่องเดียวกัน! กับดัก Hex
+จึงล้มเหลว!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,,,board_item_event,,
+US_MPD_070_BMAP_ITEM_LZ,73,,"Tap the Dice Block fast as many times as
+you can! You'll get that many [c3]coins[/c].[w]","แตะบล็อกลูกเต๋าให้เร็วที่สุดและให้ได้
+หลายครั้ง! คุณจะได้[c3]เหรียญ[/c]ตามจำนวนครั้ง[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,[c3] [/c] [w],,board_item_event,,
+US_MPD_070_BMAP_ITEM_LZ,74,,Go for it! [w],ลุยเลย! [w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_070_bmap_item_LZ.bin,[w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,0,,It's time for a [c1]Battle Minigame[/c]![w],ถึงเวลาแข่งใน[c1]มินิเกมแบตเทิล[/c]แล้ว![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[c1] [/c] [w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,1,,You'll all battle for [c3][1] [coin][/c]![w],ทุกคนจะแข่งชิง[c3][1] [coin][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[c3] [1] [coin] [/c] [w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,2,,Let's find out which minigame you'll play![w],มาดูกันว่าคุณจะได้เล่นมินิเกมไหน![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,3,,"What's this? Looks like someone doesn't
+have enough [c3]coins[/c].[w]","อะไรน่ะ? ดูเหมือนมีคนหนึ่งมี
+[c3]เหรียญ[/c]ไม่พอ[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[c3] [/c] [w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,4,,"But never mind that! Let's get on with
+the fun![w]","แต่ช่างเถอะ! มาเริ่ม
+ความสนุกกันเลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,5,,Hope to see you battle again sometime![w],หวังว่าจะได้แข่งกันอีกนะ![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,6,,"OK, let's battle![w]",เอาละ มาแข่งกันเลย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[w],,board_item_event,,
+US_MPD_080_MSYS_000_LZ,7,,You must each pay in [c3][2] [coin][/c]![w],ทุกคนต้องจ่ายเดิมพันคนละ [c3][2] [coin][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_080_msys_000_LZ.bin,[c3] [2] [coin] [/c] [w],,board_item_event,,
+US_MPD_090_MGINST_LZ,0,,"Capture Goombas by circling them.
+Brown Goombas are worth one point.
+Golden Goombas are worth three points.","จับ Goomba โดยลากเส้นล้อมพวกมัน
+Goomba สีน้ำตาลได้หนึ่งคะแนน
+Goomba สีทองได้สามคะแนน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,1,,"Build speed for a long jump. You'll go
+farther the more you slide your stylus
+up the screen before the jump.","เร่งความเร็วเพื่อกระโดดไกล ยิ่งลาก
+สไตลัสขึ้นไปบนจอก่อนกระโดดมาก
+เท่าไร คุณก็จะยิ่งไปได้ไกลขึ้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,2,,"Build speed for a long jump. You'll go
+farther the more you slide your stylus
+up the screen before the jump. You'll
+earn more points the farther you go.","เร่งความเร็วเพื่อกระโดดไกล ยิ่งลาก
+สไตลัสขึ้นไปบนจอก่อนกระโดดมาก
+เท่าไร คุณก็จะยิ่งไปได้ไกลขึ้น และ
+ได้คะแนนเพิ่มตามระยะที่กระโดด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,3,,"Select the body cards that match the
+face cards. To win, score three points
+first, or score the most points by the
+end of the minigame.","เลือกการ์ดลำตัวที่เข้าคู่กับการ์ดใบหน้า
+ใครทำได้สามคะแนนก่อนจะชนะ หรือ
+ทำคะแนนให้มากที่สุด
+เมื่อจบมินิเกม",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,4,,"Take a photo of everyone else in the
+maze. Your target must be in focus, so
+take the photo only when the frame
+turns green.","ถ่ายรูปผู้เล่นคนอื่น
+ในเขาวงกต เป้าหมายต้องอยู่ในโฟกัส
+จึงควรถ่ายเมื่อกรอบเปลี่ยนเป็นสีเขียว
+เท่านั้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,5,,"Race to the finish by throwing leaves
+out of your path. Shoo off ladybugs
+with your stylus, but don't touch the
+bees at all. They'll soon buzz off.","แข่งไปให้ถึงเส้นชัยด้วยการเขี่ยใบไม้
+ออกจากทาง ใช้สไตลัส
+ไล่เต่าทอง แต่ห้ามแตะผึ้งเด็ดขาด
+เดี๋ยวมันก็บินไปเอง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,6,,"Race to the finish by throwing leaves
+out of your path. You'll earn more
+points the faster you reach the goal.","แข่งไปให้ถึงเส้นชัยด้วยการเขี่ยใบไม้
+ออกจากทาง ยิ่งถึงเส้นชัยเร็วก็ยิ่งได้
+คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,7,,"Plunge down the magnetic board as far
+as you can. Stop as close to the red
+line as possible, and don't hit the
+erasers at the bottom.","ไถลลงไปบนกระดานแม่เหล็กให้ไกล
+ที่สุดเท่าที่ทำได้ หยุดให้ใกล้
+เส้นแดงที่สุด และอย่าชนยางลบ
+ที่อยู่ด้านล่าง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,8,,"Plunge down the magnetic board as far
+as you can. Stop as close to the red
+line as possible to get more points,
+and don't hit the erasers at the bottom.","ไถลลงไปบนกระดานแม่เหล็กให้ไกล
+ที่สุดเท่าที่ทำได้ หยุดใกล้เส้นแดง
+เพื่อได้คะแนนเพิ่ม และอย่าชนยางลบ
+ด้านล่าง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,9,,"Leap across the board tops by pressing
+the buttons as they're shown. Stay
+ahead of the boards as they topple
+behind you.","กระโดดข้ามแผ่นกระดานโดยกดปุ่ม
+ตามที่แสดง คอยอยู่ข้างหน้า
+แผ่นกระดานที่กำลังล้ม
+ตามหลังคุณ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,10,,"Leap across the board tops by pressing
+the buttons as they're shown. You'll
+earn more points the faster you reach
+the finish.","กระโดดข้ามแผ่นกระดานโดยกดปุ่ม
+ตามที่แสดง ยิ่งถึงเส้นชัย
+เร็วก็ยิ่ง
+ได้คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,11,,"Build up a great distance throw with
+your pair of cherries. You'll throw it
+farther the more you swirl your stylus
+before the throw.","ใช้เชอร์รีสองลูกสะสมพลังขว้างให้ไกล
+ยิ่งหมุนสไตลัสก่อนขว้างมากเท่าไร
+เชอร์รีก็จะยิ่งลอย
+ไปไกลขึ้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,12,,"Build up a great distance throw with
+your pair of cherries. You'll throw
+it farther, earning more points, the
+more you swirl your stylus.","ใช้เชอร์รีสองลูกสะสมพลังขว้างให้ไกล
+ยิ่งหมุนสไตลัสมากเท่าไร
+ก็จะยิ่งขว้างได้ไกล
+และได้คะแนนมากขึ้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,13,,"Build upon your corner by tracing the
+outlines of any bordering shapes. Here's
+a complication: you must sketch each
+shape without lifting your stylus.","ต่อมุมของคุณด้วยการลากเส้นตาม
+ขอบรูปทรงที่ติดกัน มีข้อแม้ว่า
+ต้องวาดแต่ละรูปโดย
+ห้ามยกสไตลัส",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,14,,"Dodge the Goomba's soccer balls. There
+are two ways to win: outlast the timer
+or be the last player standing.","หลบลูกฟุตบอลของ Goomba มีสองวิธี
+ชนะ: อยู่ให้ครบเวลาหรือเป็นผู้เล่น
+คนสุดท้ายที่ยังยืนอยู่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,15,,"Draw your bow with the stylus and aim
+for a target. Bowser is worth 100 points.
+Kamek is worth 20 points. You'll lose
+30 points if you hit Toadette.","ใช้สไตลัสดึงสายธนูแล้วเล็งเป้า
+โดน Bowser ได้ 100 คะแนน Kamek
+ได้ 20 คะแนน แต่ถ้าโดน Toadette
+จะเสีย 30 คะแนน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,16,,"Listen to the tempo of the intro tune,
+then turn the crank to re-create that
+speed as closely as possible. The better
+you do, the more Goombas you'll lure.","ฟังจังหวะเพลงช่วงเริ่มต้น แล้วหมุน
+มือหมุนเพื่อทำความเร็วให้ใกล้เคียง
+ที่สุด ยิ่งทำได้ดี ก็ยิ่งล่อ Goomba
+มาได้มากขึ้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,17,,"Race to the finish by alternating the
+pedals. The faster you do so, the
+faster you'll go.","สลับเหยียบแป้นเพื่อแข่งไปให้ถึง
+เส้นชัย ยิ่งเหยียบเร็วเท่าไร
+คุณก็จะไปได้เร็วขึ้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,18,,"Race to the finish by alternating the
+pedals. The faster you do so, the
+faster you'll go. You'll earn more
+points the faster you reach the goal.","สลับเหยียบแป้นเพื่อแข่งไปให้ถึง
+เส้นชัย ยิ่งเหยียบเร็วเท่าไร คุณก็จะไปเร็วขึ้น
+และยิ่งถึงเส้นชัยเร็ว
+ก็ยิ่งได้คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,19,,"Race to the finish by pushing your
+ball with the stylus. Avoid the
+obstacles along the way.","ใช้สไตลัสดันลูกบอล
+ไปให้ถึงเส้นชัย
+ระวังสิ่งกีดขวางระหว่างทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,20,,"Push your mechanical pencil's lead out
+as far as you can. You'll have 10
+seconds to hit the extender button as
+many times as you can.","ดันไส้ดินสอกดออกมา
+ให้ยาวที่สุด คุณมีเวลา 10 วินาที
+กดปุ่มต่อไส้ดินสอ
+ให้ได้หลายครั้งที่สุด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,21,,"Push your mechanical pencil's lead out
+as far as you can. You'll earn more
+points the farther you extend it, so
+hit the button as much as you can.","ดันไส้ดินสอกดออกมาให้ยาวที่สุด
+ยิ่งดันออกมาได้ไกล
+ก็ยิ่งได้คะแนนมาก กดปุ่ม
+ให้ได้บ่อยที่สุด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,22,,"Grab as many coins as possible. You'll
+travel in the direction of path arrows,
+so drag the bridge pieces to make paths
+that carry you through coins.","เก็บเหรียญให้ได้มากที่สุด
+คุณจะเคลื่อนไปตามลูกศร
+ลากชิ้นส่วนสะพานสร้างทาง
+ให้พาคุณผ่านเหรียญ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,23,,"Race to the finish by running along the
+tips of candles. Blow them out to clear
+the way.","วิ่งไปตามปลายเทียน
+เพื่อให้ถึงเส้นชัย เป่าเทียน
+ให้ดับเพื่อเปิดทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,24,,"Race to the finish by running along the
+tips of candles. Blow them out to clear
+the way. You'll earn more points the
+faster you reach the goal.","วิ่งไปตามปลายเทียนเพื่อให้ถึงเส้นชัย
+เป่าเทียนให้ดับเพื่อเปิดทาง
+ยิ่งถึงเส้นชัยเร็ว
+ก็ยิ่งได้คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,25,,"Pick a rope, then watch carefully as
+all players glide across the garage.
+Jump off at the right time to fall onto
+the garbage platforms.","เลือกเชือก แล้วดูผู้เล่นทุกคน
+ไถลไปทั่วโรงรถ
+กระโดดลงให้ถูกจังหวะ
+เพื่อไปตกบนแท่นขยะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,26,,"Haul up a Cheep Cheep to be among the
+winners. When it's your turn, select
+a line. You'll then see if you're
+lucky enough to have hooked one.","ตกปลา Cheep Cheep เพื่อเป็นผู้ชนะ
+เมื่อถึงตาคุณให้เลือกสายเบ็ด
+จากนั้นรอดูว่าจะ
+เกี่ยวปลาได้หรือไม่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,27,,"Survive among the falling Whomps until
+the timer runs out to win, or just be
+the last one standing.","เอาตัวรอดจาก Whomp ที่ตกลงมา
+จนหมดเวลา หรือเป็นคนสุดท้ายที่ยัง
+ยืนอยู่เพื่อคว้าชัยชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,28,,"Survive among the falling Whomps until
+the timer runs out to win, or just be
+the last one standing. You'll earn more
+points the longer you last.","เอาตัวรอดจาก Whomp ที่ตกลงมา
+จนหมดเวลา หรือเป็นคนสุดท้ายที่ยัง
+ยืนอยู่ ยิ่งอยู่รอดได้นาน
+ก็ยิ่งได้คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,29,,"Race to the finish in your windup car.
+You'll have to wind it up often, because
+driving the car and running across
+obstacles will use up its power.","แข่งไปให้ถึงเส้นชัยด้วยรถไขลาน
+ต้องไขลานบ่อย ๆ เพราะพลังงานจะหมด
+ทั้งตอนขับรถ
+และวิ่งข้ามสิ่งกีดขวาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,30,,"Avoid getting hit by lava eruptions
+until the timer runs out to win, or
+just be the last one standing.","หลบลาวาที่ปะทุ
+จนหมดเวลาเพื่อชนะ
+หรือเป็นคนสุดท้ายที่ยังรอดอยู่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,31,,"Strike the correct pose when the big
+beats hit. Watch if the spotlight shines
+on you. If it does, strike the left pose.
+If it doesn't, strike the right one.","ทำท่าให้ถูกเมื่อจังหวะหนักดังขึ้น
+ดูว่าไฟสปอตไลต์ส่องมาที่คุณไหม
+ถ้าส่อง ให้ทำท่าด้านซ้าย ถ้าไม่ส่อง
+ให้ทำท่าด้านขวา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,32,,"Strike the correct pose when the big
+beats hit to earn points. Watch if the
+spotlight hits you. If it does, strike the
+left pose. If not, strike the right one.","ทำท่าให้ถูกเมื่อจังหวะหนักดังขึ้น
+เพื่อรับคะแนน ดูว่าไฟสปอตไลต์ส่อง
+มาที่คุณไหม ถ้าส่องให้ทำท่าซ้าย
+ถ้าไม่ส่องให้ทำท่าขวา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,33,,"Skydive through the panels that match
+those shown on the top screen.","กระโดดร่มผ่านแผงที่ตรงกับภาพ
+บนหน้าจอด้านบน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,34,,"Keep the Boos off your back. Tag a rival
+to lose your Boo. After time runs out,
+whoever has spent the least amount of
+time with the Boos is the winner.","อย่าให้ Boo ไล่ตามทัน แท็กคู่แข่ง
+เพื่อส่ง Boo ไปหาเขา เมื่อหมดเวลา
+คนที่ใช้เวลาอยู่กับ Boo น้อยที่สุด
+จะเป็นผู้ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,35,,"Avoid getting sucked up by the vacuum
+until you reach the finish, or just be
+the last one standing.","อย่าให้เครื่องดูดฝุ่นดูดคุณ
+จนกว่าจะถึงเส้นชัย
+หรือเป็นคนสุดท้ายที่ยังรอดอยู่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,36,,"Race to the finish or just be the last
+one standing on a course full of holes
+and chasm crossings.","แข่งไปให้ถึงเส้นชัย หรือเป็นคนสุดท้าย
+ที่ยังยืนอยู่บนเส้นทางที่เต็มไปด้วย
+หลุมและทางข้ามเหว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
