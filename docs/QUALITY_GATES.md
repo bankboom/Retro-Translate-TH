@@ -30,3 +30,6 @@ G2 ต้องตรวจความหมาย เนื้อเรื่�
 - G2 requires contextual meaning/grammar approval, not just a heuristic queue or draft percentage.
 - G3/G4 require **real emulator** screenshot/log/playtest and a reviewer; `font_review_plan` itself stays PENDING.
 - `release_audit` is conservative evidence preflight; even `READY_FOR_MANUAL_RELEASE_REVIEW` leaves G5=PENDING pending human signoff. It cannot prove evidence authenticity.
+
+## Emulator-First trial vs release gates
+A statically checked, reversible 1–5-string smoke candidate may be **presented for emulator testing before full G2–G5 QA**. Record the distinct, non-gate status `SMOKE_READY`, `EMULATOR_NOT_RUN`, `SMOKE_FAIL`, or `SMOKE_PASS` with build ID and evidence. This never automatically marks G1–G5 PASS. A boot-only ASCII patch is only injection proof, not Thai-font or translation proof. If the binary cannot be constructed safely, do not issue a patch; report exact blocker. See `docs/EMULATOR_FIRST_TH.md`.
