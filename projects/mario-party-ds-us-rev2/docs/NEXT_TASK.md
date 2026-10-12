@@ -1,22 +1,16 @@
-﻿# Next Codex task — Mario Party DS USA Rev 2
+# Next Codex task — Mario Party DS USA Rev 2
 
-## สำคัญที่สุดตอนนี้: สร้างแพตช์ทดสอบ Emulator ก่อนทำงานอื่น
+## Checkpoint — 2026-10-12
 
-คำสั่งผู้ใช้ปัจจุบัน: หยุดขยาย CSV/สืบสวน ARM และ event ที่ไม่เกี่ยวข้อง แล้วสร้าง **แพตช์ทดลอง 1–5 ข้อความที่มองเห็นในเมนู** จากตาราง US_MAIN_MENU ที่ตรวจรูปแบบแล้ว ด้วย workflow ใน `docs/EMULATOR_FIRST_TH.md` (root)
+- `translations/master.csv` now covers all **2,672 / 2,672** unique rows in the 35 validated `data/US/mpd_*_LZ.bin` tables (100% draft coverage of this supported table inventory).
+- Every row remains `DRAFT / NOT_INJECTED`. Source IDs and English strings match the read-only ROM extraction; token sequences and source line-break counts match, and no translated field is empty. See [translation coverage evidence](../qa/reports/translation_coverage.md).
+- The 100% figure applies only to the 35 validated MPD tables. `ohanashi_event_data.bin`, ARM9/overlay strings, font/rendering and other containers are still unmapped; this is not full-game completion or release readiness.
+- The source ROM remains outside Git and unchanged (SHA-256: `50a8df48d0cc78d45506825217278598fac2c87cb2bb090e0da304a8b4f31433`). No candidate ROM or patch has been built.
 
-1. ROM Rev 2 ต้องตรง G0 และอ่านจากไฟล์ต้นฉบับแบบ read-only; ถ้า Codex ไม่มีไฟล์ ให้แจ้งว่าขาด ROM ไม่สร้าง patch ปลอม
-2. เลือก text ID เมนูที่แน่ชัดและไม่มี token แฝง ทดลองแทนที่สั้น ๆ ในตารางที่ยืนยันแล้ว; 1,336 DRAFT ยังไม่ใช่ INJECTED
-3. ห้ามใช้ suffix relocator เดิม (layout เกมไม่รองรับ). เริ่มด้วย **same-offset, same-size** replacement ของ NitroFS asset พร้อม codec/table verification, binary diff, rollback. ถ้า compressed length ไม่พอดี หยุดบอกไฟล์ ID และจำนวนไบต์ที่ต้องแก้ แล้วแก้เฉพาะตัว repacker ที่จำเป็น โดยพิสูจน์ไม่ให้ชน metadata/ไฟล์ข้างเคียง
-4. เมื่อสร้าง candidate/ BPS ได้ ให้ส่งไปทดสอบใน melonDS ทันที; ถ้าเป็น ASCII-only ให้เรียก smoke-test injection ไม่ใช่แพตช์แปลไทย. แล้วค่อยทดลอง Thai font.
-5. ไม่ต้องรอถอด grammar ของ 102 event records, code xrefs, หรือแปลครบเกมเพื่อทดสอบ **เฉพาะเมนู**. G1–G5 ยังคง PENDING จนหลักฐานครบตาม Gate.
-6. รายงานเพียง `Candidate file หรือ NOT BUILT | ตรวจอะไรผ่านแล้ว | 1 blocker | Next`, ห้ามวนทำรายงานเดิม
+## Next work
 
----
-
-1. Read root `AGENTS.md`, this project's `AGENTS.md`, `project_profile.json` and this file.
-2. Use `tools/mpds_adapter/` with the exact project profile for read-only inspection, inventory, extraction and round-trip checks. See its README and `qa/reports/mpds_adapter_validation.json`.
-3. Keep the extracted 2,672-row source inventory outside Git. The master now has 1,336 DRAFT / NOT_INJECTED rows: US_MAIN_MENU IDs 0–59, US_MPD_020_STORY_MODE_LZ IDs 0–12, and US_MPD_021_SCENARIO_LZ IDs 0–109; US_MPD_022_STAFFROLL_LZ IDs 0–202 covered; staff names remain in source romanization, ID 0 placeholder and ID 194 angle-bracketed header remain verbatim, and localization credit labels are translated to Thai. This is 50.00% of validated MPD-table rows; target the user-approved 50% checkpoint at 1,336/2,672 rows. This is not whole-game completion because `ohanashi_event_data.bin` is unmapped.
-4. Read-only physical layout review: first FAT payload begins at `0x75E00`; ARM7, FNT, FAT and the banner pointer occur later in gaps between FAT payloads. The current suffix-only prototype would reject this layout; it was not invoked on the clean ROM. The header word at `0x80` equals the last FAT end `0x16364A0`, while the physical file is padded to 32 MiB. See `analysis/ROM_MAP.md` and `qa/reports/g1_roundtrip.md`.
-5. `data/ohanashi_event_data.bin` (FAT 281) has a 102-entry prefix followed by 102 unique, aligned, in-bounds values in the range `0x330`–`0x12B38C`; these are plausible offsets, but record grammar is unconfirmed. All 107 compressed overlays decode read-only to their declared RAM sizes. Title/main-menu/mode-select/story-mode LZ resources decode with the known codec and are referenced by overlays 84/86/87/98. No code functions or event records are mapped yet. See `analysis/ROM_MAP.md` and `qa/reports/g1_roundtrip.md`.
-6. V3.2.1 offline fallback: `python tools/portable_code_probe.py capabilities` confirms no full ARM disassembler and an offline candidate scanner. Do not run `scan` until code-only start/end, RAM base and ARM/Thumb mode are independently established; header/overlay image bounds alone are insufficient. Current code-reference and event-record work remains PENDING. The MPDS-LZ negative probe does not establish the event target format.
-7. While reverse engineering remains PENDING, continue only independent data-only/context QA. Keep all 1,336 rows DRAFT until actual UI/context and width constraints are reviewed; never infer INJECTED or VERIFIED from text content. The latest fifty-row board tutorial batch: US_MPD_040_BMAP_00_LZ IDs 0–57; US_MPD_041_BMAP_01_LZ IDs 0–9; US_MPD_042_BMAP_02_LZ IDs 0–35; US_MPD_043_BMAP_03_LZ IDs 0–9; US_MPD_044_BMAP_04_LZ IDs 0–20; US_MPD_045_BMAP_05_LZ IDs 0–22; US_MPD_050_BMAP_NAME_LZ IDs 0–4; US_MPD_060_BMAP_MASS_LZ IDs 0–66; US_MPD_070_BMAP_ITEM_LZ IDs 0–74; US_MPD_080_MSYS_000_LZ IDs 0–7; US_MPD_090_MGINST_LZ IDs 0–107 and MGGUID_LZ IDs 0–171 are drafted; MGTITLE_LZ IDs 0–72, BOSSMESS_LZ IDs 0–25, PUZINST_LZ IDs 0–5, MGADV_LZ IDs 0–90, and 606INST_LZ IDs 0–23 are drafted. The user-approved checkpoint is now exactly 1,336/2,672 (50.00%); the latest 63 rows passed heuristic lint and remain drafts pending context review. Keep G1–G5 PENDING as applicable; G3/G4 require real emulator evidence and G5 requires human sign-off.
+1. Review translations in small contextual batches against actual scenes, speakers, glossary and mechanics. Keep uncertain rows flagged and all rows DRAFT until semantic review is recorded.
+2. Measure actual text widths and validate Thai glyph coverage, baseline, combining marks and wrapping with real emulator screenshots. Keep G3 pending until evidence exists.
+3. Continue read-only investigation of the event archive and non-MPD text containers; do not infer record grammar or code references from candidates alone.
+4. Validate a game-specific rebuild path and rollback on disposable fixtures before attempting any candidate. The current suffix-only repacker is incompatible with the observed layout and has not been run on the clean ROM.
+5. Keep G0–G5 statuses evidence-based. File, CSV and static-lint checks do not pass contextual QA, emulator rendering, gameplay/save testing or human release sign-off.
