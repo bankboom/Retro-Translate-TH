@@ -643,3 +643,97 @@ US_MPD_022_STAFFROLL_LZ,186,,SENIOR PRODUCER,SENIOR PRODUCER,DRAFT,NOT_INJECTED,
 US_MPD_022_STAFFROLL_LZ,187,,EXECUTIVE PRODUCERS,EXECUTIVE PRODUCERS,DRAFT,NOT_INJECTED,DRAFT; apparent personal-name credit retained in original romanized form. Credit role/name identity and whether Thai transliteration is expected remain unverified.,data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_name,,Staff roll (inferred from source bank name; exact scene not verified)
 US_MPD_022_STAFFROLL_LZ,188,,dummy,dummy,DRAFT,NOT_INJECTED,DRAFT; apparent personal-name credit retained in original romanized form. Credit role/name identity and whether Thai transliteration is expected remain unverified.,data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_name,,Staff roll (inferred from source bank name; exact scene not verified)
 US_MPD_022_STAFFROLL_LZ,189,,dummy,dummy,DRAFT,NOT_INJECTED,DRAFT; apparent personal-name credit retained in original romanized form. Credit role/name identity and whether Thai transliteration is expected remain unverified.,data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_name,,Staff roll (inferred from source bank name; exact scene not verified)
+US_MPD_022_STAFFROLL_LZ,190,,dummy,dummy,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,191,,NORTH AMERICAN LOCALIZATION,การปรับภาษาในอเมริกาเหนือ,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,192,,LOCALIZATION MANAGEMENT,ฝ่ายบริหารงานปรับภาษา,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,193,,NOA PRODUCT TESTING,ฝ่ายทดสอบผลิตภัณฑ์ NOA,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,194,,<EUROPEAN LOCALISATION>,<การปรับภาษาในยุโรป>,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,195,,TRANSLATION,การแปล,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,196,,ENGLISH TEXT,ข้อความภาษาอังกฤษ,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,197,,FRENCH TEXT,ข้อความภาษาฝรั่งเศส,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,198,,GERMAN TEXT,ข้อความภาษาเยอรมัน,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,199,,ITALIAN TEXT,ข้อความภาษาอิตาลี,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,200,,SPANISH TEXT,ข้อความภาษาสเปน,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,201,,VALIDATION AND TESTING TEAM,ทีมตรวจสอบและทดสอบ,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_022_STAFFROLL_LZ,202,,EUROPEAN LOCALISATION MANAGEMENT,ฝ่ายบริหารงานปรับภาษาในยุโรป,DRAFT,NOT_INJECTED,"DRAFT; translated localization credit label from source bank. Exact credit context, terminology and display width remain unverified.",data/US/mpd_022_staffroll_LZ.bin,,,staff_credit_role,,
+US_MPD_030_PARTY_MODE_LZ,0,,Select the battle rules.,เลือกกติกาการแข่งขัน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,1,,Four players battle on a board.,ผู้เล่นสี่คนแข่งขันกันบนกระดาน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,2,,Two teams of two battle on a board.,สองทีม ทีมละสองคน แข่งขันกันบนกระดาน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,3,,Two players battle on a board.,ผู้เล่นสองคนแข่งขันกันบนกระดาน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,4,,You have a previously saved game.,คุณมีเกมที่บันทึกไว้ก่อนหน้านี้,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,5,,"If you start a new battle, your previous
+battle data will be lost. Proceed?","หากเริ่มการแข่งขันใหม่ ข้อมูลการแข่งขัน
+ครั้งก่อนจะหายไป ดำเนินการต่อไหม?",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,6,,Start the game?,เริ่มเกมไหม?,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,7,,Start a party or resume a saved party.,เริ่มปาร์ตี้ใหม่หรือเล่นปาร์ตี้ที่บันทึกไว้ต่อ,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,8,,Quit [c4]Party Mode[/c]?,ออกจาก [c4]โหมดปาร์ตี้[/c] ไหม?,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c4] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,9,,View a tutorial of the basic board rules.,ดูวิธีเล่นกติกาพื้นฐานบนกระดาน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,10,,Want to skip the [c4]rules explanation[/c]?,ต้องการข้าม[c4]คำอธิบายกติกา[/c]ไหม?,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c4] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,11,,Battle Royale,แบตเทิลรอยัล,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,12,,Tag Battle,แบตเทิลแบบแท็กทีม,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,13,,Duel Battle,แบตเทิลดวล,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,14,,How to Play,วิธีเล่น,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,15,,Select a character.,เลือกตัวละคร,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,16,,Select COM-controlled characters.,เลือกตัวละครที่ควบคุมด้วย COM,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,17,,"[c1]P2[/c], select a character.",[c1]P2[/c] เลือกตัวละคร,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c1] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,18,,"[c3]P3[/c], select a character.",[c3]P3[/c] เลือกตัวละคร,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,19,,"[c4]P4[/c], select a character.",[c4]P4[/c] เลือกตัวละคร,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c4] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,20,,P1 is making selections.,P1 กำลังเลือกอยู่,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,21,,Select the party board.,เลือกกระดานปาร์ตี้,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,22,,"You're tiny in a huge garden, so watch
+out for that hungry Piranha Plant!
+To get Stars: trade 20 coins for each
+one on the board.","คุณตัวเล็กจิ๋วอยู่ในสวนยักษ์ ระวัง
+Piranha Plant จอมเขมือบให้ดี!
+วิธีรับดาว: แลก 20 เหรียญต่อดาว
+ที่อยู่บนกระดาน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_board_ui,,
+US_MPD_030_PARTY_MODE_LZ,23,,"You're shrunken down in a room full of
+incredible musical instruments!
+To get Stars: trade a number of coins
+to each Musical Note on the board.","คุณตัวจิ๋วอยู่ในห้องที่เต็มไปด้วย
+เครื่องดนตรีสุดอลังการ!
+วิธีรับดาว: แลกเหรียญตามจำนวนที่กำหนด
+ให้ Musical Note แต่ละตัวบนกระดาน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_board_ui,,
+US_MPD_030_PARTY_MODE_LZ,24,,"You start at the foot of a Donkey Kong
+statue, and Dry Bones sleeps nearby!
+To get Stars: climb to the top, then
+trade coins for all the Stars you want.","คุณเริ่มต้นที่ฐานรูปปั้น Donkey Kong
+และมี Dry Bones นอนอยู่ใกล้ ๆ!
+วิธีรับดาว: ปีนขึ้นไปบนยอด แล้วแลก
+เหรียญเพื่อรับดาวได้ตามต้องการ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_board_ui,,
+US_MPD_030_PARTY_MODE_LZ,25,,"You're small as a bookworm in Kamek's
+library. Avoid his magical mischief!
+To get Stars: open magic jars at a cost of
+10 coins, because some hold a Star!","คุณตัวเล็กเท่าหนอนหนังสือในห้องสมุด
+ของ Kamek ระวังเวทมนตร์ป่วน ๆ ของเขา!
+วิธีรับดาว: เปิดโถเวทมนตร์โดยจ่าย
+10 เหรียญ เพราะบางโถมีดาวอยู่!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_board_ui,,
+US_MPD_030_PARTY_MODE_LZ,26,,"You're smaller than a ball on the field
+of a pinball table in Bowser's Castle!
+To get Stars: trade 20 coins for each
+one on the board. But beware Bowser!","คุณตัวเล็กกว่าลูกบอลบนสนามพินบอล
+ในปราสาทของ Bowser!
+วิธีรับดาว: แลก 20 เหรียญต่อดาว
+บนกระดาน แต่ระวัง Bowser ไว้ด้วย!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_board_ui,,
+US_MPD_030_PARTY_MODE_LZ,27,,Select the rules settings.,เลือกการตั้งค่ากติกา,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,28,,Play with these settings?,เล่นด้วยการตั้งค่าเหล่านี้ไหม?,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,29,,Select a setting to change.,เลือกการตั้งค่าที่ต้องการเปลี่ยน,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,30,,Select the number of turns.,เลือกจำนวนเทิร์น,DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,31,,"[c3]10 Turns[/c]
+Play time is about 30 minutes.","[c3]10 เทิร์น[/c]
+ใช้เวลาเล่นประมาณ 30 นาที",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,32,,"[c3]15 Turns[/c]
+Play time is about 45 minutes.","[c3]15 เทิร์น[/c]
+ใช้เวลาเล่นประมาณ 45 นาที",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,33,,"[c3]20 Turns[/c]
+Play time is about 60 minutes.","[c3]20 เทิร์น[/c]
+ใช้เวลาเล่นประมาณ 60 นาที",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,34,,"[c3]25 Turns[/c]
+Play time is about 75 minutes.","[c3]25 เทิร์น[/c]
+ใช้เวลาเล่นประมาณ 75 นาที",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,35,,"[c3]30 Turns[/c]
+Play time is about 90 minutes.","[c3]30 เทิร์น[/c]
+ใช้เวลาเล่นประมาณ 90 นาที",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,36,,"Select which set of minigames you'd like
+to play.","เลือกชุดมินิเกมที่ต้องการ
+เล่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
