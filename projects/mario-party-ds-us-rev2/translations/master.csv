@@ -2913,3 +2913,279 @@ lose half your points.","อย่าล้อม Bob-omb ไม่อย่า�
 US_MPD_095_MGADV_LZ,1,,"As you slide your stylus rapidly, use
 the full height of the screen.","ขณะลากสไตลัสอย่างรวดเร็ว
 ให้ใช้พื้นที่ความสูงของหน้าจอให้เต็ม",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,2,,"When shown the four different cards,
+take note which character design is
+the correct one, then keep track of it
+while the cards are shuffled!","เมื่อเห็นไพ่สี่แบบ
+ให้จำว่ารูปตัวละครแบบใดถูกต้อง
+แล้วจำตำแหน่งนั้นไว้
+ระหว่างที่ไพ่ถูกสับ!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,3,,"Your flashbulb needs time to recharge
+after every use, so make sure you
+have a shot in focus before you shoot.","แฟลชต้องใช้เวลาชาร์จหลังถ่ายแต่ละครั้ง
+จึงควรจัดภาพให้ชัดและอยู่ในโฟกัส
+ก่อนกดถ่าย",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,4,,"If a bee stings you, you'll be stunned
+for a while, so wait for it to fly off.
+Shoo off a ladybug by rubbing it with
+the stylus.","ถ้าผึ้งต่อย คุณจะชะงักอยู่พักหนึ่ง
+รอให้มันบินไปก่อน
+ส่วนเต่าทองใช้สไตลัสถู
+เพื่อไล่มัน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,5,,"You'll get a score of zero if you
+overshoot the red line and hit the
+erasers, so be careful.","คะแนนจะเป็นศูนย์หากดันเลยเส้นแดง
+แล้วชนยางลบ
+ระวังให้ดี",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,6,,"Press only the shown button to make
+each next leap. You'll lose time if you
+press a wrong button.","กดเฉพาะปุ่มที่แสดง
+เพื่อกระโดดครั้งต่อไป
+กดผิดจะเสียเวลา",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,7,,"The arrows show a clockwise swirl, but
+you can actually swirl in whichever way
+is best for you.","ลูกศรแสดงทิศหมุนตามเข็มนาฬิกา
+แต่คุณหมุนไปทางไหนก็ได้
+ตามที่ถนัด",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,8,,"You can't trace just any shape on your
+field. The only pieces you can trace
+are those that are outlined in your
+character's color.","ลากได้ไม่ใช่ทุกรูปในพื้นที่ของคุณ
+ลากได้เฉพาะชิ้นส่วนที่มี
+เส้นขอบเป็นสีของตัวละครคุณ
+เท่านั้น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,9,,"The Goomba may kick the ball at you
+in a variety of ways, including a crazy
+zigzag motion. Watch the ball carefully!","Goomba อาจเตะบอลมาได้หลายแบบ
+รวมถึงวิถีซิกแซ็กสุดแปลก
+จับตาดูลูกบอลให้ดี!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,10,,"Shoot quickly, but watch out for all the
+Toadette targets!","รีบยิง แต่ระวังเป้าหมาย Toadette
+ที่อยู่ทั่วฉาก!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,11,,"Your music box will emit colorful notes
+when you're cranking at the perfect
+speed.","กล่องดนตรีจะปล่อยโน้ตสีสันสดใส
+เมื่อคุณหมุนด้วยความเร็ว
+ที่พอดี",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,12,,"When you reach a slick area, don't
+alternate quickly or you'll spin out.
+Do it slowly until you cross the slick.","เมื่อถึงพื้นลื่น อย่าสลับมือหมุนเร็ว ๆ
+ไม่อย่างนั้นรถจะหมุนคว้าง ค่อย ๆ หมุน
+จนกว่าจะพ้นพื้นลื่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,13,,"You'll rebound from any obstacle you
+hit, and it will take time to recover
+your momentum. Move carefully.","เมื่อชนสิ่งกีดขวาง คุณจะกระเด้งกลับ
+และต้องใช้เวลาตั้งหลักเพื่อเร่งความเร็ว
+อีกครั้ง ค่อย ๆ เคลื่อนที่",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,14,,"The more you press the button, the
+farther you'll extend the pencil lead,
+so press it quickly!","ยิ่งกดปุ่มมาก
+ไส้ดินสอก็ยิ่งยืดออก
+กดให้เร็วเข้า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,15,,"Each bridge piece can be crossed only
+once. So lay pieces down strategically
+so you reach them before others do.","ชิ้นส่วนสะพานแต่ละชิ้นข้ามได้ครั้งเดียว
+วางแผนวางชิ้นส่วนให้ดี
+เพื่อไปถึงก่อนคนอื่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,16,,"How many candles go dark depends on
+how long and hard you blow into the Mic.
+Try to blow out as many as you can to
+clear a long path.","จำนวนเทียนที่จะดับขึ้นอยู่กับว่า
+คุณเป่านานและแรงแค่ไหน
+ลองเป่าให้ดับให้มากที่สุด
+เพื่อเปิดทางยาว ๆ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,17,,"The platforms are different sizes, which
+affects how difficult it will be to land
+safely. Do your best, no matter which
+platform you're stuck with!","แท่นแต่ละอันมีขนาดต่างกัน
+ทำให้ลงจอดได้ยากง่ายไม่เท่ากัน
+ไม่ว่าจะได้แท่นแบบไหน
+ก็พยายามให้ดีที่สุด!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,18,,"It's a game of chance, so select a line,
+then hope that you nab a Cheep Cheep!","เกมนี้ต้องอาศัยดวง เลือกสายเบ็ด
+แล้วลุ้นว่าจะตก Cheep Cheep ได้ไหม!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,19,,"A Whomp will shake before it falls flat.
+That's your signal to get out of its way!","Whomp จะสั่นก่อนล้มราบ
+นั่นคือสัญญาณให้รีบหลบ!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,20,,"Your car is out of power when you see
+arrows on the Touch Screen. You can
+wind it up only when the arrows appear,
+so give it a good crank.","รถจะหมดแรงเมื่อเห็นลูกศร
+บนหน้าจอสัมผัส
+คุณไขลานได้เฉพาะตอนลูกศรปรากฏ
+จึงต้องไขให้เต็มที่",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,21,,"A lava gush will bubble before it blows.
+That's your signal to get out of its way.","ลาวาจะปุดขึ้นมาก่อนพุ่งระเบิด
+นั่นคือสัญญาณให้รีบหลบ!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,22,,"The spotlight doesn't have a regular
+pattern. Watch carefully before you
+strike a pose button.","ไฟสปอตไลต์ไม่มีรูปแบบแน่นอน
+ดูก่อนให้ดี
+แล้วค่อยกดปุ่มทำท่า",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,23,,"Each type of target has a unique color.
+You may be able to react faster if you
+watch for colors, rather than patterns.","เป้าหมายแต่ละชนิดมีสีเฉพาะตัว
+การสังเกตสีอาจช่วยให้ตอบสนองเร็วกว่า
+การจำรูปแบบ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,24,,"If you have a Boo on your back, chase
+players until you tag someone to
+transfer your Boo.","ถ้ามี Boo เกาะหลังอยู่
+ไล่ตามผู้เล่นแล้วแท็ก
+เพื่อส่ง Boo ไปให้เขา",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,25,,"Sidestep the buttons and balls. Be
+careful when you step on ribbons or
+film strips, because the vacuum will
+quickly suck those up.","หลบปุ่มและลูกบอล
+ระวังริบบิ้นหรือแถบฟิล์ม
+เพราะถ้าเหยียบ เครื่องดูดฝุ่น
+จะดูดสิ่งเหล่านั้นไปอย่างรวดเร็ว",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,26,,"When the lights go out, you can't tell
+where the gaps are. Memorize where the
+safe footing is when the lights are on!","พอไฟดับ คุณจะมองไม่เห็นช่องว่าง
+ตอนที่ไฟยังติด ให้จำตำแหน่งพื้น
+ที่เหยียบได้อย่างปลอดภัยไว้!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,27,,"Stay on the move and change direction
+often as you try to stay in the middle
+area.","เคลื่อนที่และเปลี่ยนทิศทางบ่อย ๆ
+เพื่อพยายามอยู่ใน
+บริเวณตรงกลาง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,28,,"Study the dish selection closely before
+you select a candy. You want to pick
+the correct ones, and many candies
+look similar.","ศึกษาจานลูกกวาดให้ดี
+ก่อนเลือกขนม
+เลือกให้ถูกต้อง เพราะหลายชิ้น
+หน้าตาคล้ายกัน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,29,,"You'll be stunned for a while if you're
+hit by a wave. Time your runs carefully
+to avoid the waves.","ถ้าโดนคลื่น คุณจะชะงักอยู่พักหนึ่ง
+กะจังหวะวิ่งให้ดี
+เพื่อหลบคลื่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,30,,"Running into an obstacle or a racer will
+make you bounce around, and it'll take
+time to regain your momentum. Steer
+carefully.","ชนสิ่งกีดขวางหรือนักแข่ง
+จะทำให้คุณกระเด้งกลับ
+และต้องใช้เวลาตั้งหลักก่อนเร่งใหม่
+บังคับทิศทางให้ดี",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,31,,"You can rotate the plate in either
+direction, so keep an eye on where your
+opponents are, then catch them off
+guard when you can.","หมุนจานไปทางไหนก็ได้
+คอยดูตำแหน่งคู่แข่ง
+แล้วฉวยโอกาสเล่นงาน
+ตอนพวกเขาไม่ทันตั้งตัว",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,32,,"Be prepared to change your course,
+because the plate can change
+direction at any time. After a while
+the second water jet will also spray.","พร้อมเปลี่ยนเส้นทาง
+เพราะจานอาจเปลี่ยนทิศได้ทุกเมื่อ
+ผ่านไปสักพัก
+หัวฉีดน้ำตัวที่สองก็จะพ่นด้วย",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,33,,"Your view is much larger than the other
+team's views. But there are three of
+them and only one of you!","มุมมองของคุณกว้างกว่าอีกทีมมาก
+แต่พวกเขามีสามคน
+ส่วนคุณมีแค่คนเดียว!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,34,,"The single player's view is much larger
+than your team's views. Fortunately,
+there are three of you, so divide up
+the floor for your search!","ผู้เล่นเดี่ยวมองเห็นพื้นที่ได้กว้าง
+กว่าทีมของคุณ แต่ทีมคุณมีสามคน
+ช่วยกันแบ่งพื้นที่
+เพื่อค้นหาให้ทั่ว!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,35,,"Don't just throw food randomly. Create
+a course that makes your opponents
+run farther. They may fall behind as
+they try to outrun the belt.","อย่าขว้างอาหารไปเรื่อย ๆ
+จัดเส้นทางให้คู่แข่ง
+ต้องวิ่งไกลขึ้น
+พวกเขาอาจตามสายพานไม่ทัน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,36,,"You can't leap over the burger or the
+shake. You'll freeze if you step on the
+ice-cream dish. You'll be slowed if you
+step on the pancakes.","กระโดดข้ามเบอร์เกอร์หรือมิลก์เชกไม่ได้
+เหยียบจานไอศกรีมแล้วจะแข็งค้าง
+ส่วนแพนเค้กจะทำให้คุณ
+เคลื่อนที่ช้าลง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,37,,"If you select a track that opponents
+are on, tap [c3][e000][/c] when behind them to run
+into them.","หากเลือกเส้นทางที่คู่แข่งอยู่
+กด [c3][e000][/c] ตอนอยู่ด้านหลัง
+เพื่อวิ่งชนพวกเขา",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[c3] [e000] [/c],,minigame_advice,,
+US_MPD_095_MGADV_LZ,38,,"Don't run down the same track as your
+teammates if you can help it. Only one
+of you needs to survive for your team
+to win.","ถ้าเลี่ยงได้ อย่าวิ่งเส้นทางเดียวกับเพื่อน
+ร่วมทีม
+แค่คนเดียวรอดก็พอ
+ทีมคุณก็ชนะ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,39,,"Bank your shot off walls and other chips
+to catch your opponents off guard.","เล็งให้ชิปกระเด้งจากกำแพงหรือชิปอื่น
+เพื่อโจมตีคู่แข่งแบบไม่ทันตั้งตัว",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,40,,"In the last few moments, watch for chips
+that fall from above. They'll cast
+shadows on the table, so steer clear
+of those spots.","ช่วงท้ายระวังชิปที่ตกจากด้านบน
+มันจะทอดเงาลงบนโต๊ะ
+หลบให้พ้น
+จากจุดเหล่านั้น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,41,,"More of your warning lights will go on
+the closer your opponents get to
+catching you in their beams.","เมื่อคู่แข่งเข้าใกล้เพื่อจับคุณ
+ในลำแสง ไฟเตือนจะติดมากขึ้น
+",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,42,,"More of your warning lights will go on
+the closer you come to [name1]. So
+cooperate with your teammates to
+track down your target.","ยิ่งคุณเข้าใกล้ [name1]
+ไฟเตือนก็จะยิ่งติดมากขึ้น
+ร่วมมือกับเพื่อนร่วมทีม
+ตามหาเป้าหมาย",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[name1],,minigame_advice,,
+US_MPD_095_MGADV_LZ,43,,"Swerve quickly to have the best chance
+of knocking your opponents off their
+duckies.","หักเลี้ยวให้เร็วเข้าไว้
+เพื่อเพิ่มโอกาสเหวี่ยงคู่แข่ง
+ตกจากเป็ดยาง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,44,,"Keep an eye on [name1]'s ducky. When
+the driver turns, change your seating
+to stay balanced on your ducky.","คอยดูเป็ดยางของ [name1] เมื่อคนขับ
+เลี้ยว ให้เปลี่ยนท่านั่งเพื่อทรงตัว
+บนเป็ดยางของคุณ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[name1],,minigame_advice,,
+US_MPD_095_MGADV_LZ,45,,"Don't let yourself be cornered. Stay in
+the most wide-open area to give
+yourself the best chance of escape.","อย่าปล่อยให้ถูกต้อนจนมุม
+อยู่ในพื้นที่เปิดโล่งที่สุด
+เพื่อเพิ่มโอกาสหนี",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,46,,"It takes time to drop a toy, so work with
+your teammates to cut off [name1]'s
+escape routes.","การวางของเล่นต้องใช้เวลา
+ร่วมมือกับทีมปิดทางหนี
+ของ [name1]",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[name1],,minigame_advice,,
+US_MPD_095_MGADV_LZ,47,,"Change the rotation unpredictably to
+have the best chance of catching your
+opponents off guard.","เปลี่ยนทิศหมุนให้คาดเดาไม่ได้
+เพื่อเพิ่มโอกาสโจมตีคู่แข่ง
+ตอนเผลอ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,48,,"Don't run too far in one direction as
+you try to stay on, or you might get
+caught off guard when your opponent
+turns it the other way.","อย่าวิ่งไปทางเดียวไกลเกินไป
+ขณะพยายามทรงตัว
+ไม่อย่างนั้นอาจตั้งตัวไม่ทัน
+ถ้าคู่แข่งหันกลับอีกทาง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,49,,"You'll lose speed if you scrape the sides
+of the chute. Watch the course ahead
+so you know when and how to swerve.","ถูขอบรางแล้วจะเสียความเร็ว
+มองเส้นทางข้างหน้าไว้ จะได้รู้ว่า
+ควรหักเลี้ยวตอนไหนและอย่างไร",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,50,,"You'll lose speed if you scrape the sides
+of the chute. Watch the course ahead
+so you know when and how to swerve.","ถูขอบรางแล้วจะเสียความเร็ว
+มองเส้นทางข้างหน้าไว้ จะได้รู้ว่า
+ควรหักเลี้ยวตอนไหนและอย่างไร",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,51,,"You'll be stunned for a while if you're
+hit by a bead, so be careful when
+you're running for coins.","ถ้าโดนลูกปัดจะชะงักพักหนึ่ง
+ระวังตอนวิ่งเก็บเหรียญ
+",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
