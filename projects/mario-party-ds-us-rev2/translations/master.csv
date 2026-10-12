@@ -2793,3 +2793,123 @@ US_MPD_092_MGTITLE_LZ,53,,Toppling Terror,ฝันร้ายโดมิโ�
 US_MPD_092_MGTITLE_LZ,54,,Crazy Crosshairs,เป้าเล็งสุดป่วน,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
 US_MPD_092_MGTITLE_LZ,55,,Shorty Scorers,นักแม่นแต้มตัวจิ๋ว,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
 US_MPD_092_MGTITLE_LZ,56,,Cheep Chump,Cheep Chump จอมซุ่มซ่าม,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,57,,Star Catchers,นักจับดาว,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,58,,All Geared Up,พร้อมลุยทุกเกียร์,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,59,,Short Fuse,ฟิวส์สั้นปุ๊บ ระเบิดปั๊บ,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,60,,Globe Gunners,มือปืนรอบโลก,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,61,,Chips and Dips,ชิปกับน้ำจิ้ม,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,62,,Feed and Seed,ป้อนเมล็ดพืช,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,63,,Hammer Chime,ระฆังเพลงของ Hammer Bro,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,64,,Hexoskeleton,โครงกระดูกหกเหลี่ยม,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,65,,Book Bash,ศึกหนังสือ,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,66,,Bowser's Block Party,ปาร์ตี้บล็อกของ Bowser,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,67,,Mario's Puzzle Party,ปาร์ตี้ปริศนาของ Mario,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,68,,Bob-omb Breakers,นักทลาย Bob-omb,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,69,,Piece Out,วางชิ้นส่วนให้พอดี,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,70,,Block Star,ดาวบล็อก,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,71,,Stick & Spin,หมุนแท่งให้ลงล็อก,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_092_MGTITLE_LZ,72,,Triangle Twisters,สามเหลี่ยมหมุนป่วน,DRAFT,NOT_INJECTED,DRAFT; Thai title candidate based on English wording. Minigame context and title wordplay remain unverified.,data/US/mpd_092_mgtitle_LZ.bin,,,minigame_title,,
+US_MPD_093_BOSSMESS_LZ,0,,"Be careful with those [c1]bomb seeds[/c]!
+They're harmless when on the vines...[w]","ระวัง [c1]เมล็ดระเบิด[/c] ให้ดี!
+ตอนยังติดเถาอยู่มันไม่เป็นอันตราย...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,1,,"But they'll explode after they fall, and
+the Piranha Plant will spit them at you![w]","แต่พอตกลงมา มันจะระเบิด แล้ว
+Piranha Plant จะพ่นใส่คุณ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,2,,"Press [c3][e001][/c] to catch them just before they
+hit you, [name1]![w]","กด [c3][e001][/c] รับมันก่อนจะ
+พุ่งมาโดนคุณ [name1]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c3] [e001] [/c] [name1] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,3,,"Then when the Piranha Plant opens its
+mouth, press [c3][e001][/c] to drop them in![w]","เมื่อ Piranha Plant อ้าปาก
+กด [c3][e001][/c] โยนมันเข้าไป![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c3] [e001] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,4,,"Good luck! Don't let that beast snack
+on you, [name1]![w]","โชคดีนะ! อย่าปล่อยให้เจ้าสัตว์ร้าย
+งับคุณเป็นอาหารล่ะ [name1]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[name1] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,5,,"Fight back at Hammer Bro's [c1]drum solo[/c]
+with [c1]music notes[/c] of your own.[w]","โต้กลับท่อน [c1]โซโลกลอง[/c] ของ Hammer Bro
+ด้วย [c1]ตัวโน้ต[/c] ของคุณเอง![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,6,,See how Hammer Bro beats the drums![w],ดูวิธีตีกลองของ Hammer Bro ให้ดี![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,7,,Beat the same tune with your [c3]stylus[/c].[w],ใช้ [c3]สไตลัส[/c] เล่นทำนองเดียวกัน![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c3] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,8,,"If you match Hammer Bro's tune, you'll
+send his [c1]notes[/c] back at him![w]","ถ้าเล่นทำนองเดียวกับ Hammer Bro ได้
+คุณจะส่ง [c1]ตัวโน้ต[/c] กลับไปหาเขา![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,9,,"Beat him at his own game, [name1]![w]",เอาชนะเขาด้วยเกมของเขาเองเลย [name1]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[name1] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,10,,"Take down Dry Bones by summoning
+some powerful [c1]magic[/c]![w]","ล้ม Dry Bones ด้วยการเรียกใช้
+[c1]เวทมนตร์[/c]ทรงพลัง![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,11,,"Watch the upper screen carefully to
+learn the secrets of this [c1]magic[/c].[w]","ดูหน้าจอด้านบนให้ดีเพื่อเรียนรู้
+เคล็ดลับของ [c1]เวทมนตร์[/c] นี้![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,12,,"You'll see the order in which you must
+ground-pound the magic switches.[w]","คุณจะเห็นลำดับที่ต้องกระทืบ
+สวิตช์เวทมนตร์![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,13,,"If you do it correctly, you'll summon the
+[c1]magic[/c] symbols that will zap Dry Bones![w]","ถ้าทำถูก คุณจะเรียกสัญลักษณ์
+[c1]เวทมนตร์[/c] ออกมาช็อต Dry Bones![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,14,,"Have courage, [name1]! Don't go near
+Dry Bones or he'll crush you![w]","กล้าเข้าไว้ [name1]! อย่าเข้าใกล้
+Dry Bones ไม่งั้นเขาจะบดขยี้คุณ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[name1] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,15,,"[f]Didn't I send you and your friends
+[f]off to the middle of nowhere?![w]","[f]ฉันไม่ได้ส่งพวกเธอกับเพื่อน ๆ
+[f]ไปอยู่กลางดงกลางป่าหรอกหรือ?![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[f] [f] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,16,,"[f]What a stubborn bunch you are! I guess
+[f]I'll just show you your place again![w]","[f]ดื้อด้านกันจริง ๆ! สงสัยฉันต้อง
+[f]สั่งสอนให้รู้ที่อีกครั้งแล้วสินะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[f] [f] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,17,,"[f]Here, ride this magic [c1]book[/c]! Fly
+[f]it all the way to that bully![w]","[f]นี่ ขี่ [c1]หนังสือเวทมนตร์[/c] เล่มนี้ไปสิ!
+[f]บินไปหาเจ้าตัวแสบโน่นเลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[f] [c1] [/c] [f] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,18,,"Press [c3][e000][/c] to fire ink from your pen as
+you soar down the hallway![w]","กด [c3][e000][/c] ยิงหมึกจากปากกา
+ขณะร่อนผ่านทางเดิน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c3] [e000] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,19,,"Now fly carefully and take the fight to
+Kamek, [name1]![w]","บินให้ระวัง แล้วไปสู้กับ Kamek เลย
+[name1]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[name1] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,20,,"[f]OK, I got this great gadget for our
+[f]final fight![w]","[f]โอเค ฉันได้อุปกรณ์สุดเจ๋งมาใช้
+[f]ในการต่อสู้ครั้งสุดท้ายแล้ว![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[f] [f] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,21,,"[f]Cower before the power of my new
+[f][c1]Megamorph Belt[/c]![w]","[f]จงหวาดกลัวพลังของฉันซะ!
+[f][c1]เข็มขัดแปลงร่าง[/c] อันใหม่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[f] [f] [c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,22,,"The only way to defeat him in this form
+is to attack his weak spot![w]","วิธีเดียวที่จะเอาชนะเขาในร่างนี้
+คือโจมตีจุดอ่อนของเขา![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,23,,"And that weak spot is that golden
+[c1]Bowser Block[/c]![w]","และจุดอ่อนนั้นก็คือ
+[c1]บล็อก Bowser[/c] สีทอง![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,24,,"Watch where the [c1]Bowser Block[/c] is!
+Try to hit it with a punch or a kick![w]","ดูตำแหน่งของ [c1]บล็อก Bowser[/c] ให้ดี!
+ลองต่อยหรือเตะใส่มัน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[c1] [/c] [w],,boss_instruction_dialogue,,
+US_MPD_093_BOSSMESS_LZ,25,,"Believe in yourself, [name1]! 
+The crew is counting on you![w]","เชื่อมั่นในตัวเองนะ [name1]! 
+ทุกคนกำลังฝากความหวังไว้ที่คุณ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; speaker, event context and UI width remain unverified.",data/US/mpd_093_bossmess_LZ.bin,[name1] [w],,boss_instruction_dialogue,,
+US_MPD_094_PUZINST_LZ,0,,"Watch for Thwomp. You can drop
+him in to squash blocks to half
+their usual size.","ระวัง Thwomp คุณปล่อยมันลงมา
+บดบล็อกให้เหลือครึ่งหนึ่ง
+ของขนาดปกติได้",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_094_PUZINST_LZ,1,,"Surround a Bob-omb with blocks to
+cause an explosion, which destroys
+lots of blocks at once.","ล้อม Bob-omb ด้วยบล็อก
+เพื่อให้มันระเบิดและทำลาย
+บล็อกจำนวนมากในครั้งเดียว",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_094_PUZINST_LZ,2,,"Fill the entire field to clear
+a board. You'll then get points.","เติมพื้นที่ทั้งหมดให้เต็มเพื่อเคลียร์กระดาน
+แล้วรับคะแนน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_094_PUZINST_LZ,3,,"Connect five or more blocks of the
+same color to eliminate them. Try
+to remove star blocks.","ต่อบล็อกสีเดียวกันอย่างน้อยห้าก้อน
+เพื่อล้างออก พยายามกำจัด
+บล็อกดาวด้วย",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_094_PUZINST_LZ,4,,"Connect five or more balls of the
+same color to eliminate them.","ต่อบอลสีเดียวกันอย่างน้อยห้าลูก
+เพื่อล้างออก",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_094_PUZINST_LZ,5,,"Connect four or more tiny
+triangles to clear them. Clear 30
+to proceed to the next level.","ต่อสามเหลี่ยมเล็กอย่างน้อยสี่ชิ้น
+เพื่อล้างออก ล้างให้ครบ 30 ชิ้น
+เพื่อไปด่านถัดไป",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; puzzle terminology and UI width remain unverified.,data/US/mpd_094_puzinst_LZ.bin,,,puzzle_instruction,,
+US_MPD_095_MGADV_LZ,0,,"Don't circle Bob-ombs. If you do, you'll
+lose half your points.","อย่าล้อม Bob-omb ไม่อย่างนั้น
+คุณจะเสียคะแนนไปครึ่งหนึ่ง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,1,,"As you slide your stylus rapidly, use
+the full height of the screen.","ขณะลากสไตลัสอย่างรวดเร็ว
+ให้ใช้พื้นที่ความสูงของหน้าจอให้เต็ม",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
