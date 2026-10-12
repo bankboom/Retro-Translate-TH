@@ -14,3 +14,5 @@
 - ประหยัดโทเคน รายงานเฉพาะ diff, ไฟล์ใหม่, สถานะ emulator, และ next test
 
 สำหรับ Mario Party DS USA Rev 2: คำแปลเดิม 1,336/2,672 เป็นร่าง ไม่ใช่แพตช์ ใช้เมนูที่ยืนยันแล้วเพื่อทำ candidate; ตัว relocator แบบ suffix เดิมไม่เหมาะกับ layout นี้; ห้ามให้ event 102 รายการขวาง smoke menu patch
+
+**Context QA 6 เฟส:** อ้างอิง `docs/SIX_PHASE_CONTEXT_QA_TH.md`. ตรวจความหมาย ผู้พูด/ฉาก ภาษาไทย ศัพท์เฉพาะ ความต่อเนื่อง และ tokens/width ของข้อความแปลทุก batch ก่อนนับเป็น `REVIEWED`; ไม่ต้องตรวจคำแปลทั้งเกมก่อนทดสอบแพตช์ 1–5 ข้อความ. ข้อความที่ยังไม่รู้บริบทใช้ `NEEDS_CONTEXT`. ใน Emulator กลับมาทบทวนสำนวนจากฉากจริง และนับความคืบหน้า reviewed / injected / verified แยกกัน.
