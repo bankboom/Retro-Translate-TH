@@ -3189,3 +3189,306 @@ hit by a bead, so be careful when
 you're running for coins.","ถ้าโดนลูกปัดจะชะงักพักหนึ่ง
 ระวังตอนวิ่งเก็บเหรียญ
 ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; minigame context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,52,,"Divide up the lower-screen area with
+your teammates so you don't let any
+coins slip by you.","แบ่งพื้นที่บนหน้าจอล่างกับเพื่อนร่วมทีม
+เพื่อกันไม่ให้เหรียญ
+หลุดลอดไป",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,53,,"The strength of your deep freeze
+depends on how long and hard you
+blow into the Mic. Try to cause the
+deepest freeze you can.","ความแรงของการแช่แข็ง
+ขึ้นอยู่กับว่าคุณเป่านานและแรงแค่ไหน
+ลองเป่าให้ทุกอย่างแข็งที่สุด
+เท่าที่ทำได้",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,54,,"Rubbing your character with the stylus
+a little here and there is the best way
+to stay warm!","ใช้สไตลัสถูตัวละครเป็นระยะ ๆ
+เป็นวิธีที่ดีที่สุด
+ในการทำให้ร่างกายอบอุ่น!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,55,,"Your car will swerve in the direction
+of whichever wheel is spinning more
+slowly. So coordinate spins with your
+partner to move where you want.","รถจะหันไปทางล้อที่หมุนช้ากว่า
+ประสานการหมุนล้อกับคู่หู
+เพื่อบังคับรถ
+ไปทางที่ต้องการ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,56,,"You can trace more accurately to get
+more points by going slowly. But if you
+go too slowly, you may not finish in
+time, and your score will be lower.","ลากช้า ๆ จะช่วยให้วาดได้แม่นขึ้น
+และได้คะแนนมากขึ้น แต่ถ้าช้าเกินไป
+อาจทำไม่ทันเวลา
+และได้คะแนนน้อยลง",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,57,,"Watch the cards that other players
+turn over as well, so you can remember
+their location and content.","ดูไพ่ที่ผู้เล่นคนอื่นเปิดด้วย
+จะได้จำตำแหน่งกับหน้าตา
+ของไพ่แต่ละใบ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,58,,"If you hit a ? Block, you'll find either
+an invincibility Star or a spiky ball
+that will freeze you. You can punch
+a frozen partner to free him or her.","ถ้าต่อยบล็อก ? คุณอาจได้ดาว
+ไร้เทียมทานหรือลูกบอลหนามที่แช่แข็ง
+ต่อยคู่หูที่ถูกแช่แข็งเพื่อช่วย
+ให้หลุดได้",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,59,,"Don't get caught behind rocks. To rise
+above them, the top player should dig
+faster. To go under them, the lower
+player should dig faster.","อย่าติดอยู่หลังโขดหิน
+ถ้าจะขุดขึ้นด้านบน ผู้เล่นข้างบน
+ต้องขุดให้เร็วขึ้น ถ้าจะลอดด้านล่าง
+ผู้เล่นข้างล่างต้องขุดให้เร็วขึ้น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,60,,"If your button presses don't match your
+partner's, you'll slide back down the
+pipe. Coordinate your efforts closely.","ถ้ากดปุ่มไม่ตรงกับคู่หู
+คุณจะไถลลงมาตามท่อ
+ประสานจังหวะกันให้ดี",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,61,,"Slicing quickly is key, but do it with
+longer movements to whittle down the
+cucumber at top speed.","การหั่นให้เร็วเป็นเรื่องสำคัญ
+แต่ใช้จังหวะลากยาว ๆ
+เพื่อหั่นแตงกวาให้เร็วที่สุด",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,62,,"You should stay in the middle to move
+the fastest. But shift position quickly
+when you see an ""!"" to avoid a collision.","อยู่ตรงกลางจะช่วยให้เคลื่อนที่เร็วที่สุด
+แต่เมื่อเห็นเครื่องหมาย ! ให้รีบขยับ
+เพื่อหลบการชน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,63,,"Reduce your time by doing your part
+at just the right time. Watch the action
+closely so you can make a smooth
+trade-off each time.","ลดเวลาโดยทำหน้าที่ของคุณ
+ให้ถูกจังหวะพอดี
+ดูการเคลื่อนไหวให้ดี
+เพื่อผลัดกันได้อย่างราบรื่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,64,,"To get the higher coins, you and your
+partner must each repeatedly flap your
+wing at the same time.","ถ้าอยากได้เหรียญที่อยู่สูง
+คุณกับคู่หูต้องกระพือปีก
+ซ้ำ ๆ พร้อมกัน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,65,,"Blow as long and hard as you can. And
+make sure that your partner does the
+same!","เป่าให้นานและแรงที่สุด
+และอย่าลืมให้คู่หู
+ทำแบบเดียวกัน!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,66,,"The first player to press a button locks
+in aiming control. The second one then
+fires. [name1] has vertical control,
+and [name2] has horizontal control.","คนแรกที่กดปุ่มจะล็อกการเล็ง
+จากนั้นคนที่สองจึงยิง [name1]
+ควบคุมแนวตั้ง ส่วน [name2]
+ควบคุมแนวนอน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[name1] [name2],,minigame_advice,,
+US_MPD_095_MGADV_LZ,67,,"You can punch other players to get
+the ball away from them. And they can
+do the same to you!","ต่อยผู้เล่นอื่นเพื่อแย่งลูกบอล
+พวกเขาก็ต่อยแย่งจากคุณได้
+เหมือนกัน!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,68,,"Don't give up if you get sucked into
+the whirlpool. Just press [c3][e000][/c]
+repeatedly to attempt an escape.","อย่ายอมแพ้ถ้าถูกดูดเข้าไปในน้ำวน
+กด [c3][e000][/c] ซ้ำ ๆ
+เพื่อพยายามหนีออกมา",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[c3] [e000] [/c],,minigame_advice,,
+US_MPD_095_MGADV_LZ,69,,"Stars will appear one after another in
+the night sky. When you see one flash
+into place, be the first to claim it!","ดาวจะปรากฏขึ้นทีละดวง
+บนท้องฟ้ายามค่ำคืน เมื่อเห็นดาว
+ปรากฏวาบ ให้รีบคว้ามาเป็นคนแรก!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,70,,"Head for the goal by the least crowded
+path you can find. If you get stuck near
+someone, you'll waste time trying to
+make your way upward.","มุ่งหน้าไปยังเป้าหมายโดยเลือกทาง
+ที่คนไม่พลุกพล่าน หากติดอยู่ใกล้คนอื่น
+จะเสียเวลาปีนขึ้นไป
+",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,71,,"You must blow on the bomb at least
+a little, or else the bomb will blow up
+anyway! So blow just a little, even if
+the fuse is very short!","ต้องเป่าระเบิดอย่างน้อยสักหน่อย
+ไม่อย่างนั้นมันจะระเบิดอยู่ดี!
+เป่าเพียงเบา ๆ ก็ยังดี
+แม้ฟิวส์จะสั้นมากก็ตาม",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,72,,"Check your opponents' positions by
+looking at the map on the top screen.
+Try to close in on your opponent from
+the side, then shoot!","ดูแผนที่บนหน้าจอด้านบน
+เพื่อตรวจตำแหน่งคู่แข่ง
+พยายามเข้าประชิดจากด้านข้าง
+แล้วค่อยยิง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,73,,"It's purely a game of chance, since all
+the cards are facedown. Just hope
+that you don't pick a Bowser card!","เกมนี้ใช้ดวงล้วน ๆ เพราะไพ่
+คว่ำหน้าอยู่ทั้งหมด หวังว่า
+คุณจะไม่จั่วได้ไพ่ Bowser!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,74,,"The Piranha Plant's suction will slowly
+grow stronger. Tap [c3][e000][/c] repeatedly to
+struggle upward and avoid being
+swallowed.","แรงดูดของ Piranha Plant
+จะเพิ่มขึ้นเรื่อย ๆ กด [c3][e000][/c] ซ้ำ ๆ
+เพื่อดิ้นขึ้นมา
+และหนีไม่ให้ถูกกลืน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[c3] [e000] [/c],,minigame_advice,,
+US_MPD_095_MGADV_LZ,75,,"Even if you hit the wrong drum, you
+can try again if the [c1]music note[/c]
+hasn't reached you yet. Take your
+time, despite the danger!","ถึงจะตีกลองผิดใบ
+ก็ลองใหม่ได้ถ้า [c1]ตัวโน้ต[/c]
+ยังมาไม่ถึงตัวคุณ
+ค่อย ๆ ทำ แม้จะมีอันตราย!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[c1] [/c],,minigame_advice,,
+US_MPD_095_MGADV_LZ,76,,"Dry Bones will soon go nuts, throwing
+bones and berries. If you punch a
+berry, it'll fly at him and he'll be
+stunned. Use the time to hit a switch!","อีกไม่นาน Dry Bones จะคลั่ง
+และขว้างกระดูกกับผลเบอร์รี
+ต่อยผลเบอร์รีให้พุ่งใส่เขาจนชะงัก
+แล้วใช้จังหวะนั้นกดสวิตช์!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,77,,"Flying books and sliding bookcases
+will keep you on your toes. So keep
+an eye out for surprises on your way
+to fight Kamek.","หนังสือบินและชั้นหนังสือที่เลื่อนได้
+จะทำให้คุณต้องระวังตัว
+คอยมองหาสิ่งไม่คาดคิด
+ระหว่างทางไปสู้กับ Kamek",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,78,,"Bowser will stack his blocks in
+different ways, and each of his forms
+has a different attack. Study his
+forms carefully to know his attacks!","Bowser จะเรียงบล็อกหลายรูปแบบ
+และแต่ละร่างมีท่าโจมตีต่างกัน
+ศึกษาร่างของเขาให้ดี
+เพื่อจะได้รู้ทันการโจมตี!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,79,,"The next block to fall is displayed on
+the right of the screen. Stack the
+blocks strategically!","บล็อกก้อนถัดไปแสดงอยู่
+ทางขวาของหน้าจอ
+วางแผนเรียงบล็อกให้ดี!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,80,,"The next block to fall is displayed on
+the right of the screen. Stack the
+blocks strategically!","บล็อกก้อนถัดไปแสดงอยู่
+ทางขวาของหน้าจอ
+วางแผนเรียงบล็อกให้ดี!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,81,,"If you surround a Bob-omb with other
+blocks, it will explode, removing all the
+blocks around it. Use this power
+strategically!","ล้อม Bob-omb ด้วยบล็อกอื่น
+มันจะระเบิดและทำลายบล็อกรอบข้าง
+ใช้พลังนี้ให้เกิดประโยชน์
+อย่างมีกลยุทธ์!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,82,,"You can also drop blocks in your rival's
+area. If you destroy blocks there, you'll
+score those points, not your opponent.
+Use this tactic to boost your score!","คุณวางบล็อกลงในพื้นที่คู่แข่งได้ด้วย
+ถ้าทำลายบล็อกในนั้น คะแนนจะเป็นของคุณ
+ไม่ใช่คู่แข่ง ใช้วิธีนี้
+เพื่อเพิ่มคะแนนของตัวเอง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,83,,"Line up pieces of the same color to
+score more points. Keep an eye on
+your remaining time. And think about
+how the pieces best fit together!","เรียงชิ้นส่วนสีเดียวกัน
+เพื่อทำคะแนนเพิ่ม คอยดูเวลาที่เหลือ
+และคิดให้ดีว่าชิ้นส่วน
+ควรวางตรงไหน",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,84,,"Line up pieces of the same color to
+score more points. And be sure to
+toss pieces you don't need in the
+trash instead of trying to use them!","เรียงชิ้นส่วนสีเดียวกัน
+เพื่อทำคะแนนเพิ่ม อย่าลืมโยนชิ้นส่วน
+ที่ไม่ต้องการลงถังขยะ
+แทนที่จะฝืนใช้มัน!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,85,,"Clear the clock-shaped block to
+gain more time. Use this strategically!","ล้างบล็อกรูปนาฬิกา
+เพื่อเพิ่มเวลา ใช้ให้ถูกจังหวะ!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,86,,"Clear a block with an arrow on it to
+cause problems for your opponent!","ล้างบล็อกที่มีลูกศร
+เพื่อสร้างปัญหาให้คู่แข่ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,87,,"If 10 or more balls stick out past the
+outer blue ring, your game will end
+after two seconds, so be careful!","ถ้ามีลูกบอลยื่นพ้นวงแหวนสีน้ำเงิน
+ด้านนอกตั้งแต่ 10 ลูกขึ้นไป
+เกมจะจบในสองวินาที ระวังให้ดี!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,88,,"If you clear a lot of balls, you can
+cause trouble for your opponent!","ถ้าล้างลูกบอลได้จำนวนมาก
+คุณก็สร้างปัญหาให้คู่แข่งได้!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,89,,"You can make not only chains but also
+triangles and hexagons, so watch for
+every opportunity to connect tiny
+triangles of the same color.","นอกจากต่อเป็นแถวแล้ว ยังต่อเป็น
+สามเหลี่ยมหรือหกเหลี่ยมได้ด้วย
+มองหาโอกาสต่อสามเหลี่ยมเล็ก
+สีเดียวกันให้ครบ",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,,,minigame_advice,,
+US_MPD_095_MGADV_LZ,90,,"You can press [c3][e002][/c] to restart a problem.
+Take your time, because if you connect
+four or more triangles incorrectly,
+you'll lose time and have to start over!","กด [c3][e002][/c] เพื่อเริ่มโจทย์ใหม่ได้
+ค่อย ๆ คิดให้ดี เพราะถ้าต่อสามเหลี่ยม
+ผิดตั้งแต่สี่ชิ้นขึ้นไป
+คุณจะเสียเวลาและต้องเริ่มใหม่!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and control tokens verbatim; game context and UI width remain unverified.,data/US/mpd_095_mgadv_LZ.bin,[c3] [e002] [/c],,minigame_advice,,
+US_MPD_096_606INST_LZ,0,,"Level 1: Triangle
+Try to do it in [c4]1[/c] move!","ด่าน 1: สามเหลี่ยม
+ลองทำให้สำเร็จใน [c4]1[/c] ครั้ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,1,,"Level 2: Inverted Triangle 
+Try to do it in [c4]1[/c] move!","ด่าน 2: สามเหลี่ยมหัวกลับ
+ลองทำให้สำเร็จใน [c4]1[/c] ครั้ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,2,,"Level 3: Butterfly
+Try to do it in [c4]1[/c] move!","ด่าน 3: ผีเสื้อ
+ลองทำให้สำเร็จใน [c4]1[/c] ครั้ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,3,,"Level 4: Crescent Moon
+Try to do it in [c4]1[/c] move!","ด่าน 4: พระจันทร์เสี้ยว
+ลองทำให้สำเร็จใน [c4]1[/c] ครั้ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,4,,"Level 5: Spade
+Try to do it in [c4]1[/c] move!","ด่าน 5: โพดำ
+ลองทำให้สำเร็จใน [c4]1[/c] ครั้ง!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,5,,"Level 6: Heart
+Try to do it in [c4]2[/c] moves or fewer!","ด่าน 6: หัวใจ
+ลองทำให้สำเร็จใน [c4]2[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,6,,"Level 7: Jellyfish
+Try to do it in [c4]2[/c] moves or fewer!","ด่าน 7: แมงกะพรุน
+ลองทำให้สำเร็จใน [c4]2[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,7,,"Level 8: Orchid
+Try to do it in [c4]2[/c] moves or fewer!","ด่าน 8: กล้วยไม้
+ลองทำให้สำเร็จใน [c4]2[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,8,,"Level 9: Diamond
+Try to do it in [c4]2[/c] moves or fewer!","ด่าน 9: เพชร
+ลองทำให้สำเร็จใน [c4]2[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,9,,"Level 10: Arrow
+Try to do it in [c4]2[/c] moves or fewer!","ด่าน 10: ลูกศร
+ลองทำให้สำเร็จใน [c4]2[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,10,,"Level 11: Mexican Hat
+Try to do it in [c4]3[/c] moves or fewer!","ด่าน 11: หมวกเม็กซิกัน
+ลองทำให้สำเร็จใน [c4]3[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,11,,"Level 12: Big Heart
+Try to do it in [c4]3[/c] moves or fewer!","ด่าน 12: หัวใจดวงใหญ่
+ลองทำให้สำเร็จใน [c4]3[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,12,,"Level 13: Hourglass
+Try to do it in [c4]3[/c] moves or fewer!","ด่าน 13: นาฬิกาทราย
+ลองทำให้สำเร็จใน [c4]3[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,13,,"Level 14: Pyramid
+Try to do it in [c4]3[/c] moves or fewer!","ด่าน 14: พีระมิด
+ลองทำให้สำเร็จใน [c4]3[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,14,,"Level 15: Mountain
+Try to do it in [c4]3[/c] moves or fewer!","ด่าน 15: ภูเขา
+ลองทำให้สำเร็จใน [c4]3[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,15,,"Level 16: Turtle
+Try to do it in [c4]4[/c] moves or fewer!","ด่าน 16: เต่า
+ลองทำให้สำเร็จใน [c4]4[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,16,,"Level 17: Glass
+Try to do it in [c4]4[/c] moves or fewer!","ด่าน 17: แก้ว
+ลองทำให้สำเร็จใน [c4]4[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,17,,"Level 18: Face
+Try to do it in [c4]4[/c] moves or fewer!","ด่าน 18: ใบหน้า
+ลองทำให้สำเร็จใน [c4]4[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,18,,"Level 19: Crown
+Try to do it in [c4]4[/c] moves or fewer!","ด่าน 19: มงกุฎ
+ลองทำให้สำเร็จใน [c4]4[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,19,,"Level 20: Flying Bat
+Try to do it in [c4]4[/c] moves or fewer!","ด่าน 20: ค้างคาวบิน
+ลองทำให้สำเร็จใน [c4]4[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,20,,"Level 21: Vase
+Try to do it in [c4]5[/c] moves or fewer!","ด่าน 21: แจกัน
+ลองทำให้สำเร็จใน [c4]5[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,21,,"Level 22: Balance
+Try to do it in [c4]5[/c] moves or fewer!","ด่าน 22: สมดุล
+ลองทำให้สำเร็จใน [c4]5[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,22,,"Level 23: Pinwheel
+Try to do it in [c4]5[/c] moves or fewer!","ด่าน 23: กังหันลม
+ลองทำให้สำเร็จใน [c4]5[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
+US_MPD_096_606INST_LZ,23,,"Level 24: Tropical Fish
+Try to do it in [c4]5[/c] moves or fewer!","ด่าน 24: ปลาเขตร้อน
+ลองทำให้สำเร็จใน [c4]5[/c] ครั้ง ครั้งหรือน้อยกว่า!",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve source line-break count and move-count token; puzzle rules and UI width remain unverified.,data/US/mpd_096_606inst_LZ.bin,[c4] [/c],,puzzle_level_instruction,,
