@@ -2301,3 +2301,171 @@ to extend lead
 ","[c3][e000][/c] กดรัว ๆ
 เพื่อดันไส้ดินสอ
 ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,29,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,30,,"[c3]Stylus[/c]
+Touch and hold to
+drag a path piece","[c3]สไตลัส[/c]
+แตะค้างแล้วลาก
+ชิ้นส่วนเส้นทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,31,,"[c3]Stylus[/c]
+Let go to drop a
+path piece","[c3]สไตลัส[/c]
+ปล่อยเพื่อวาง
+ชิ้นส่วนเส้นทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,32,,"[c3]Microphone[/c]
+Blow out the
+candles","[c3]ไมโครโฟน[/c]
+เป่าให้เทียน
+ดับ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,33,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,34,,"[c3][e006][/c] Choose ropes
+[c3][e000][/c] Grab/Let go","[c3][e006][/c] เลือกเชือก
+[c3][e000][/c] จับ/ปล่อย",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,35,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,36,,"[c3][e006][/c] Choose lines
+[c3][e000][/c] Grab","[c3][e006][/c] เลือกเส้น
+[c3][e000][/c] จับ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,37,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,38,,"[c3][e006][/c] Move
+
+","[c3][e006][/c] เคลื่อนที่
+
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,39,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,40,,"[c3][e006][e01a][e019][/c]
+[c3][e003][e000][/c]
+Steer","[c3][e006][e01a][e019][/c]
+[c3][e003][e000][/c]
+บังคับทิศทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [e01a] [e019] [/c] [c3] [e003] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,41,,"[c3]Stylus[/c]
+Wind clockwise","[c3]สไตลัส[/c]
+หมุนตามเข็มนาฬิกา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,42,,"[c3][e006][e01a][e019][/c] Move
+[c3][e000][/c] Press rapidly to
+get past others","[c3][e006][e01a][e019][/c] เคลื่อนที่
+[c3][e000][/c] กดรัว ๆ เพื่อ
+แซงผู้เล่นอื่น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [e01a] [e019] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,43,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,44,,"[c3]Stylus[/c]
+Tap a pose","[c3]สไตลัส[/c]
+แตะเลือกท่า",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,45,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,46,,"[c3][e006][/c] Move
+
+","[c3][e006][/c] เคลื่อนที่
+
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,47,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,48,,"[c3][e006][/c] Move
+
+","[c3][e006][/c] เคลื่อนที่
+
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,49,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,50,,"[c3][e006][/c] Move
+[c3][e000][/c] Jump
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,51,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,52,,"[c3][e006][/c] Move
+[c3][e000][/c] Jump
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,53,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,54,,"[c3][e006][/c] Move
+
+","[c3][e006][/c] เคลื่อนที่
+
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,55,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,56,,"[c3]Stylus[/c]
+Touch and hold to
+drag a candy","[c3]สไตลัส[/c]
+แตะค้างแล้วลาก
+ลูกกวาด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,57,,"[c3]Stylus[/c]
+Let go to drop a
+candy","[c3]สไตลัส[/c]
+ปล่อยเพื่อวาง
+ลูกกวาด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,58,,"[c3][e006][/c] Move
+","[c3][e006][/c] เคลื่อนที่
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,59,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,60,,"[c3][e006][/c] Move
+[c3][e000][/c] Accelerate
+[c3][e001][/c] Brake","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] เร่งความเร็ว
+[c3][e001][/c] เบรก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c] [c3] [e001] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,61,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,62,,"[c3]Stylus[/c]
+Spin sprayer
+","[c3]สไตลัส[/c]
+หมุนหัวฉีด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,63,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,64,,"[c3][e006][/c] Move
+[c3][e000][/c] Jump
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,65,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,66,,"[c3][e006][/c]
+[c3][e000][e001][e002][e003][/c]
+Shift view","[c3][e006][/c]
+[c3][e000][e001][e002][e003][/c]
+เปลี่ยนมุมมอง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [e001] [e002] [e003] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,67,,"[c3]Stylus[/c]
+Tap a Boo to
+catch it","[c3]สไตลัส[/c]
+แตะ Boo เพื่อ
+จับมัน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,68,,"[c3][e006][/c]
+[c3][e000][e001][e002][e003][/c]
+Shift view","[c3][e006][/c]
+[c3][e000][e001][e002][e003][/c]
+เปลี่ยนมุมมอง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [e001] [e002] [e003] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,69,,"[c3]Stylus[/c]
+Tap a Boo to
+catch it","[c3]สไตลัส[/c]
+แตะ Boo เพื่อ
+จับมัน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,70,,"[c3]Stylus[/c]
+Drag and drop
+food on the belt","[c3]สไตลัส[/c]
+ลากแล้วปล่อย
+อาหารบนสายพาน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,71,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,72,,"[c3][e006][/c] Move
+[c3][e000][/c] Jump
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,73,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,74,,"[c3][e006][e01a][e019][/c]
+Select a track
+","[c3][e006][e01a][e019][/c]
+เลือกเส้นทาง
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [e01a] [e019] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,75,,"[c3][e000][/c]
+Press rapidly to
+speed up","[c3][e000][/c]
+กดรัว ๆ เพื่อ
+เร่งความเร็ว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,76,,"[c3][e006][e01a][e019][/c]
+Select a track
+","[c3][e006][e01a][e019][/c]
+เลือกเส้นทาง
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [e01a] [e019] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,77,,"[c3][e000][e001][e002][e003][/c]
+Press rapidly to
+dash","[c3][e000][e001][e002][e003][/c]
+กดรัว ๆ เพื่อ
+พุ่งตัว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [e001] [e002] [e003] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,78,,"[c3]Stylus[/c]
+Throw a chip
+","[c3]สไตลัส[/c]
+ขว้างชิป
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; control mapping, UI context and width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
