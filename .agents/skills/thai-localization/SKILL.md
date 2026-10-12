@@ -12,4 +12,6 @@ description: Thai translation accuracy, story fidelity, grammar, terminology, ga
 6. Check `ต้ ตุ สำ น้ำ ภาษา ปัญหา ผู้ใหญ่ ม้า` plus game-specific strings with emulator screenshots and long text, different screens, sizes, contrast. Compare with known-good candidate on identical scene; keep G3 PENDING without real evidence.
 7. Micro-patch 1–5 strings before full bank; preserve rollback and never overwrite stable baseline.
 
+8. Use six-phase guidance `docs/SIX_PHASE_CONTEXT_QA_TH.md` when planning project milestones: contextual QA is continuous across Phase 1–6, including in-emulator recheck, not deferred to final release. To mark a row `REVIEWED`, evaluate meaning, scene/speaker, Thai grammar, terminology, continuity, and technical tokens/length; missing credible context => `NEEDS_CONTEXT`. Keep `DRAFT / NEEDS_CONTEXT / REVIEWED` independent from `INJECTED` and logged `IN_GAME_VERIFIED`; don't infer a 50/70/100% reviewed checkpoint from draft counts. The ASCII injection smoke candidate is a technical experiment, not Thai QA completion.
+
 Return only changed IDs, translation rationale where ambiguous, glyph/diff observations, QA evidence, unresolved issues and next action.
