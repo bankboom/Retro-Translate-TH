@@ -835,3 +835,117 @@ US_MPD_030_PARTY_MODE_LZ,85,,[name1]![w],[name1]![w],DRAFT,NOT_INJECTED,"DRAFT; 
 US_MPD_030_PARTY_MODE_LZ,86,,"[name1] and [name2]! Yes, it's the
 [team1] team that wins![w]","[name1] และ [name2]! ใช่แล้ว
 ทีม [team1] เป็นผู้ชนะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[name1] [name2] [team1] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,87,,"Wow! More than one player got the top
+number of [c4]Stars[/c] and [c3]coins[/c]![w]","ว้าว! มีผู้เล่นมากกว่าหนึ่งคนที่ได้
+จำนวน[c4]ดาว[/c]และ[c3]เหรียญ[/c]สูงสุด![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,88,,"It comes down to a final face-off with
+[c3]Dice Blocks[/c]![w]","ต้องตัดสินกันรอบสุดท้ายด้วย
+[c3]บล็อกลูกเต๋า[/c]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,89,,"The player who hits the highest number
+wins! OK, let's do this![w]","ใครทอยได้แต้มสูงสุด
+จะเป็นผู้ชนะ! เอาละ ลุยกันเลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,90,,[name1] wins![w],[name1] ชนะ![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[name1] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,91,,"So back to the finale! This party's
+[c4]Superstar[/c] is...[w]","กลับมาลุ้นรอบสุดท้ายกันต่อ!
+[c4]ซูเปอร์สตาร์[/c] ของปาร์ตี้นี้คือ...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,92,,"Wow! Both teams have the same number
+of [c4]Stars[/c] and [c3]coins[/c]![w]","ว้าว! ทั้งสองทีมมีจำนวน
+[c4]ดาว[/c]และ[c3]เหรียญ[/c]เท่ากัน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,93,,"It comes down to a final face-off with
+[c3]Dice Blocks[/c]![w]","ต้องตัดสินกันรอบสุดท้ายด้วย
+[c3]บล็อกลูกเต๋า[/c]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,94,,"The team who knocks out the highest
+number wins! OK, give 'em a good tap![w]","ทีมที่ทอยได้แต้มสูงสุดจะชนะ!
+เอาละ แตะให้แรง ๆ เลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,95,,"And there you have it! The
+[team1] team is the winner![w]","และผลก็ออกมาแล้ว!
+ทีม [team1] เป็นผู้ชนะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[team1] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,96,,"So back to the finale! This party's
+[c4]Superstar[/c] team is...[w]","กลับมาลุ้นรอบสุดท้ายกันต่อ!
+ทีม[c4]ซูเปอร์สตาร์[/c]ของปาร์ตี้นี้คือ...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,97,,Items used,ใช้ไอเท็ม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,98,,Spaces traveled,เดินทางผ่านช่อง,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,99,,Blue Spaces landed on,ตกช่องสีน้ำเงิน,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,100,,Red Spaces landed on,ตกช่องสีแดง,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,101,,Green Spaces landed on,ตกช่องสีเขียว,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,102,,Hex traps set,วางกับดัก Hex,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,103,,Friends made,ผูกมิตรได้,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,104,,Minigames won,ชนะมินิเกม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,105,,Change in [c4]Star[/c] count for all players,จำนวน[c4]ดาว[/c]ที่เปลี่ยนไปของผู้เล่นทุกคน,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,106,,Change in [c3]coin[/c] count for all players,จำนวน[c3]เหรียญ[/c]ที่เปลี่ยนไปของผู้เล่นทุกคน,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,107,,Bowser Spaces landed on,ตกช่อง Bowser,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,108,,Minigame Star,ดาวมินิเกม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,109,,Item Star,ดาวไอเท็ม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,110,,Green Star,ดาวช่องเขียว,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,111,,Running Star,ดาวนักเดินทาง,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,112,,Hex Star,ดาว Hex,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,113,,Friendship Star,ดาวมิตรภาพ,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_results_ui,,
+US_MPD_031_BSYS_LZ,0,,Adjust a COM character's skill.,ปรับระดับความสามารถของตัวละคร COM,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,1,,Weak,ง่าย,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,2,,Normal,ปกติ,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,3,,Hard,ยาก,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,4,,Very Hard,ยากมาก,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,5,,Select an item.,เลือกไอเท็ม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,6,,Choose a different set of minigames.,เลือกชุดมินิเกมชุดอื่น,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,7,,End the party?,จบปาร์ตี้ไหม?,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,8,,Really end the party?,ต้องการจบปาร์ตี้จริง ๆ ไหม?,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,9,,"Your midgame progress has been saved.
+You can resume playing from that point
+at a later time. Stop playing for now?","บันทึกความคืบหน้าระหว่างเกมแล้ว
+คราวหน้าคุณจะเล่นต่อจากจุดนี้ได้
+พักการเล่นไว้ก่อนหรือไม่?",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,10,,"Your progress was not saved, so you
+cannot continue later. Would you like
+to quit?","ไม่ได้บันทึกความคืบหน้า จึงเล่นต่อ
+ภายหลังไม่ได้ ต้องการ
+ออกจากเกมไหม?",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,11,,Let's review the board rules. ,มาทบทวนกติกาบนกระดานกัน,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,12,,"On this board, you must trade 20 coins 
+for a Star. Keep an eye on the plants.
+Some will warp you elsewhere or give you
+coins. But some will take them too!","บนกระดานนี้ คุณต้องแลก 20 เหรียญ
+เพื่อรับดาว ระวังต้นไม้ให้ดี
+บางต้นจะย้ายคุณไปที่อื่นหรือให้เหรียญ
+แต่บางต้นก็จะเอาเหรียญไปด้วย!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,13,,"On this board, you must trade coins to
+the Musical Notes. Certain notes will
+ask for a specific number of coins. So
+you may need 5, 10, 15, 20, or 30 coins!","บนกระดานนี้ คุณต้องแลกเหรียญ
+ให้ Musical Note แต่ละตัวจะกำหนด
+จำนวนเหรียญที่ต้องจ่าย คุณจึงอาจต้องใช้
+5, 10, 15, 20 หรือ 30 เหรียญ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,14,,"On this board, you can trade your coins
+for as many Stars as you can afford. So
+earn as many coins as you can on the
+way to the top. Avoid rolling barrels,
+because they'll bash coins out of your bank!","บนกระดานนี้ คุณแลกเหรียญ
+เพื่อรับดาวได้มากเท่าที่จ่ายไหว
+ระหว่างทางขึ้นยอด เก็บเหรียญให้ได้
+มากที่สุด ระวังถังกลิ้งด้วย เพราะมันจะ
+กระแทกเหรียญออกจากกระเป๋าคุณ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,15,,"On this board, the Star will always be in one
+of three magic jars that move around the
+library. Open as many as you can, at a cost
+of 10 coins per jar. Watch out, though!
+Some jars are dangerous decoys!","บนกระดานนี้ ดาวจะอยู่ในโถเวทมนตร์
+หนึ่งในสามใบที่เคลื่อนที่ไปมาในห้องสมุด
+เปิดโถให้ได้มากที่สุด โดยเสีย 10 เหรียญ
+ต่อโถ แต่ระวังไว้ด้วย! บางโถเป็น
+โถหลอกที่อันตราย!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,16,,"On this board, you must trade 20 coins
+for a Star. The pinball plunger will send
+you into the dangerous Bowser Zone.
+Every now and then, though, it will send
+you into the wonderful Star Zone!","บนกระดานนี้ คุณต้องแลก 20 เหรียญ
+เพื่อรับดาว ตัวดีดพินบอลจะส่งคุณ
+เข้าเขต Bowser อันตราย
+แต่บางครั้งมันก็จะส่งคุณ
+ไปยังเขตดาวสุดวิเศษ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,17,,Want to hear the board description?,ต้องการฟังคำอธิบายกระดานไหม?,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,18,,Want to hear the description again?,ต้องการฟังคำอธิบายอีกครั้งไหม?,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_board_rules_ui,,
+US_MPD_031_BSYS_LZ,19,,"Give those Dice Blocks a tap to see
+who goes first![w]","แตะบล็อกลูกเต๋าเพื่อดูว่าใคร
+จะได้เดินก่อน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,[w],,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,20,,Here's the turn order!,นี่คือลำดับเทิร์น!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,21,,First up is [name1]! ,คนแรกคือ [name1]!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,[name1],,party_mode_settings_ui,,
+US_MPD_031_BSYS_LZ,22,,Second is [name2]! ,คนที่สองคือ [name2]!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,[name2],,party_mode_settings_ui,,
