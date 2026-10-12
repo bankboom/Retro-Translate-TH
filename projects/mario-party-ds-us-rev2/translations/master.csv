@@ -949,3 +949,137 @@ who goes first![w]","แตะบล็อกลูกเต๋าเพื่�
 US_MPD_031_BSYS_LZ,20,,Here's the turn order!,นี่คือลำดับเทิร์น!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,,,party_mode_settings_ui,,
 US_MPD_031_BSYS_LZ,21,,First up is [name1]! ,คนแรกคือ [name1]!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,[name1],,party_mode_settings_ui,,
 US_MPD_031_BSYS_LZ,22,,Second is [name2]! ,คนที่สองคือ [name2]!,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; dynamic token semantics, game terminology, scene and UI width remain unverified.",data/US/mpd_031_bsys_LZ.bin,[name2],,party_mode_settings_ui,,
+US_MPD_040_BMAP_00_LZ,0,,"So, you want to learn how to play on the
+party boards? Then let's get started![w]","อยากเรียนรู้วิธีเล่นบน
+กระดานปาร์ตี้ใช่ไหม? งั้นเริ่มกันเลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,1,,"At the start of each game, you'll decide
+the turn order...[w]","ตอนเริ่มเกมแต่ละรอบ คุณจะเลือก
+ลำดับเทิร์นก่อน...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,2,,"...by hitting Dice Blocks! The player with
+the highest number goes first.[w]","...ด้วยการแตะบล็อกลูกเต๋า! คนที่ได้
+แต้มสูงสุดจะได้เล่นก่อน[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,3,,And then you can start the party![w],จากนั้นก็เริ่มปาร์ตี้ได้เลย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,4,,"Each turn, players hit the Dice Block to
+see how many spaces they can move.[w]","ในแต่ละเทิร์น ผู้เล่นจะแตะบล็อกลูกเต๋า
+เพื่อดูว่าจะเดินได้กี่ช่อง[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,5,,"In this case, Mario moves one space.[w]",ในกรณีนี้ มาริโอเดินหนึ่งช่อง[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,6,,"There are many kinds of spaces. Each
+kind has a specific effect.[w]","มีช่องหลายชนิด แต่ละชนิด
+มีผลแตกต่างกัน[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,7,,"This is a [c2]Blue Space[/c]. You'll get [c3]3 coins[/c] if
+you land on one.[w]","นี่คือ [c2]ช่องสีน้ำเงิน[/c] ถ้าตกช่องนี้
+จะได้รับ [c3]3 เหรียญ[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,8,,"This is a [c1]Red Space[/c]. If you land here,
+you'll lose [c3]3 coins[/c].[w]","นี่คือ [c1]ช่องสีแดง[/c] ถ้าตกช่องนี้
+คุณจะเสีย [c3]3 เหรียญ[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c1] [/c] [c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,9,,"This is a [c3]Friend Space[/c]. You'll get [c3]5 coins[/c]
+if you land on one.[w]","นี่คือ [c3]ช่องเพื่อน[/c] ถ้าตกช่องนี้
+คุณจะได้รับ [c3]5 เหรียญ[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,10,,"And you'll choose a player who will also
+get [c3]5 coins[/c]![w]","และคุณยังเลือกผู้เล่นอีกคน
+ให้ได้รับ [c3]5 เหรียญ[/c] ได้ด้วย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,11,,"And what's this? A [c5]Bowser Space[/c]! If you
+land on one, Bowser will make mischief![w]","นี่มันอะไร? [c5]ช่อง Bowser[/c] นี่นา! ถ้าตกช่องนี้
+Bowser จะก่อเรื่องวุ่นวาย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,12,,"Now that's a [c3]Green Space[/c], which triggers
+all kinds of crazy events! Good and bad![w]","นั่นคือ [c3]ช่องสีเขียว[/c] ซึ่งจะทำให้เกิด
+เหตุการณ์สุดป่วนได้สารพัด ทั้งดีและร้าย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,13,,"The crazy events are different on each
+board. Have fun seeing what they are![w]","เหตุการณ์สุดป่วนจะแตกต่างกันไป
+ในแต่ละกระดาน ลองดูให้สนุกนะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,14,,"The turn ends after all players have
+made their moves.[w]","เทิร์นจะจบเมื่อผู้เล่นทุกคน
+เดินครบแล้ว[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,15,,"And that's when everyone will compete
+in a minigame![w]","จากนั้นทุกคนจะแข่งขัน
+ในมินิเกม![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,16,,"This is an [c3]Item Shop[/c], where you can buy
+all sorts of useful items.[w]","นี่คือ [c3]ร้านไอเท็ม[/c] ที่คุณซื้อ
+ไอเท็มมีประโยชน์ได้สารพัด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,17,,These blocks hold all sorts of surprises.[w],บล็อกเหล่านี้มีของเซอร์ไพรส์มากมาย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,18,,"Let's look at [c3]Hexes[/c]! They're a fun way to
+make trouble for other players![w]","มาดู [c3]กับดัก Hex[/c] กัน! ใช้มัน
+แกล้งผู้เล่นคนอื่นได้สนุกเลย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,19,,"[c5]Hexes[/c] aren't like standard items that
+cause an effect right away.[w]","[c5]กับดัก Hex[/c] ไม่เหมือนไอเท็มทั่วไป
+ที่ออกฤทธิ์ทันที[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,20,,"Instead, you place a [c5]Hex[/c] on a space to
+trip up other players at a later time![w]","แต่คุณวาง [c5]กับดัก Hex[/c] ไว้บนช่องได้
+เพื่อเล่นงานคนอื่นในภายหลัง![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,21,,"You can place a [c5]Hex[/c] anywhere within
+five spaces of your current location.[w]","คุณวาง [c5]กับดัก Hex[/c] ได้ทุกช่อง
+ภายในระยะห้าช่องจากตำแหน่งปัจจุบัน![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,22,,"If players later land on a [c5]Hexed Space[/c],
+something bad will happen.[w]","ถ้าผู้เล่นมาตก [c5]ช่องติดกับดัก Hex[/c]
+ในภายหลัง ก็จะเจอเรื่องไม่ดี![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,23,,"You can get a Hex by passing through a
+[c3]Hex Area[/c].[w]","คุณรับกับดัก Hex ได้เมื่อเดินผ่าน
+[c3]พื้นที่ Hex[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,24,,"There are many [c5]Hexes[/c], which means you
+can trip up others in many ways![w]","มี [c5]กับดัก Hex[/c] หลายแบบ จึงแกล้ง
+ผู้เล่นคนอื่นได้หลายวิธี![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,25,,"Make the most of [c5]Hexes[/c] by placing them
+where they'll cause the most trouble![w]","วาง [c5]กับดัก Hex[/c] ในจุดที่จะ
+สร้างความปั่นป่วนได้มากที่สุด![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,26,,"Next, let's look at [c5]minigames[/c].[w]",ต่อไป มาดู[c5]มินิเกม[/c]กัน![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,27,,"After all players have moved and the
+turn ends, everyone plays a [c5]minigame[/c].[w]","เมื่อผู้เล่นทุกคนเดินครบและจบเทิร์น
+ทุกคนจะได้เล่น[c5]มินิเกม[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,28,,"The four panels shown on the top
+screen are the players' [c5]Status Panels[/c].[w]","แผงทั้งสี่บนหน้าจอด้านบน
+คือ [c5]แผงสถานะ[/c] ของผู้เล่น[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c5] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,29,,"Their color will turn [c2]blue[/c] or [c1]red[/c], based
+on where each player lands.[w]","สีแผงจะเปลี่ยนเป็น[c2]น้ำเงิน[/c]หรือ[c1]แดง[/c]
+ตามช่องที่ผู้เล่นแต่ละคนตก[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c1] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,30,,But if you land on a [c3]Green Space[/c]...[w],แต่ถ้าคุณตก[c3]ช่องสีเขียว[/c]...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,31,,"...the Status Panel can turn either [c2]blue[/c]
+or [c1]red[/c].[w]","...แผงสถานะอาจเปลี่ยนเป็น[c2]น้ำเงิน[/c]
+หรือ[c1]แดง[/c]ก็ได้[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c1] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,32,,"Players are divided into [c2]blue[/c] and [c1]red[/c]
+teams based on their panel colors.[w]","ระบบจะแบ่งผู้เล่นเป็นทีม[c2]น้ำเงิน[/c]
+และทีม[c1]แดง[/c]ตามสีของแผง[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c1] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,33,,"Then the [c2]blue[/c] and [c1]red[/c] teams face off in
+a [c3]2-vs.-2 minigame[/c].[w]","จากนั้นทีม[c2]น้ำเงิน[/c]กับทีม[c1]แดง[/c]จะแข่งกัน
+ใน[c3]มินิเกม 2 ต่อ 2[/c][w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c1] [/c] [c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,34,,"If one panel is [c2]blue[/c] and the other three
+are [c1]red[/c]...[w]","ถ้ามีแผงหนึ่งเป็น[c2]น้ำเงิน[/c]
+และอีกสามแผงเป็น[c1]แดง[/c]...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [c1] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,35,,"Or if one panel is [c1]red[/c] and the other
+three are [c2]blue[/c]...[w]","หรือถ้ามีแผงหนึ่งเป็น[c1]แดง[/c]
+และอีกสามแผงเป็น[c2]น้ำเงิน[/c]...[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c1] [/c] [c2] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,36,,Everyone will play a [c3]1-vs.-3 minigame[/c].[w],ทุกคนจะได้เล่น[c3]มินิเกม 1 ต่อ 3[/c][w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,37,,"After players are divided up, they play
+a random minigame.[w]","เมื่อแบ่งทีมเรียบร้อยแล้ว ทุกคนจะได้เล่น
+มินิเกมแบบสุ่ม[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,38,,"The minigame is selected by the
+Minigame Wheel.[w]","มินิเกมจะถูกเลือกโดย
+วงล้อมินิเกม[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,39,,"Try to get [c3]coins[/c] by winning minigames...
+and finding them on the board![w]","ลองชนะมินิเกมเพื่อรับ[c3]เหรียญ[/c]...
+และหาเหรียญบนกระดานด้วย![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c3] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,40,,"The goal of board play is to collect the
+most [c4]Stars[/c] by the end of the game.[w]","เป้าหมายของการเล่นบนกระดานคือเก็บ
+[c4]ดาว[/c]ให้ได้มากที่สุดก่อนจบเกม[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c4] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,41,,"So make your way across the board to
+the space that holds a [c4]Star[/c]![w]","เดินข้ามกระดานไปยังช่องที่มี
+[c4]ดาว[/c]อยู่![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c4] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,42,,"In a nutshell, that's how you play on the
+boards![w]","สรุปแล้วก็เล่นบนกระดาน
+ได้แบบนี้แหละ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,43,,"The game ends when all the turns are
+over.[w]","เกมจะจบเมื่อเล่นครบ
+ทุกเทิร์น[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,44,,"If you set up a match with [c2]Bonus Stars[/c],
+you'll see who wins them at the end.[w]","ถ้าตั้งค่าให้มี[c2]ดาวโบนัส[/c]
+ตอนท้ายเกมจะประกาศผู้ชนะ[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,45,,"Players receive an extra [c4]Star[/c] for every
+bonus they earn.[w]","ผู้เล่นจะได้รับ[c4]ดาว[/c]เพิ่มหนึ่งดวง
+ต่อโบนัสที่ชนะ[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c4] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,46,,"In all, there are six kinds of bonuses.[w]",มีโบนัสทั้งหมดหกชนิด[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,47,,But only three kinds will be awarded.[w],แต่จะมอบให้เพียงสามชนิดเท่านั้น[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,48,,"Try lots of strategies as you play! You
+might just win a [c2]Bonus Star[/c]![w]","ลองใช้กลยุทธ์หลาย ๆ แบบระหว่างเล่น!
+คุณอาจคว้า[c2]ดาวโบนัส[/c]ไปก็ได้![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[c2] [/c] [w],,board_tutorial_ui,,
+US_MPD_040_BMAP_00_LZ,49,,"The winner is announced at the very end
+of the party.[w]","จะประกาศผู้ชนะในช่วงท้ายสุด
+ของปาร์ตี้[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; board rules context, terminology and UI width remain unverified.",data/US/mpd_040_bmap_00_LZ.bin,[w],,board_tutorial_ui,,
