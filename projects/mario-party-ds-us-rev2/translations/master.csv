@@ -2081,3 +2081,223 @@ the goal. Some platforms may rotate or
 disappear after some time.","ปีนเฟืองและแท่น
 ไปให้ถึงเป้าหมาย
 บางแท่นหมุนหรือหายไปเมื่อเวลาผ่านไป",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,87,,"All players take turns blowing on the
+bomb fuse, hoping to make the bomb
+blow up for the next player. If you're
+caught in a blast, you're out!","ผู้เล่นผลัดกันเป่าฟิวส์ระเบิด
+หวังให้ระเบิดดังปังใส่คนถัดไป
+ถ้าโดนแรงระเบิด
+คุณจะตกรอบ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,88,,"Run around on the world globe, trying
+to score the most blast hits on your
+opponents.","วิ่งวนรอบลูกโลก
+พยายามยิงคู่แข่งให้โดนระเบิด
+ให้ได้มากที่สุด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,89,,"In a game of chance, select a card in
+each round to win the chips shown.
+If you pick a Bowser card, however,
+you'll lose half your stack.","เกมเสี่ยงดวง เลือกไพ่ในแต่ละรอบ
+เพื่อรับเหรียญตามจำนวนที่แสดง
+แต่ถ้าเลือกไพ่ Bowser
+คุณจะเสียเหรียญครึ่งหนึ่ง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,90,,"Catch the [c1]bomb seeds[/c] that the Piranha
+Plant spits out, then drop them back in
+the boss's open mouth!","รับ [c1]เมล็ดระเบิด[/c] ที่ Piranha Plant
+พ่นออกมา แล้วโยนกลับเข้าไป
+ในปากของบอสที่อ้าอยู่!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c1] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,91,,"Memorize the tune that Hammer Bro
+plays, then repeat it before his
+[c1]music notes[/c] strike you.","จำทำนองที่ Hammer Bro เล่นให้ดี
+แล้วเล่นตามก่อนที่
+[c1]ตัวโน้ต[/c] จะพุ่งมาโดนคุณ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c1] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,92,,"Search for the fire icons that appear
+above the magic switches, then
+ground-pound them all to release
+a [c1]fiery blast[/c] at Dry Bones!","หาไอคอนไฟที่ปรากฏเหนือ
+สวิตช์เวทมนตร์ แล้วกระทืบพื้น
+ให้ครบเพื่อปล่อย [c1]เปลวไฟ[/c]
+ใส่ Dry Bones!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c1] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,93,,"Survive a flight down Kamek's library
+hallway, then take on the henchman.
+Shoot [c1]ink blobs[/c] at Kamek's face until
+he's totally inky!","เอาตัวรอดขณะบินผ่านทางเดิน
+ในห้องสมุดของ Kamek แล้วสู้กับ
+ลูกสมุน ยิง [c1]หยดหมึก[/c] ใส่หน้า Kamek
+จนเปื้อนหมึกไปหมด!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c1] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,94,,"Avoid Bowser's attacks after he
+transforms into Blockhead Bowser,
+then wait for your chance to strike
+his golden [c1]weak spot[/c]!","หลบการโจมตีของ Bowser หลังจาก
+เขาแปลงร่างเป็น Blockhead Bowser
+แล้วรอจังหวะโจมตี
+[c1]จุดอ่อน[/c]สีทอง!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c1] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,95,,"Connect two or more of a similar block
+type to clear them. Use Thwomps that
+occasionally fall to squash the blocks
+down to half size.","ต่อบล็อกชนิดเดียวกันอย่างน้อยสองก้อน
+เพื่อล้างออก ใช้ Thwomp ที่ตกลงมา
+เป็นครั้งคราวบดบล็อก
+ให้เหลือครึ่งขนาด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,96,,"Connect two or more of a similar block
+type to clear them. Whoever reaches
+100 points first wins.","ต่อบล็อกชนิดเดียวกันอย่างน้อยสองก้อน
+เพื่อล้างออก ใครทำได้ถึง
+100 คะแนนก่อนเป็นผู้ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,97,,"Connect three or more of a similar block
+type to clear them. Fully surround a
+Bob-omb to blow it up and obliterate
+all surrounding blocks.","ต่อบล็อกชนิดเดียวกันอย่างน้อยสามก้อน
+เพื่อล้างออก ล้อม Bob-omb ให้ครบ
+เพื่อให้ระเบิดและทำลาย
+บล็อกทั้งหมดรอบข้าง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,98,,"Connect three or more of a similar block
+type to clear them. Whoever reaches
+100 points first wins.","ต่อบล็อกชนิดเดียวกันอย่างน้อยสามก้อน
+เพื่อล้างออก ใครทำได้ถึง
+100 คะแนนก่อนเป็นผู้ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,99,,"Grab the pieces on the conveyor belt
+that help you fully fill your field. Put
+any that you don't want in the trash.","หยิบชิ้นส่วนจากสายพานที่ช่วยเติม
+พื้นที่ของคุณให้เต็ม
+ทิ้งชิ้นที่ไม่ต้องการลงถังขยะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,100,,"Grab the pieces on the conveyor belt
+that help you fully fill your field. Put
+any that you don't want in the trash.
+The player with the most points wins.","หยิบชิ้นส่วนจากสายพานที่ช่วยเติม
+พื้นที่ของคุณให้เต็ม
+ทิ้งชิ้นที่ไม่ต้องการลงถังขยะ
+ผู้เล่นที่ได้คะแนนมากที่สุดชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,101,,"Connect five or more blocks of the
+same color to clear them. You have
+to clear a certain number of blocks
+containing a ★ to finish a level.","ต่อบล็อกสีเดียวกันอย่างน้อยห้าก้อน
+เพื่อล้างออก ต้องล้างบล็อก
+ที่มี ★ ให้ครบตามจำนวน
+เพื่อผ่านด่าน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,102,,"Connect five or more blocks of the
+same color to clear them. The gauge
+will fall when the blocks rise to the gate.
+The player whose gauge hits zero loses.","ต่อบล็อกสีเดียวกันอย่างน้อยห้าก้อน
+เพื่อล้างออก เกจจะลดลงเมื่อบล็อก
+สูงถึงประตู ผู้เล่นที่เกจเหลือศูนย์
+จะแพ้",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,103,,"Rotate the cylinder to clear balls by
+connecting five or more of the same
+color. You have to clear a certain
+number of balls to clear a level.","หมุนทรงกระบอกเพื่อลูกบอลหายไป
+โดยต่อสีเดียวกันอย่างน้อยห้าลูก
+ต้องล้างลูกบอลให้ครบตามจำนวน
+เพื่อผ่านด่าน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,104,,"Rotate the cylinder to clear balls by
+connecting five or more of the same
+color. You'll lose if 10 or more balls
+stick out past the outer blue ring.","หมุนทรงกระบอกเพื่อลูกบอลหายไป
+โดยต่อสีเดียวกันอย่างน้อยห้าลูก
+ถ้ามีลูกบอลยื่นพ้นวงแหวนสีน้ำเงิน
+ด้านนอกตั้งแต่ 10 ลูกขึ้นไป คุณจะแพ้",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,105,,"Twist triangle clusters with your stylus
+to connect four or more triangles of
+the same color, which will clear them
+from the field.","ใช้สไตลัสบิดกลุ่มสามเหลี่ยม
+เพื่อต่อสามเหลี่ยมสีเดียวกัน
+อย่างน้อยสี่ชิ้น แล้วล้างออก
+จากพื้นที่เล่น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,106,,"Twist triangle clusters to connect four
+or more triangles of the same color,
+which will clear them from the field. The
+player with the most points wins.","บิดกลุ่มสามเหลี่ยมให้ต่อกัน
+อย่างน้อยสี่ชิ้นที่มีสีเดียวกัน
+เพื่อล้างออกจากพื้นที่เล่น
+ผู้เล่นที่ได้คะแนนมากที่สุดชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,107,,"Twist triangle clusters to create the
+patterns that are shown on the top
+screen as you play.","บิดกลุ่มสามเหลี่ยมให้เป็นรูปแบบ
+ที่แสดงบนหน้าจอด้านบน
+ระหว่างเล่น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_091_MGGUID_LZ,0,,"[c3]Stylus[/c]
+Draw circles","[c3]สไตลัส[/c]
+วาดวงกลม",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,1,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,2,,"[c3]Stylus[/c]
+Slide up to
+accelerate","[c3]สไตลัส[/c]
+เลื่อนขึ้นเพื่อ
+เร่งความเร็ว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,3,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,4,,"[c3]Stylus[/c]
+Tap a card
+","[c3]สไตลัส[/c]
+แตะไพ่
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,5,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,6,,"[c3][e006][/c] Move
+[c3][e000][/c] Snap photo
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] ถ่ายภาพ
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,7,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,8,,"[c3]Stylus[/c]
+Move leaves
+","[c3]สไตลัส[/c]
+ย้ายใบไม้
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,9,,"[c3]Stylus[/c]
+Rub a ladybug to
+shoo it off","[c3]สไตลัส[/c]
+ถูเต่าทองเพื่อ
+ไล่มันออกไป",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,10,,"[c3][e000][/c] Activate magnet
+to stop","[c3][e000][/c] เปิดแม่เหล็ก
+เพื่อหยุด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,11,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,12,,"[c3][e000][e001][e002][e003][/c] Leap
+","[c3][e000][e001][e002][e003][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [e001] [e002] [e003] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,13,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,14,,"[c3]Stylus[/c]
+Spin cherries
+","[c3]สไตลัส[/c]
+หมุนเชอร์รี
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,15,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,16,,"[c3]Stylus[/c]
+Draw a shape
+","[c3]สไตลัส[/c]
+วาดรูปทรง
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,17,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,18,,"[c3][e006][/c] Move
+[c3][e000][/c] Jump
+","[c3][e006][/c] เคลื่อนที่
+[c3][e000][/c] กระโดด
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c] [c3] [e000] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,19,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,20,,"[c3]Stylus[/c]
+Draw and aim
+","[c3]สไตลัส[/c]
+เล็งแล้วยิง
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,21,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,22,,"[c3]Stylus[/c]
+Turn the crank","[c3]สไตลัส[/c]
+หมุนมือหมุน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,23,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,24,,"[c3][e006][/c]
+(Any direction)
+Press left pedal","[c3][e006][/c]
+(ทิศทางใดก็ได้)
+เหยียบแป้นซ้าย",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e006] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,25,,"[c3][e000][e001][e002][e003][/c]
+(Any button)
+Press right pedal","[c3][e000][e001][e002][e003][/c]
+(ปุ่มใดก็ได้)
+เหยียบแป้นขว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [e001] [e002] [e003] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,26,,"[c3]Stylus[/c]
+Roll your ball","[c3]สไตลัส[/c]
+กลิ้งลูกบอล",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [/c],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,27,,[dummy],[dummy],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[dummy],,minigame_control_guide,,
+US_MPD_091_MGGUID_LZ,28,,"[c3][e000][/c] Press rapidly
+to extend lead
+","[c3][e000][/c] กดรัว ๆ
+เพื่อดันไส้ดินสอ
+",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count and all control tokens verbatim; game context, token semantics and UI width remain unverified.",data/US/mpd_091_mgguid_LZ.bin,[c3] [e000] [/c],,minigame_control_guide,,
