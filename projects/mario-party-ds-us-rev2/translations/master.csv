@@ -1771,3 +1771,313 @@ one standing on a course full of holes
 and chasm crossings.","แข่งไปให้ถึงเส้นชัย หรือเป็นคนสุดท้าย
 ที่ยังยืนอยู่บนเส้นทางที่เต็มไปด้วย
 หลุมและทางข้ามเหว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; minigame rules, dynamic token semantics and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,37,,"Knock all rivals out of the sink as you
+surf on a soap bar. Avoid getting
+knocked out before the time runs out,
+or be the last one standing.","เขี่ยคู่แข่งให้ตกจากอ่างล้างจาน
+ขณะที่คุณเล่นเซิร์ฟบนก้อนสบู่
+อย่าให้ตัวเองตกก่อนหมดเวลา
+หรือเป็นคนสุดท้ายที่ยังอยู่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,38,,"Give Shy Guy the candy he craves. Drag
+the correct candy out of the dish, then
+drop it in front of Shy Guy.","ป้อนลูกกวาดที่ Shy Guy อยากกิน
+ลากลูกกวาดที่ถูกต้องออกจากจาน
+แล้ววางไว้ตรงหน้า Shy Guy",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,39,,"Grab as many coins as you can, but
+don't get hit by the waves. Red coins
+are worth five times as much as the
+normal ones.","เก็บเหรียญให้ได้มากที่สุด แต่อย่า
+โดนคลื่นซัด
+เหรียญแดงมีค่าเป็นห้าเท่า
+ของเหรียญธรรมดา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,40,,"Race to the finish in your rubber raft.
+Jump the ramps to get a short burst
+of speed.","แข่งไปให้ถึงเส้นชัยบนแพยาง
+กระโดดบนทางลาด
+เพื่อเร่งความเร็วชั่วครู่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,41,,"Race to the finish in your rubber raft.
+Jump the ramps to get a short burst
+of speed. You'll earn more points the
+faster you reach the goal.","แข่งไปให้ถึงเส้นชัยบนแพยาง
+กระโดดบนทางลาดเพื่อเร่งความเร็วชั่วครู่
+ยิ่งถึงเส้นชัยเร็ว
+ก็ยิ่งได้คะแนนมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,42,,"Wash all your rivals off the plate by
+rotating the water sprayer. Defeat all
+three to win.","หมุนหัวฉีดน้ำไล่คู่แข่ง
+ให้ตกจากจาน
+กำจัดทั้งสามคนเพื่อชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,43,,"Avoid the water jets as you try to
+survive on the plate. If even one of
+the three plate runners outlasts the
+timer, all three win the challenge.","หลบสายน้ำขณะพยายามเอาตัวรอด
+บนจาน ถ้านักวิ่งแม้แต่คนเดียวในสามคน
+อยู่รอดจนหมดเวลา
+ทั้งสามคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,44,,"Tap as many Boos that match the
+target type as you can. You'll have
+to shift your view of the floor as
+you scan the crowd for them.","แตะ Boo ให้ได้มากที่สุด
+โดยเลือกชนิดให้ตรงกับเป้าหมาย
+หมุนมุมมองพื้นเพื่อค้นหา
+Boo ในฝูง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,45,,"Tap as many Boos that match the
+target type as you can. You'll have
+to shift your view of the floor as
+you scan the crowd for them.","แตะ Boo ให้ได้มากที่สุด
+โดยเลือกชนิดให้ตรงกับเป้าหมาย
+หมุนมุมมองพื้นเพื่อค้นหา
+Boo ในฝูง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,46,,"Trip up your opponents by throwing
+food in their way. Ice-cream dishes may
+freeze them, and pancake syrup will
+slow them. Defeat all three to win.","ขว้างอาหารขวางทางเล่นงานคู่แข่ง
+ถ้วยไอศกรีมแช่แข็งพวกเขา ส่วนน้ำเชื่อม
+แพนเค้กจะทำให้ช้าลง
+กำจัดทั้งสามคนให้ได้",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,47,,"Dodge food and avoid falling off the
+conveyor belt. If even one of you
+survives, you'll all win.","หลบอาหารและอย่าตกจากสายพาน
+ถ้ามีใครสักคนรอด
+ทุกคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,48,,"Nudge your three opponents with your
+train by picking a path, then pressing
+[c3][e000][/c] repeatedly to outrun them.","เลือกเส้นทางให้รถไฟชนคู่แข่งทั้งสาม
+จากนั้นกด [c3][e000][/c] รัว ๆ
+เพื่อแซงพวกเขา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[c3] [e000] [/c],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,49,,"Avoid getting nudged by your rival's
+train! Pick a path in the hopes that the
+train goes down the other one. You can
+outrun the train by pressing buttons.","อย่าให้รถไฟของคู่แข่งชนคุณ!
+เลือกทางโดยหวังว่ารถไฟ
+จะไปอีกทาง คุณกดปุ่ม
+เพื่อเร่งแซงได้",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,50,,"Trip up your opponents by throwing
+chips at them. Chips will rebound
+from walls or other chips, so take
+advantage of that for surprise attacks.","ขว้างชิปใส่คู่แข่งเพื่อเล่นงาน
+ชิปจะกระเด้งจากกำแพงหรือชิปอื่น
+ใช้การกระเด้ง
+โจมตีแบบไม่ให้ตั้งตัว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,51,,"Avoid getting hit by chips. Watch them
+carefully, because they'll rebound from
+walls and other chips. If even one of
+you survives, you'll all win.","หลบชิปที่กระเด็นไปมา
+สังเกตให้ดี เพราะมันจะกระเด้งจาก
+กำแพงและชิปอื่น
+ถ้ามีใครสักคนรอด ทุกคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,52,,"Avoid being caught in the flashlight
+beams cast by your three rivals as you
+all run through a dark maze. You'll win
+if you outlast the timer.","วิ่งในเขาวงกตมืด
+หลบลำแสงไฟฉายจากคู่แข่งทั้งสาม
+เอาตัวรอด
+จนหมดเวลาเพื่อคว้าชัยชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,53,,"Catch [name1] in your flashlight beam
+as you and your teammates run through
+a dark maze.","ใช้ลำแสงไฟฉายจับ [name1]
+ขณะที่คุณกับเพื่อนร่วมทีมวิ่ง
+ในเขาวงกตมืด",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[name1],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,54,,"Steer wildly so your tethered rivals
+are thrown from their duckies. Throw
+them all into the water to win.","บังคับเป็ดห่วงยางให้สะบัดคู่แข่ง
+ที่ผูกติดอยู่ตกน้ำ โยนให้ตกน้ำ
+ครบทุกคนเพื่อชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,55,,"As your rival drives wildly, keep your
+balance so you don't fall off your
+ducky! If even one passenger stays
+seated, you'll all win.","ขณะที่คู่แข่งขับเป็ดห่วงยางซิ่ง
+ทรงตัวอย่าตกจากเป็ด!
+ถ้ามีผู้โดยสารเหลือแม้แต่คนเดียว
+ทุกคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,56,,"Avoid the toys that your opponents try
+to drop on you. Watch for shadows that
+appear just before a toy crashes down
+on the spot.","หลบของเล่นที่คู่แข่งพยายามโยนใส่
+สังเกตเงาที่ปรากฏก่อนที่
+ของเล่นจะตกลง
+ตรงตำแหน่งนั้น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,57,,"Drop a toy on [name1] to win! Work
+with the other players to trap and
+squish the target.","โยนของเล่นใส่ [name1] เพื่อชนะ!
+ร่วมมือกับผู้เล่นคนอื่นล้อมเป้าหมาย
+แล้วบี้ให้แบน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[name1],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,58,,"Spin your opponents off of the
+hunk of meat by turning it
+unpredictably.","หมุนชิ้นเนื้อไปมา
+เพื่อเหวี่ยงคู่แข่งให้ตก
+ลงไป",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,59,,"Keep your balance so you don't fall off
+the rotating hunk of meat. If even one
+of you survives, you'll all win.","ทรงตัวอย่าตกจากชิ้นเนื้อที่หมุนอยู่
+ถ้ามีใครสักคนรอด
+ทุกคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,60,,"Race down the hill on your spoon sled!
+Scraping a corner during a turn will slow
+you down, so take corners smoothly!","แข่งลงเนินด้วยเลื่อนช้อน! ถูขอบทาง
+ตอนเลี้ยวจะทำให้ช้าลง จึงควรเลี้ยว
+อย่างนุ่มนวล!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,61,,"Race down the hill on your shoe sled!
+Scraping a corner during a turn will slow
+you down, so take corners smoothly!","แข่งลงเนินด้วยเลื่อนรองเท้า! ถูขอบทาง
+ตอนเลี้ยวจะทำให้ช้าลง จึงควรเลี้ยว
+อย่างนุ่มนวล!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,62,,"Grab the coins that spill from the chest,
+but don't get hit by beads. Red coins
+are worth five times as much as the
+normal ones.","เก็บเหรียญที่หกออกจากหีบ
+อย่าให้ลูกปัดชน
+เหรียญแดงมีค่าเป็นห้าเท่า
+ของเหรียญธรรมดา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,63,,"Use your grabber to get the coins
+that slip past [name1] on the top
+screen. Red coins are worth five times
+as much as the normal ones.","ใช้ที่คีบเก็บเหรียญที่หลุดผ่าน
+[name1] บนหน้าจอด้านบน
+เหรียญแดงมีค่าเป็นห้าเท่า
+ของเหรียญธรรมดา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,[name1],,minigame_instructions,,
+US_MPD_090_MGINST_LZ,64,,"Blow on the microphone to chill your
+three opponents until they are fully
+frozen.","เป่าไมค์เพื่อทำให้คู่แข่งทั้งสาม
+หนาวจนแข็ง
+ไปทั้งตัว",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,65,,"Stay warm in the freezing blizzard
+by rubbing your character with the
+stylus. If even one character remains
+unfrozen, all three win the challenge.","ถูตัวละครด้วยสไตลัสให้อบอุ่น
+ท่ามกลางพายุหิมะ
+ถ้ามีตัวละครแม้แต่คนเดียว
+ยังไม่แข็ง ทั้งสามคนก็ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,66,,"You spin one front wheel of a car, and
+your teammate spins the other one.
+Cooperate to race your car to the
+finish.","คุณหมุนล้อหน้าข้างหนึ่งของรถ
+คู่หูหมุนอีกข้าง
+ร่วมมือกันพารถแข่ง
+ไปให้ถึงเส้นชัย",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,67,,"You and your partner share tracing
+duties as you re-create an image.
+Trace only lines that match your color.
+You'll earn points for good tracing.","คุณกับคู่หูผลัดกันลากเส้น
+เพื่อวาดภาพตามแบบ
+ลากเฉพาะเส้นที่ตรงกับสีของคุณ
+วาดได้ตรงก็จะได้คะแนน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,68,,"Flip cards to find pairings by ground-
+pounding them. The team that finds
+four pairs first wins.","กระทืบพื้นพลิกการ์ดเพื่อหาคู่
+ทีมที่หาได้สี่คู่
+ก่อนเป็นฝ่ายชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,69,,"Flip cards to find pairings by ground-
+pounding them. The player who finds
+four pairs first wins.","กระทืบพื้นพลิกการ์ดเพื่อหาคู่
+ผู้เล่นที่หาได้สี่คู่
+ก่อนเป็นฝ่ายชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,70,,"Race to escape the ice maze with
+your partner. Both of you must hit
+the exit buttons in each section to
+open the way forward.","แข่งหนีเขาวงกตน้ำแข็งกับคู่หู
+ทั้งคู่ต้องกดปุ่มทางออก
+ในแต่ละช่วง
+เพื่อเปิดทางไปต่อ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,71,,"You and your partner must dig to the
+finish first, while staying ahead of Monty
+Mole. You'll dig upward if the upper
+player digs faster...and vice versa!","ขุดไปถึงเส้นชัยให้เร็วกว่าคู่แข่ง
+และหนี Monty Mole ให้พ้น
+ถ้าคนด้านบนขุดเร็วกว่า
+คุณก็จะขุดขึ้น...และกลับกัน!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,72,,"You and your partner must match
+button-press actions to scale up the
+pipe to the top first, turning to avoid
+any obstacles along the way.","กดปุ่มให้ตรงกันกับคู่หู
+เพื่อปีนท่อไปถึงยอดให้เร็วกว่าทีมอื่น
+เลี้ยวหลบ
+สิ่งกีดขวางระหว่างทาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,73,,"You and your partner must slice down
+the full length of the cucumber by
+attacking the veggie from both ends.","คุณกับคู่หูต้องช่วยกันหั่นแตงกวา
+ให้ขาดตลอดทั้งลูก โดยฟันจาก
+คนละด้าน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,74,,"Be the first to slice down the cucumber
+by slicing it as fast as you can.","หั่นแตงกวาให้เร็วที่สุด
+ใครหั่นขาดก่อนเป็นผู้ชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,75,,"Balance your weight on the wire hanger
+to assist your partner as you both
+zing through a clothesline course. Shift
+left and right to avoid obstacles.","ถ่ายน้ำหนักบนไม้แขวนเสื้อ
+ช่วยคู่หูพุ่งไปตามราวตากผ้า
+เอนไปซ้ายและขวา
+เพื่อหลบสิ่งกีดขวาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,76,,"Balance your weight on the wire hanger
+as you zing through a clothesline
+course. Shift left and right to avoid
+obstacles.","ทรงตัวบนไม้แขวนเสื้อ
+ขณะพุ่งไปตามราวตากผ้า
+เอนไปซ้ายและขวาเพื่อหลบ
+สิ่งกีดขวาง",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,77,,"Balance your weight on the wire hanger
+as you zing through a clothesline
+course. You'll earn points the faster
+you get to the finish.","ทรงตัวบนไม้แขวนเสื้อ
+ขณะพุ่งไปตามราวตากผ้า
+ยิ่งถึงเส้นชัยเร็วเท่าไร
+คะแนนก็ยิ่งมาก",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,78,,"Race up the stairs with your partner
+by taking turns pressing the noted
+buttons to lift your partner, then to
+shift him or her to another platform.","แข่งขึ้นบันไดกับคู่หู
+ผลัดกันกดปุ่มที่แสดงเพื่อยกคู่หู
+แล้วช่วยขยับเขาหรือเธอ
+ไปยังแท่นอื่น",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,79,,"You and your partner each take one
+wing as you flap toward floating coins.
+Red coins are worth five times as much
+as the normal ones.","คุณกับคู่หูรับผิดชอบปีกคนละข้าง
+กระพือปีกเก็บเหรียญที่ลอยอยู่
+เหรียญแดงมีค่าเป็นห้าเท่า
+ของเหรียญธรรมดา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,80,,"Blow on the microphone to startle
+Whomp into falling on the other team.
+Whichever team blows the most over
+five seconds will be victorious!","เป่าไมค์ทำให้ Whomp
+ตกใส่ทีมคู่แข่ง
+ทีมที่ทำให้ล้มได้มากที่สุด
+ในห้าวินาทีจะเป็นผู้ชนะ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,81,,"Blow on the microphone to startle
+Whomp into falling on the other player.
+Whoever blows the most over five
+seconds will be victorious!","เป่าไมค์ทำให้ Whomp
+ตกใส่คู่แข่ง
+ใครเป่าได้มากที่สุด
+ในห้าวินาทีจะเป็นผู้ชนะ!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,82,,"Shoot as many Scuttlebugs as you can.
+Golden ones are worth three points.
+You and your partner split the aiming
+into horizontal and vertical control!","ยิง Scuttlebug ให้ได้มากที่สุด
+สีทองได้สามคะแนน
+คุณกับคู่หูแบ่งกันเล็ง
+แนวนอนและแนวตั้ง!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,83,,"Work with your partner to get as many
+balls into the other team's goal as
+possible. The goalkeepers move left
+and right automatically.","ร่วมมือกับคู่หูยิงลูกบอล
+เข้าประตูทีมตรงข้ามให้ได้มากที่สุด
+ผู้รักษาประตูจะขยับเอง
+ไปทางซ้ายและขวา",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,84,,"Survive the longest by staying out
+of the whirlpool. Tap the button
+repeatedly to paddle away from the
+water vortex!","อยู่รอดให้นานที่สุด
+อย่าตกในน้ำวน
+แตะปุ่มรัว ๆ เพื่อพาย
+หนีกระแสน้ำวน!",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,85,,"Be the first to tap each new star as
+it appears in the sky. Whoever scores
+more stars is the winner.","แตะดาวดวงใหม่ที่ปรากฏบนฟ้า
+ให้ได้ก่อนใคร
+ผู้เก็บดาวได้มากกว่าจะชนะ",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
+US_MPD_090_MGINST_LZ,86,,"Climb the gears and platforms to reach
+the goal. Some platforms may rotate or
+disappear after some time.","ปีนเฟืองและแท่น
+ไปให้ถึงเป้าหมาย
+บางแท่นหมุนหรือหายไปเมื่อเวลาผ่านไป",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve source line-break count; game rules, character terminology and UI width remain unverified.",data/US/mpd_090_mginst_LZ.bin,,,minigame_instructions,,
