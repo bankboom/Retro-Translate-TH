@@ -737,3 +737,101 @@ Play time is about 90 minutes.","[c3]30 เทิร์น[/c]
 US_MPD_030_PARTY_MODE_LZ,36,,"Select which set of minigames you'd like
 to play.","เลือกชุดมินิเกมที่ต้องการ
 เล่น",DRAFT,NOT_INJECTED,DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order and source line-break count; menu/board context and width remain unverified.,data/US/mpd_030_party_mode_LZ.bin,,,party_mode_menu_ui,,
+US_MPD_030_PARTY_MODE_LZ,37,,Uses all minigames.,ใช้มินิเกมทั้งหมด,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,38,,"Uses minigames that are simple for
+everyone to play.","ใช้มินิเกมที่เล่นง่าย
+สำหรับทุกคน",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,39,,"Uses minigames that don't utilize the
+DS microphone.","ใช้มินิเกมที่ไม่ต้องใช้
+ไมโครโฟนของ DS",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,40,,"Select whether Bonus Stars are
+awarded at the end of the game.","เลือกว่าจะมอบดาวโบนัส
+เมื่อจบเกมหรือไม่",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,41,,Select COM character skill levels.,เลือกระดับความสามารถของตัวละคร COM,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,42,,"Give an advantage to some players
+by giving them Stars to start with.","ให้ผู้เล่นบางคนได้เปรียบ
+ด้วยการมอบดาวให้ตั้งแต่เริ่มเกม",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,43,,Choose the teams.,เลือกทีม,DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,,,party_mode_settings_ui,,
+US_MPD_030_PARTY_MODE_LZ,44,,Let's take a look at the party results![w],มาดูผลปาร์ตี้กันเลย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,45,,"First, let's see how many [c4]Stars[/c]
+you've all collected.[w]","ก่อนอื่น มาดูกันว่าทุกคนเก็บ
+[c4]ดาว[/c] ได้กี่ดวง[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,46,,Here are your [c4]Star[/c] totals![w],นี่คือจำนวน[c4]ดาว[/c]ของทุกคน![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,47,,Now let's see the [c3]coins[/c] everyone got.[w],ต่อไปมาดูกันว่าทุกคนได้[c3]เหรียญ[/c]เท่าไร[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,48,,Now let's see the results for this party.[w],ต่อไปมาดูผลของปาร์ตี้นี้กัน[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,49,,"But first, it's time to present this
+party's [c3]Bonus Stars[/c].[w]","แต่ก่อนอื่น ถึงเวลามอบ
+[c3]ดาวโบนัส[/c]ของปาร์ตี้นี้แล้ว[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,50,,"For every [c3]Bonus Star[/c] you win, your
+[c4]Star[/c] total will increase by one.[w]","ทุก ๆ [c3]ดาวโบนัส[/c] ที่คุณได้
+จะเพิ่มจำนวน[c4]ดาว[/c]ของคุณหนึ่งดวง[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,51,,Today's [c3]Bonus Stars[/c] are...[w],[c3]ดาวโบนัส[/c]ของวันนี้ได้แก่...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,52,,The [c3][m2][/c]![w],[c3][m2][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,53,,The [c3][m2][/c]![w],[c3][m2][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,54,,And the [c3][m2][/c]![w],และ [c3][m2][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,55,,"Who will win the first [c3]Bonus Star[/c],
+the [c3][m2][/c]?[w]","ใครจะได้[c3]ดาวโบนัส[/c]ดวงแรก
+ในประเภท [c3][m2][/c]?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,56,,"Who will win the second [c3]Bonus Star[/c],
+the [c3][m2][/c]?[w]","ใครจะได้[c3]ดาวโบนัส[/c]ดวงที่สอง
+ในประเภท [c3][m2][/c]?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,57,,"And who will win the last [c3]Bonus Star[/c],
+the [c3][m2][/c]?[w]","แล้วใครจะได้[c3]ดาวโบนัส[/c]ดวงสุดท้าย
+ในประเภท [c3][m2][/c]?[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [c3] [m2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,58,,[c3][name1][/c] and [c3][name2][/c]![w],[c3][name1][/c] และ [c3][name2][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [name1] [/c] [c3] [name2] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,59,,"Wow! [c3][name1][/c], [c3][name2][/c], and
+[c3][name3][/c]![w]","ว้าว! [c3][name1][/c], [c3][name2][/c] และ
+[c3][name3][/c]![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [name1] [/c] [c3] [name2] [/c] [c3] [name3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,60,,Wow! [c3]Everyone[/c] gets one![w],ว้าว! [c3]ทุกคน[/c] ได้กันหมดเลย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,61,,"Oh, no! None of you wins this one![w]",แย่จัง! ไม่มีใครได้รางวัลนี้เลย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,62,,[c3][team1][/c]![w],[c3][team1][/c]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [team1] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,63,,Wow! The [c3]teams are tied![/c][w],ว้าว! [c3]ทีมเสมอกัน![/c][w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,64,,"Unfortunately, neither team wins.[w]",น่าเสียดายที่ไม่มีทีมไหนชนะเลย[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,65,,"This [c4]Star[/c] is for the player who won the
+most minigames.[w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นที่
+ชนะมินิเกมได้มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,66,,The [c3]Minigame Star[/c] goes to...[w],[c3]ดาวมินิเกม[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,67,,"This bonus is for the team that won the
+the most minigames.[w]","โบนัสนี้มอบให้ทีมที่ชนะ
+มินิเกมได้มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,68,,"This [c4]Star[/c] is for the player who used the
+most items.[w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นที่
+ใช้ไอเท็มมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,69,,The [c3]Item Star[/c] goes to...[w],[c3]ดาวไอเท็ม[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,70,,"This bonus is for the team that used
+the most items.[w]","โบนัสนี้มอบให้ทีมที่ใช้
+ไอเท็มมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,71,,"This [c4]Star[/c] is for the player who landed on
+the most Green Spaces.[w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นที่
+ตกช่องสีเขียวมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,72,,The [c3]Green Star[/c] goes to...[w],[c3]ดาวช่องเขียว[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,73,,"This bonus is for the team that landed
+on the most Green Spaces.[w]","โบนัสนี้มอบให้ทีมที่ตก
+ช่องสีเขียวมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,74,,"This [c4]Star[/c] is for the player who traveled
+the most spaces. [w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นที่
+เดินทางผ่านช่องต่าง ๆ มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,75,,The [c3]Running Star[/c] goes to...[w],[c3]ดาวนักเดินทาง[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,76,,"This bonus is for the team that traveled
+the most spaces.[w]","โบนัสนี้มอบให้ทีมที่เดินทาง
+ผ่านช่องต่าง ๆ มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,77,,"This [c4]Star[/c] is for the fiendish player who
+laid the most Hex traps.[w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นตัวแสบที่
+วางกับดัก Hex มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,78,,The [c3]Hex Star[/c] goes to...[w],[c3]ดาว Hex[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,79,,"This bonus is for the team that laid the
+most Hex traps.[w]","โบนัสนี้มอบให้ทีมที่วาง
+กับดัก Hex มากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,80,,"This [c4]Star[/c] is for the player who landed on
+the most Friend Spaces.[w]","[c4]ดาว[/c]ดวงนี้มอบให้ผู้เล่นที่
+ตกช่องเพื่อนมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,81,,The [c3]Friendship Star[/c] goes to...[w],[c3]ดาวมิตรภาพ[/c]เป็นของ...[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c3] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,82,,"This bonus is for the team that landed
+on the most Friend Spaces.[w]","โบนัสนี้มอบให้ทีมที่ตก
+ช่องเพื่อนมากที่สุด[w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,83,,And here are the final results![w],และนี่คือผลการแข่งขันสุดท้าย![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,84,,So who got the most [c4]Stars[/c]?[w],แล้วใครได้[c4]ดาว[/c]มากที่สุด?[w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[c4] [/c] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,85,,[name1]![w],[name1]![w],DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[name1] [w],,party_mode_results_ui,,
+US_MPD_030_PARTY_MODE_LZ,86,,"[name1] and [name2]! Yes, it's the
+[team1] team that wins![w]","[name1] และ [name2]! ใช่แล้ว
+ทีม [team1] เป็นผู้ชนะ![w]",DRAFT,NOT_INJECTED,"DRAFT; translated from validated source inventory. Preserve exact control-token spelling/order; scene, dynamic token semantics, game terminology and UI width remain unverified.",data/US/mpd_030_party_mode_LZ.bin,[name1] [name2] [team1] [w],,party_mode_results_ui,,
