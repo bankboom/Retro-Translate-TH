@@ -162,3 +162,10 @@ US_MPD_020_STORY_MODE_LZ,8,,"You unlocked [c6][mgname1][/c] in
 US_MPD_020_STORY_MODE_LZ,9,,"You unlocked the [c6]Expert[/c] setting for
 COM players!","คุณปลดล็อกการตั้งค่า [c6]Expert[/c]
 สำหรับผู้เล่น COM แล้ว!",DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source. Preserve exact [c6]/[/c] tag spelling, order and scope; Expert/COM terminology and scene remain unverified; source line-break count retained.",data/US/mpd_020_story_mode_LZ.bin,[c6][/c],,story_mode_expert_unlock_notice,UI,COM difficulty unlock notice (inferred from source text; emulator scene not verified)
+US_MPD_020_STORY_MODE_LZ,10,,Uses all minigames.,ใช้มินิเกมทั้งหมด,DRAFT,NOT_INJECTED,"DRAFT; translated from extracted source. Minigame-set option context inferred; exact label, screen and UI width remain unverified.",data/US/mpd_020_story_mode_LZ.bin,,,story_mode_minigame_set_option,UI,Story Mode minigame-set option (inferred from source text; emulator scene not verified)
+US_MPD_020_STORY_MODE_LZ,11,,"Uses minigames that are simple for
+everyone to play.","ใช้มินิเกมที่เล่นง่ายสำหรับ
+ทุกคน",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve ease-for-everyone meaning and source line-break count; exact option label and UI width remain unverified.,data/US/mpd_020_story_mode_LZ.bin,,,story_mode_minigame_set_option,UI,Story Mode minigame-set option (inferred from source text; emulator scene not verified)
+US_MPD_020_STORY_MODE_LZ,12,,"Uses minigames that don't utilize the
+DS microphone.","ใช้มินิเกมที่ไม่ใช้ไมโครโฟน
+ของ DS",DRAFT,NOT_INJECTED,DRAFT; translated from extracted source. Preserve DS microphone restriction and source line-break count; exact option label and UI width remain unverified.,data/US/mpd_020_story_mode_LZ.bin,,,story_mode_minigame_set_option,UI,Story Mode minigame-set option (inferred from source text; emulator scene not verified)
