@@ -2,6 +2,10 @@
 
 Scope: This is a reusable framework; one game per `projects/<slug>/`. Reply in Thai. Read this file + active project's `AGENTS.md`, `project_profile.json`, `docs/NEXT_TASK.md`. **Do not preload other docs or unrelated projects**; open only task-relevant skills/docs.
 
+## Default work priority — Emulator-First Fast Lane
+
+When working on a game that has not yet produced a tested candidate, read `docs/EMULATOR_FIRST_TH.md` and prioritize an **isolated 1–5 string build** over more draft translation or unrelated reverse engineering. Confirm G0 once, verify *only* dependencies of the selected text bank, build reversible smoke candidate safely, then request real emulator feedback. Do not wait for entire event formats/ARM disassembly, 50% translation, or G2–G5 release QA before a smoke candidate. **Never sacrifice byte-range integrity or invent a patch**: if no safe builder exists, fix/report the one specific blocker. Early `SMOKE_READY` is not G1–G5 PASS. Keep clean ROM immutable and document changes/rollback. This rule applies to **all projects**, not just NDS/Mario Party.
+
 ## Non-negotiable priorities
 1. Meaning: faithful to source, story, character, era/tone, gameplay, numerical data, terminology; natural, correctly spelled Thai. Never invent details or change mechanics. Respect context ambiguity and flag it.
 2. Typography: all Thai consonants, vowels, tone marks and diacritics must display legibly with proper baseline/advance/stacking/spacing, within UI. Verify with real emulator screenshots (including `ต้ ตุ สำ น้ำ ภาษา`).
