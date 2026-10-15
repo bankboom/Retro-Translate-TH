@@ -25,6 +25,9 @@ All game projects follow **Phase 1** safe 1–5-string smoke patch → **Phase 2
 - Detailed specifications on demand: `docs/THAI_QUALITY_STANDARD.md`, `docs/TOKEN_EFFICIENCY_POLICY.md`, `docs/QUALITY_GATES.md`.
 - When editing shared Python tools, run `python -m unittest discover -s tests -p "test_*.py" -v`.
 
+## Optional shared ThaiPUA composite workflow (all game projects)
+When actual renderer/font evidence indicates unsupported Thai mark positioning, consult `docs/THAI_PUA_CROSS_PLATFORM_TH.md`. Use `tools/thai_composite_plan.py` only to inventory observed composite demand from project translation rows. Reuse the existing glyph QA/scene plan and never infer PUA support, Nintendo glyph slot assignments, a safe hook, or emulator success across games. This is a **non-blocking option**, not a new release gate or a reason to delay a safe 1–5-string smoke test.
+
 ## Minimal response at each turn
 `Changed: <files/IDs> | Tests: <facts> | Gates: <changed states only> | Blocker: <if any> | Next: <one step>`. Give full logs only upon request. Never dump entire ROM, CSV, or code if a delta suffices.
 
