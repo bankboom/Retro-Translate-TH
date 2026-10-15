@@ -14,4 +14,6 @@ description: Thai translation accuracy, story fidelity, grammar, terminology, ga
 
 8. Use six-phase guidance `docs/SIX_PHASE_CONTEXT_QA_TH.md` when planning project milestones: contextual QA is continuous across Phase 1–6, including in-emulator recheck, not deferred to final release. To mark a row `REVIEWED`, evaluate meaning, scene/speaker, Thai grammar, terminology, continuity, and technical tokens/length; missing credible context => `NEEDS_CONTEXT`. Keep `DRAFT / NEEDS_CONTEXT / REVIEWED` independent from `INJECTED` and logged `IN_GAME_VERIFIED`; don't infer a 50/70/100% reviewed checkpoint from draft counts. The ASCII injection smoke candidate is a technical experiment, not Thai QA completion.
 
+9. ThaiPUA-informed workflow (optional across ALL games): when native Thai shaping is absent, read `docs/THAI_PUA_CROSS_PLATFORM_TH.md`; run `tools/thai_composite_plan.py` on the active game's verified translation master for a **read-only demand plan**. Reuse approved glyphs, allocate only observed clusters; no automatic PUA/ROM glyph ID assignment, no blind font replacement or ARM9 hook, no passing G3 from a font preview. Every game keeps its own adapter, encoding, glyph bank and emulator evidence.
+
 Return only changed IDs, translation rationale where ambiguous, glyph/diff observations, QA evidence, unresolved issues and next action.
