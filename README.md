@@ -9,4 +9,5 @@
 - มีเครื่องมือจริงสำหรับ NDS/GBA header, BPS, CSV/TM, Thai character sanity, binary-diff guard, QA review queue, font scene plan, release evidence audit.
 - V3.2.1 เพิ่มเครื่องมือสแกน candidate ARM/Thumb แบบออฟไลน์; ต้องยืนยัน code range, RAM base และ ISA เองก่อนใช้ และผลไม่ใช่ disassembly หรือหลักฐาน xref ที่ยืนยันแล้ว.
 - ไม่ใช่ one-click auto-translate universal ROM engine; game-specific adapter, real emulator testing, and human review remain required.
+- ThaiPUA-informed shared composite-glyph workflow (NDS / 3DS / PC): see [`docs/THAI_PUA_CROSS_PLATFORM_TH.md`](docs/THAI_PUA_CROSS_PLATFORM_TH.md) and optional read-only [`tools/thai_composite_plan.py`](tools/thai_composite_plan.py). No ROM editing or emulator PASS is implied.
 - ไม่มี ROM/BIOS/แพตช์ของเกมใดรวมในชุดนี้.
