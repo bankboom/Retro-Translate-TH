@@ -56,4 +56,7 @@ python tools/thai_glyph_audit.py input.tsv --column thai --font permitted.ttf --
 python -m unittest discover -s tests -p "test_thai_glyph_audit.py" -v
 ```
 
+## Cross-project composite strategy (ThaiPUA)
+See `docs/THAI_PUA_CROSS_PLATFORM_TH.md` for ThaiPUA source audit, game-engine decision matrix, slot-conflict safeguards, font license notes, and integration of the reusable read-only `tools/thai_composite_plan.py`. A PUA codepoint is **not** a game glyph ID; use a verified game-specific adapter before patching. Prioritize only observed clusters, not all 2,016 upstream materialized glyphs. Preserve Emulator-First and G3/G4 evidence rules.
+
 Next: adapt report into existing quality queue and scene plan, then implement format-specific font probes **only** after confirming the target game uses those formats.
