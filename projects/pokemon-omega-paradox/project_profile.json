@@ -1,0 +1,16 @@
+{
+  "project": "Pokémon Omega Paradox TH",
+  "slug": "pokemon-omega-paradox",
+  "platform": "Nintendo DS",
+  "original": "Pokemon Omega Paradox.nds",
+  "original_sha256": "29c45c1031d630b2e2e8f31aecd9b279d26da7291f5db340d9ec5fb1657b812b",
+  "translation_master": "Pokemon_White_Thai.nds",
+  "clean_comparison": "Pokemon - White Version (USA, Europe) (NDSi Enhanced).nds",
+  "inventory_entries": 56700,
+  "inventory_known_thai_pua": 25001,
+  "inventory_queue_unclassified": 20096,
+  "inventory_custom_omega": 1727,
+  "recent_test": "P3.7B Cynthia partial Thai rendered; not full scene or gameplay QA",
+  "complete_100_percent": false,
+  "binary_patch_p38_created": false
+}
