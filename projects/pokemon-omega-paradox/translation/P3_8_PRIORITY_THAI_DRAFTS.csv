@@ -1,0 +1,23 @@
+archive,file_id,message_id,source_excerpt,thai_draft,review_state,notes
+system,44,6,Hi there! Welcome to a new version of Unova: Omega Paradox!,สวัสดีจ้ะ! ยินดีต้อนรับสู่ยูโนวาโฉมใหม่ใน Omega Paradox!,DRAFT,First greeting has passed in P3.3A only; full expansion needs encoding + emulator QA
+system,44,8,This hack is inhabited by every Pokémon currently in existence! Isn't that fabulous?,เกมฉบับนี้มีโปเกมอนทุกชนิดที่มีอยู่ในปัจจุบัน! น่าทึ่งใช่ไหมล่ะ?,DRAFT,Preserve separate page/control markers
+system,44,9,Mutations to Pokémon have also been seen!,ยังมีการพบโปเกมอนที่กลายพันธุ์ด้วย!,DRAFT,Part of long message 9; full control structure required
+system,44,9,"Pokémon might have different types, abilities, stats or movesets.",โปเกมอนอาจมีธาตุ ความสามารถ ค่าสถานะ หรือชุดท่าที่แตกต่างไป,DRAFT,Part of long message 9
+system,44,9,It's practically an alternate universe!,ราวกับเป็นอีกจักรวาลหนึ่งเลย!,DRAFT,Part of long message 9
+system,44,9,"You might find stronger foes, different items, different evolutions...",เธออาจพบคู่ต่อสู้ที่แข็งแกร่งกว่า ไอเทมต่างไป และวิวัฒนาการรูปแบบใหม่...,DRAFT,Part of long message 9
+system,44,9,That is why this hack exists.,นั่นคือเหตุผลที่สร้างเกมฉบับนี้ขึ้นมา!,DRAFT,Part of long message 9
+system,44,23,This young man is Drake.,ชายหนุ่มคนนี้ชื่อ Drake.,SCREEN_EVIDENCED,"P3.6A screenshot, no full gameplay pass"
+system,44,23,"He can be a little difficult, but he's a very honest person.",เขาอาจเข้าถึงยากไปหน่อย แต่เป็นคนซื่อตรงมาก,SCREEN_EVIDENCED,"P3.7A screenshot, use original native Thai PUA"
+system,44,24,This young woman is Cynthia.,หญิงสาวคนนี้ชื่อ Cynthia.,SCREEN_EVIDENCED,P3.6B screenshot
+system,44,24,"She's a little flighty, but she works very hard.",เธออาจจะเหม่อลอยไปบ้าง แต่ตั้งใจทำงานมากเลยนะ,DRAFT_REVISE,P3.7B existing line is mixed English and semantically incomplete
+system,44,26,"The moment you choose the Pokémon that will accompany you on your journey, your story will truly begin.",ทันทีที่เลือกโปเกมอนคู่หู การผจญภัยของเธอก็จะเริ่มต้นขึ้น!,DRAFT,Part of long message 26; retain dynamic name token at beginning
+system,44,26,"During your journey, you will meet many Pokémon and people with different personalities and points of view!",ระหว่างเดินทาง เธอจะพบโปเกมอนและผู้คนมากมายที่มีนิสัยและมุมมองแตกต่างกัน!,DRAFT,Part of long message 26
+system,44,26,Befriend new people and Pokémon and grow as a person!,ผูกมิตรกับผู้คนและโปเกมอนใหม่ ๆ แล้วเติบโตไปพร้อมกัน!,DRAFT,Part of long message 26
+system,54,80,Mega Stone,เมกาสโตน,DRAFT,Prior unsafe glyph experiment failed; no accepted item QA
+system,54,81,Omega Stone,โอเมกาสโตน,DRAFT,Omega-specific item
+system,38,62,Don't forget to play Blaze Black 2.,อย่าลืมเล่น Blaze Black 2 ด้วยล่ะ,DRAFT,Preserve game title
+system,38,63,The Previous Champion Alder Has LOST His title.,อัลเดอร์ อดีตแชมเปียน เสียตำแหน่งไปแล้ว,DRAFT,Speaker and title context must be checked
+story,12,2,I'm Bianca! I'm kind of new to being a trainer. I use many Pokémon!,ฉันชื่อ Bianca! เพิ่งเริ่มเป็นเทรนเนอร์ แต่มีโปเกมอนหลายตัวเลย!,DRAFT,"Check speaker, punctuation and control markers"
+story,12,3,"I'm a Pokemon specialist, and my name is Marik. Pleased to face you.",ฉันชื่อ Marik เป็นผู้เชี่ยวชาญโปเกมอน ยินดีที่ได้ประลองฝีมือกัน,DRAFT,Check whether this is battle preface
+story,12,4,And my name is Cheren. I like all kinds of Pokémon.,ส่วนฉันชื่อ Cheren ฉันชอบโปเกมอนทุกชนิด,DRAFT,Check speaker
+story,12,11,Too late! Time to face me!! I'm the strongest of our team!,สายไปแล้ว! ถึงเวลาสู้กัน! ฉันแข็งแกร่งที่สุดในทีม!,DRAFT,Check exact source spelling and line width
