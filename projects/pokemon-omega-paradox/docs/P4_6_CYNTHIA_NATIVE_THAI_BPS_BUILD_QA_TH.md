@@ -38,3 +38,10 @@ Apply only to the **original Omega ROM** with the exact source SHA above; do **n
 
 ## Reusable source
 The local user-owned ZIP includes `tools/build_p46.py`, exact-source NFTR lookups and `tools/regression_verify_p46.py`; it requires the owner's three ROMs and P3.7B BPS to rebuild deterministically. Native phrase donor lookup is **not** a certified Unicode Thai-to-PUA cluster encoder. Do not start another large bulk injection without solving the per-bank encoder/renderer layout and contextual QA.
+
+## User-reported P4.6 Save / Load test — 22 Oct 2026
+- The project owner reported directly in chat: **"ตรวจแล้ว save และ load ได้ปกติ"** (Save and Load both work normally).
+- Evidence class: **user manual playtest report**. Scope: **Save PASS / Load PASS** for the P4.6 candidate discussed in this project. No screenshot/video, emulator version, or save-slot details were supplied with this specific observation.
+- **G4 PARTIAL:** this confirms the requested Save/Load smoke step only. It does **not** establish full-game gameplay PASS, the visual integrity/meaning of both Cynthia clauses, dialogue advancing, any specific glyph layout, or G2/G3/G5 signoff.
+- Next visual checkpoint: collect in-game Cynthia both Thai clauses and confirm both dialogue screens render clearly and progress correctly; keep G2 character semantics pending until reviewed.
+- Keep user feedback attached to the P4.6 BPS SHA-256 `48f60e64dff45dd505d9d00d44dfc6493690d20383201ce36a22f61c8fb88ce6`; a different patched ROM build must be tested independently.
