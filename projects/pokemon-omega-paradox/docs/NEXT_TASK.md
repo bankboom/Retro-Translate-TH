@@ -70,3 +70,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - `docs/P4_4_NATIVE_E8_FIXED_SLOT_SMOKE_TH.md` and blank `glyph_maps/P4_4_NATIVE_REFERENCE_EXTRACTED_TEMPLATE.csv` document precisely which real White TH/P3.7B native fragments are needed. No fragment or glyph codepoints were fabricated.
 - **User goal is not yet complete**: no new P4.4 BPS, no successful binary serialization/ROM diff/emulator QA, and still 20,096 items requiring review/classification from full real-data audit. Continue on original Omega source SHA256; P3.7B is immutable fallback.
 - **Do not create further cosmetic draft versions until a genuine native reference extraction + one-message BPS is produced**. Next focused task is System 44 message 24 Cynthia. Require actual P3.7B/White TH bytes and source-exact extraction; if runtime unavailable report blocker instead of calling it done.
+
+## P4.5 — NFTR Glyph ROM Extraction Complete
+- REAL-ROM NFTR extraction is **complete** for the three White TH font resources from NitroFS `/a/0/2/3`, members 0–2, byte-identical to the fonts inside the rebuilt P3.7B target.
+- All 1,309 mapped PUA codes × 3 fonts = 3,927 actual nonblank bitmap lookup pairs, including E800–E8FF 256/256 per font.
+- Parsed actual White TH and P3.7B message archives: 56,700 each; missing PUA glyph lookup = **0** in all font maps.
+- Source hashes, bitmap atlases, raw NFTR and parser provided in user-owned ZIP `Pokemon_Omega_Paradox_WhiteTH_ROM_Verified_1309_Glyph_Master_3Fonts_20261022.zip`, not committed as ROM assets to public GitHub.
+- Proof and limitations: `docs/P4_5_ROM_VERIFIED_GLYPH_MASTER_TH.md`.
+- IMPORTANT: Glyph Bitmap/CMAP complete != verified Unicode Thai cluster-to-PUA encoder or proportional layout metrics. The peculiar CWDH metadata remains unresolved. Do not re-extract/create glyphs without changed source fingerprint.
+- **Next blocking goal:** verify Thai semantic reverse mapping/cluster encoder and renderer pixel widths from proven Thai text, then produce a one-message Cynthia system/44/24 BPS smoke patch using the original Omega clean ROM. Retain P3.7B as fallback; no full-game G2–G5 claims.
