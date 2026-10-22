@@ -1,10 +1,11 @@
-name: Omega P4.0-P4.1 Static Integrity Tests
+name: Omega P4.0-P4.2 Static Integrity Tests
 
 on:
   push:
     paths:
       - 'projects/pokemon-omega-paradox/tools/**'
       - 'projects/pokemon-omega-paradox/translation/P4_1*'
+      - 'projects/pokemon-omega-paradox/translation/P4_2*'
       - '.github/workflows/omega-p40-static-tests.yml'
   workflow_dispatch:
 
