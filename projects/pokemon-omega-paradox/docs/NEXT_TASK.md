@@ -36,3 +36,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Evidence: GitHub Actions run 39732260462 on commit `0aef429939f21202a73439739e5de4a870c2344d`: syntax compilation PASS, synthetic test suite PASS **16/16**.
 - **Unfinished:** full 56,700-row audit on actual CSVs, source+target CRC/hashes on original Omega/P3.7B patch, glyph-bank-specific Encoder E8xx, real P4.0 BPS, emulator tests. Do not infer a reviewed percentage from static matches.
 - Next: execute both read-only audit tools on complete local CSV inputs; review exact and cross-ID queues with context; introduce verified native encoder and 1–5-message smoke patch; retain P3.7B fallback.
+
+## Full real-data audit COMPLETE — 2026-10-22 (supersedes earlier runtime blocker)
+- **Read/processed all 56,700 inventory rows**, unique keys 56,700, against the **25,976-row** original Pokémon White TH translation-memory file. Both source CSV SHA-256 digests are recorded in `docs/P4_0_REAL_56700_AUDIT_RESULTS_20261022.md`.
+- Result: 25,001 P3.5 snapshot entries with Thai PUA; 20,096 entries requiring review; 11,603 classified nonlinguistic; Omega-custom 1,727 overlaps these groups.
+- Exact English text matched same-ID TM for 24,558 entries; **zero new automatic Same-ID / Cross-ID injection candidates** after excluding already-imported P3.5 Thai, Omega-custom and conflict candidates. White TH memory cannot be indiscriminately recopied.
+- Targeted QA risks: 9 P3.5 native Thai hard control signature differences; 11 White TH memory hard control differences; 62 ambiguous source-to-Thai master mappings (not all overlap the 9). Report flags require human/context assessment, not automatic regression conclusions.
+- Full per-row audit and sorted P1/P2/P3 20,096-item queue are delivered in the associated conversation ZIP, SHA-256 `224447667aa0fe06b1d46e1668f75fc53b81065b593bb0e7c2ae433c178f01bb`. Do NOT put copyrighted raw game text or ROM files into this public repo.
+- **Do not confuse data audit COMPLETE with P4.0 ROM build COMPLETE**. No P4.0 BPS built; G2 contextual approval and G3/G4 emulator evidence are still pending. P3.7B original source and BPS CRC checks passed.
+- Next: inspect 9 hard control flags, then validate P1 Omega 1,619 / P2 Story 970 / P3 System 17,507 pending queue records; derive bank-specific native E8xx encoding and produce safe pilot BPS preserving P3.7B fallback.
