@@ -79,3 +79,11 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Proof and limitations: `docs/P4_5_ROM_VERIFIED_GLYPH_MASTER_TH.md`.
 - IMPORTANT: Glyph Bitmap/CMAP complete != verified Unicode Thai cluster-to-PUA encoder or proportional layout metrics. The peculiar CWDH metadata remains unresolved. Do not re-extract/create glyphs without changed source fingerprint.
 - **Next blocking goal:** verify Thai semantic reverse mapping/cluster encoder and renderer pixel widths from proven Thai text, then produce a one-message Cynthia system/44/24 BPS smoke patch using the original Omega clean ROM. Retain P3.7B as fallback; no full-game G2–G5 claims.
+
+## P4.6 — REAL BPS PILOT BUILT (2026-10-22)
+- First real BPS after P3.7B **BUILT and independently byte-verified**: `Pokemon_Omega_Paradox_TH_P4_6_Cynthia_Full_Thai_Pilot_from_Clean_Omega.bps`, SHA-256 `48f60e64dff45dd505d9d00d44dfc6493690d20383201ce36a22f61c8fb88ce6`.
+- Original clean Omega source unchanged. BPS checks source and target CRC, SHA256, and only 64 ciphertext bytes of `system/44/24` differ from P3.7B. Resulting target SHA `945c0bc11b137580311af9c38b6f62852a6cf688e16a89854e7d64ed00427a04`.
+- Native Thai 29-codeunit first narration clause sourced from original White TH `system/44/24` with matching English phrase and command sequence. Second 20-codeunit native clause retained. 31 unique native PUA glyphs verified nonblank in three byte-identical ROM NFTR fonts. Keeps message 83 units long by using 6 trailing spaces after custom Cynthia name. Two *positions* of F000/FFFE shift, requiring user emulator verification.
+- Report and limitations: `docs/P4_6_CYNTHIA_NATIVE_THAI_BPS_BUILD_QA_TH.md`. Standalone BPS and ZIP given directly to project owner in the ChatGPT chat, no ROM committed.
+- G0 + G1 for this limited patch pass; **G2 contextual character review pending**, G3 rendered-layout pending, G4 emulator pending, G5 full localization pending. This build is **not** 100% translation.
+- **Next task**: obtain screenshot from melonDS Android of Cynthia both clauses, transition to next page, and Save/Load. If PASS keep P4.6 as baseline and derive a bank-specific Unicode Thai cluster encoder from proven ROM glyph/text pairs (do not guess). Continue remaining Omega-specific translated DRAFT/NEEDS_CONTEXT queue and validate each injected scene.
