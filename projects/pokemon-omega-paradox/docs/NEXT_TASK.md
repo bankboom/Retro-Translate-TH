@@ -29,3 +29,10 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - **P4.0 BPS NOT BUILT**, no new emulator evidence, no gate progression claimed.
 - To resume: run synthetic tests and audit against full local CSV, review eligible rows, integrate approved rows into verified game-specific NARC/MSG packer, build BPS against original Omega SHA-256, compare against P3.7B, then obtain emulator test evidence before promoting P4.0.
 - Keep P3.7B fallback immutable. Do not copy all White TH messages merely by aligned indexes.
+
+## Update 2026-10-22 — Cross-ID reuse and CI evidence
+- Added `tools/p40_cross_id_review.py` to recover EXACT SOURCE + EXACT CONTROL SIGNATURE matches from White TH even where source and destination message IDs differ. It holds conflicting Thai choices, Omega-custom entries, and P3.5-only "already translated" snapshot claims; it does NOT inject messages.
+- Added `tools/test_p40_cross_id_review.py`, included in `.github/workflows/omega-p40-static-tests.yml`.
+- Evidence: GitHub Actions run 39732260462 on commit `0aef429939f21202a73439739e5de4a870c2344d`: syntax compilation PASS, synthetic test suite PASS **16/16**.
+- **Unfinished:** full 56,700-row audit on actual CSVs, source+target CRC/hashes on original Omega/P3.7B patch, glyph-bank-specific Encoder E8xx, real P4.0 BPS, emulator tests. Do not infer a reviewed percentage from static matches.
+- Next: execute both read-only audit tools on complete local CSV inputs; review exact and cross-ID queues with context; introduce verified native encoder and 1–5-message smoke patch; retain P3.7B fallback.
