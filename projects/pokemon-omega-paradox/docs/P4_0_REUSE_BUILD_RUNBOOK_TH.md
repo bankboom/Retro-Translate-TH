@@ -73,3 +73,22 @@ and pass --approved-context /path/to/approval.csv. Source hash must match exact 
 
 ## Known blocker, 2026-10-22
 The working session's binary execution runtime returned system errors; new ROM bytes cannot be built or verified here. Consequently no P4.0 BPS or claimed binary QA success has been produced by this runbook. The project must not label this stage FULL/PASS or claim 70% reviewed based on raw PUA counts alone.
+
+## Update 22 Oct 2026 — Cross-ID Translation Memory lookup (implemented)
+Alongside the original same-ID audit, `tools/p40_cross_id_review.py` now finds **exact-source, unique-master-translation matches at different message IDs**. This is a separate, read-only `STATIC_CROSS_ID_CONTEXT_PENDING` queue: a hit is *never* an approval or ROM injection.
+
+Run from the repository root after providing **complete** 56,700-entry inventory and White TH memory CSVs locally:
+
+```bash
+python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p40_*.py' -v
+python projects/pokemon-omega-paradox/tools/p40_cross_id_review.py \
+  --inventory /path/to/P3_5_All_56700_Text_Status.csv \
+  --memory /path/to/P3_5_Reuse_Memory.csv \
+  --out /path/to/output/p40_cross_id_candidates.csv
+```
+
+Outputs `p40_cross_id_candidates.csv` and `p40_cross_id_candidates.json`. Existing Omega-custom entries, P3.5 "THAI_IN_ROM" snapshot entries, conflicting Thai variants and altered control-code parameters are held, not automatically promoted. All cross-ID hits still require confirmed scene/context, target-bank glyph compatibility, actual P3.7B baseline comparison, and then native encoding/ROM QA.
+
+**Verified CI evidence:** [GitHub Actions #39732260462](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39732260462), commit `0aef429939f21202a73439739e5de4a870c2344d`, compiled Python modules and ran **16/16 synthetic, non-ROM tests successfully**. It does NOT run on the user's 56,700-row CSV dataset and does NOT prove any emulator/gameplay property.
+
+**Still not complete:** real-data P4.0 audits, build/injection, full Cynthia translation, BPS generation, emulator QA, and G2–G5 release gates.
