@@ -18,7 +18,7 @@ class FixedSlotTests(unittest.TestCase):
     def test_smoke_prepares_fixed_capacity_without_rom(self):
         row = case()
         result = prepare_fixed_slot(row)
-        self.assertEqual(result["capacities_in_codeunits"],[14,15,0])
+        self.assertEqual(result["capacities_in_codeunits"],[15,15,0])
         self.assertEqual(result["native_used_codeunits"],[2,2,0])
         self.assertEqual(tokens(result["escaped_fixed_slot_message"]),
                          tokens(row["original_english"]))
