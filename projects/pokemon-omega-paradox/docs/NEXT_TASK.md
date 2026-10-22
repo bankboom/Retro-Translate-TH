@@ -93,3 +93,10 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Log as `USER_REPORTED_SAVE_PASS` and `USER_REPORTED_LOAD_PASS` for P4.6 only. Do **not** label full G4 PASS or claim the visual QA of Cynthia's first/second clauses, whose screenshot and contextual review remain pending.
 - No new BPS was generated from this feedback. Preserve P4.6 plus P3.7B as rollback references.
 - Next: verify both Cynthia pages and text advance (no ????/clipping, correct role/context), then expand a targeted native-encoded smoke set using proven glyph/phrase mapping. Avoid redoing proven NFTR extraction or synthetic test loops.
+
+## P4.6 user-confirmed visual + gameplay smoke PASS (2026-10-22)
+- User reports: **both Cynthia clauses display in correct readable Thai**, with no `????`, and the dialogue advances normally. Preceding test report confirms **Save / Load normal**.
+- Log this as `P4_6_CYNTHIA_TWO_CLAUSES_VISUAL_PASS`, `P4_6_DIALOG_ADVANCE_PASS`, `P4_6_SAVE_LOAD_PASS`, all **user-reported** for the specific P4.6 build. See `docs/P4_6_CYNTHIA_NATIVE_THAI_BPS_BUILD_QA_TH.md`.
+- P4.6 becomes a **scoped emulator-tested stable baseline** for these routes, with P3.7B retained as fallback. G3 = PASS within the two Cynthia clauses; G4 = PARTIAL/SMOKE PASS within Cynthia progression and Save/Load, NOT full-game PASS.
+- Context/character-semantic G2 remains PENDING since a native clause was originally translated for Bianca. No screenshot artifact was attached to this particular report.
+- **Stop repeated Cynthia smoke experiments unless bytes/fonts/renderer/control codes change.** Focus next on unverified game messages and bank-specific Unicode Thai grapheme-to-PUA mapping, review actual context, then build conservative BPS increments with regression comparisons to P4.6.
