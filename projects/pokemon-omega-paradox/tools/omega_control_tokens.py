@@ -2,7 +2,9 @@
 r"""Tokenize plain-text CSV renderings of Omega/NDS control sequences.
 
 Escaped \xF000 followed by one native opcode codepoint and any \xNNNN
-operand units forms ONE token. Unlike earlier heuristics, do not assume that
+operand units forms ONE token. Native Thai PUA E000-EFFF glyph units never
+count as F000 operands. Unknown E-prefix operands need ROM-specific decoding.
+Unlike earlier heuristics, do not assume that
 the last operand is always \x0000: e.g. \xF000븉\x0001\x0001 is valid.
 This module is for static translation QA, NOT a ROM encoder/serializer.
 """
@@ -11,7 +13,7 @@ import re
 
 # The CSV exporter writes non-ASCII opcode code units as the literal codepoint
 # and operands as backslash-x plus four hex digits.
-CODE = re.compile(r"\\xF000[^\\](?:\\x(?!F000|FFFE|FFFF)[0-9A-Fa-f]{4})*|\\x(?:FFFE|FFFF)", re.S)
+CODE = re.compile(r"\\xF000[^\\](?:\\x(?!F000|FFFE|FFFF|E[0-9A-Fa-f]{3})[0-9A-Fa-f]{4})*|\\x(?:FFFE|FFFF)", re.S)
 
 
 def tokens(message: str) -> tuple[str, ...]:
