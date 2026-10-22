@@ -1,0 +1,23 @@
+name: Omega P4.0 Static Reuse Audit Tests
+
+on:
+  push:
+    paths:
+      - 'projects/pokemon-omega-paradox/tools/**'
+      - '.github/workflows/omega-p40-static-tests.yml'
+  workflow_dispatch:
+
+jobs:
+  static-audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile the safe CSV audit
+        run: python -m py_compile projects/pokemon-omega-paradox/tools/p40_reuse_audit.py projects/pokemon-omega-paradox/tools/test_p40_reuse_audit.py
+      - name: Unit test with synthetic non-ROM fixtures
+        run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p40_reuse_audit.py' -v
