@@ -16,7 +16,8 @@ from collections import Counter
 from pathlib import Path
 
 # Captures control operations with their operands (not just the \xF000 marker).
-CTRL = re.compile(r"\\xF000(?:(?!\\xF000).)*?\\x0000|\\x[0-9A-Fa-f]{4}", re.S)
+# Native Thai PUA glyphs (\\xE0xx/\\xE8xx) are TEXT, not control codes.
+CTRL = re.compile(r"\\xF000(?:(?!\\xF000|\\xFFFE|\\xFFFF).)*?\\x0000|\\x(?:FFFE|FFFF)", re.S)
 PUA = re.compile(r"\\xE[0-9A-Fa-f]{3}|[\ue000-\uf8ff]")
 
 INV_FIELDS = {
