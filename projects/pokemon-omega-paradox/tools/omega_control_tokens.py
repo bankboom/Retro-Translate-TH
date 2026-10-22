@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tokenize plain-text CSV renderings of Omega/NDS control sequences.
+r"""Tokenize plain-text CSV renderings of Omega/NDS control sequences.
 
 Escaped \xF000 followed by one native opcode codepoint and any \xNNNN
 operand units forms ONE token. Unlike earlier heuristics, do not assume that
