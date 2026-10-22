@@ -12,5 +12,10 @@
   "inventory_custom_omega": 1727,
   "recent_test": "P3.7B Cynthia partial Thai rendered; not full scene or gameplay QA",
   "complete_100_percent": false,
-  "binary_patch_p38_created": false
+  "binary_patch_p38_created": false,
+  "p40_state": "STATIC_AUDIT_IMPLEMENTED_NOT_EXECUTED",
+  "p40_bps_created": false,
+  "p40_emulator_verified": false,
+  "p40_static_tool": "projects/pokemon-omega-paradox/tools/p40_reuse_audit.py",
+  "p40_build_runbook": "projects/pokemon-omega-paradox/docs/P4_0_REUSE_BUILD_RUNBOOK_TH.md"
 }
