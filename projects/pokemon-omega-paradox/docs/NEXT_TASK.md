@@ -45,3 +45,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Full per-row audit and sorted P1/P2/P3 20,096-item queue are delivered in the associated conversation ZIP, SHA-256 `224447667aa0fe06b1d46e1668f75fc53b81065b593bb0e7c2ae433c178f01bb`. Do NOT put copyrighted raw game text or ROM files into this public repo.
 - **Do not confuse data audit COMPLETE with P4.0 ROM build COMPLETE**. No P4.0 BPS built; G2 contextual approval and G3/G4 emulator evidence are still pending. P3.7B original source and BPS CRC checks passed.
 - Next: inspect 9 hard control flags, then validate P1 Omega 1,619 / P2 Story 970 / P3 System 17,507 pending queue records; derive bank-specific native E8xx encoding and produce safe pilot BPS preserving P3.7B fallback.
+
+## P4.2 translation and control-parser checkpoint (2026-10-22)
+- P4.2 added 19 source-aligned Omega story `DRAFT_NEEDS_CONTEXT` messages; P4.2B added 8 more with complex F000 variable/speaker operands, total **27 new / 67 P4.1–P4.2 distinct IDs**.
+- Fixed escaped-text control lexer: `tools/omega_control_tokens.py` treats `F000 opcode + all literal hex operands` as one operation even when final operand is nonzero; never swallow adjacent F000/FFFE/FFFF.
+- CI evidence: [run 39775878424](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39775878424) **SUCCESS 28/28 static and synthetic tests**; user game ROM/emulator was NOT exercised.
+- New translation CSVs: `translation/P4_2_OMEGA_STORY_CONTINUATION_DRAFTS.csv` (19) and `translation/P4_2B_OMEGA_COMPLEX_CONTROL_DRAFTS.csv` (8).
+- Report: `docs/P4_2_20261022_TRANSLATION_AND_TOKEN_QA_TH.md`.
+- Remaining critical blocking dependency: verified native E8xx encoding for **new** Unicode Thai text and tested NARC/MSG+BPS builder. The P3.7B fallback is untouched.
+- No new BPS; no claim that 100% of the game is translated or reviewed. Use the full 56,700-row P4.0 audit inventory without rescanning.
