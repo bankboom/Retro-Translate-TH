@@ -45,3 +45,21 @@ The local user-owned ZIP includes `tools/build_p46.py`, exact-source NFTR lookup
 - **G4 PARTIAL:** this confirms the requested Save/Load smoke step only. It does **not** establish full-game gameplay PASS, the visual integrity/meaning of both Cynthia clauses, dialogue advancing, any specific glyph layout, or G2/G3/G5 signoff.
 - Next visual checkpoint: collect in-game Cynthia both Thai clauses and confirm both dialogue screens render clearly and progress correctly; keep G2 character semantics pending until reviewed.
 - Keep user feedback attached to the P4.6 BPS SHA-256 `48f60e64dff45dd505d9d00d44dfc6493690d20383201ce36a22f61c8fb88ce6`; a different patched ROM build must be tested independently.
+
+## P4.6 actual emulator playtest — Cynthia two clauses PASS (2026-10-22)
+**Evidence source:** user firsthand verification in this chat, verbatim: "P4.6 บทสนทนา Cynthia ทั้งสองประโยคแสดงไทยถูกต้อง อ่านชัด ไม่มี ???? และกดผ่านได้ปกติ".
+
+Verified by user's playtest **for this P4.6 candidate only**:
+- Cynthia clause 1 — **THAI_ON_SCREEN_PASS**.
+- Cynthia clause 2 — **THAI_ON_SCREEN_PASS**.
+- Glyph legibility and visible characters — **PASS**, with no `????` reported.
+- Dialogue/page advancement — **PASS**.
+- Save and Load — **PASS** (reported by this user in preceding test report).
+
+Gate interpretation:
+- **G3 SCOPED PASS** for visual Thai output in these two Cynthia clauses (user-confirmed; no separate screenshot file or pixel width measurement was supplied).
+- **G4 SCOPED SMOKE PASS** for this dialogue advance plus Save/Load. Full-game G4 remains **PENDING**.
+- **G2 semantic/context correctness for Cynthia** remains **PENDING**: appearance and readability do not confirm that reused Bianca-origin narration precisely fits Cynthia's personality or story context.
+- **G5 full game release** remains **PENDING**. No claim that all translated messages or every renderer passes.
+
+**Baseline decision:** P4.6 is a **user-playtested scoped stable checkpoint** for Cynthia's two-page display, dialogue progression, Save/Load. Preserve P3.7B as rollback; do not re-run these identical smoke cases without a change in a relevant font, message, control operation, renderer, or save subsystem. Next priority: build a verified bank-specific semantic Thai Unicode-to-PUA mapping and proceed to unreleased translation messages in small regression-scoped batches.
