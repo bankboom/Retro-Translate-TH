@@ -1,9 +1,10 @@
-name: Omega P4.0-P4.2 Static Integrity Tests
+name: Omega P4.x Translation Integrity Tests
 
 on:
   push:
     paths:
       - 'projects/pokemon-omega-paradox/tools/**'
+      - 'projects/pokemon-omega-paradox/translation/P3_9*'
       - 'projects/pokemon-omega-paradox/translation/P4_1*'
       - 'projects/pokemon-omega-paradox/translation/P4_2*'
       - '.github/workflows/omega-p40-static-tests.yml'
@@ -24,6 +25,17 @@ jobs:
       - name: Run static audit and draft control-code tests
         run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p4*.py' -v
 
+      - name: P4.7 merge-readiness for all 98 full-message drafts
+        run: |
+          python projects/pokemon-omega-paradox/tools/p47_full_scope_merge.py \
+            --check-drafts-only > /tmp/omega-p47-draft-preflight.json
+          python - <<'PY'
+          import json
+          r=json.load(open('/tmp/omega-p47-draft-preflight.json'))
+          assert r["draft_rows"]==98
+          assert r["unique_message_ids"]==98
+          assert not r["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0)
+          PY
       - name: P4.3 draft glyph-readiness audit (no ROM writes)
         run: |
           python projects/pokemon-omega-paradox/tools/p43_preflight_existing_drafts.py --out /tmp/omega-p43-glyph-preflight.json
@@ -34,6 +46,11 @@ jobs:
           assert not p['bps_created'] and not p['code_injected']
           assert sum(p['counts'].values())==67
           PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: omega-p47-draft-inventory
+          path: /tmp/omega-p47-draft-preflight.json
+          if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
           name: omega-p43-glyph-preflight
