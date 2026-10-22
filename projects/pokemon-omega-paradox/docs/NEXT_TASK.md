@@ -62,3 +62,11 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - **No new ROM and no BPS.** Verified decoder/encoder *logical text* unit tests are not game-ROM bytecode validation or gameplay approval.
 - Must avoid circular proof trap: extract a source-traceable native bank-specific mapping from White TH/P3.7B, label reference material `SMOKE_ONLY` until actual melonDS validation; only then promote to `IN_GAME_VERIFIED`. Never guess glyph codepoints.
 - Next practical binary milestone remains: preserve P3.7B fallback; one-message Cynthia system 44/24 pilot; source SHA and BPS CRC/repack/revert checks; user emulator screenshot + next-page progression.
+
+## P4.4 fixed-slot E8 smoke pilot — verified CI checkpoint (22 Oct 2026)
+- Fixed a **real parser defect**: previous `F000 + opcode + arbitrary \\xNNNN operand` expression wrongly consumed adjacent native `\\xE8NN` glyph escapes as F000 operands. Shared lexer now stops before E000–EFFF PUA escapes, failing closed on possible unconventional operands.
+- Added `tools/p44_fixed_slot_pilot.py` and 12 synthetic tests to enforce per-visible-segment fixed codeunit capacity, exact control token/payload preservation, source-to-reference provenance fields and no Unicode fallback. The output is an **escaped logical message only**.
+- GitHub Actions [39786876015](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39786876015) verified **50/50 synthetic/static Python tests PASS** (including all older suites); this tests code logic, not actual ROM bytes.
+- `docs/P4_4_NATIVE_E8_FIXED_SLOT_SMOKE_TH.md` and blank `glyph_maps/P4_4_NATIVE_REFERENCE_EXTRACTED_TEMPLATE.csv` document precisely which real White TH/P3.7B native fragments are needed. No fragment or glyph codepoints were fabricated.
+- **User goal is not yet complete**: no new P4.4 BPS, no successful binary serialization/ROM diff/emulator QA, and still 20,096 items requiring review/classification from full real-data audit. Continue on original Omega source SHA256; P3.7B is immutable fallback.
+- **Do not create further cosmetic draft versions until a genuine native reference extraction + one-message BPS is produced**. Next focused task is System 44 message 24 Cynthia. Require actual P3.7B/White TH bytes and source-exact extraction; if runtime unavailable report blocker instead of calling it done.
