@@ -63,6 +63,14 @@ def writer(path: Path, columns: list[str]):
 
 def prepare(inv_path: Path, tm_path: Path, out_dir: Path,
             expected: int = 56700, approvals: Path | None = None) -> dict:
+    # Validate completeness before creating any candidate files. A Files preview
+    # may contain only a small excerpt of the actual 56,700-row CSV.
+    if expected is not None:
+        counted = sum(1 for _ in read_csv(inv_path, INV_FIELDS))
+        if counted != expected:
+            raise ValueError(
+                f"Inventory count {counted} != expected {expected}; refusing partial export"
+            )
     out_dir.mkdir(parents=True, exist_ok=True)
     memory = {}
     for row in read_csv(tm_path, TM_FIELDS):
