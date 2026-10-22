@@ -18,6 +18,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Compile the safe CSV audit
-        run: python -m py_compile projects/pokemon-omega-paradox/tools/p40_reuse_audit.py projects/pokemon-omega-paradox/tools/test_p40_reuse_audit.py
+        run: python -m py_compile projects/pokemon-omega-paradox/tools/p40_reuse_audit.py projects/pokemon-omega-paradox/tools/test_p40_reuse_audit.py projects/pokemon-omega-paradox/tools/p40_cross_id_review.py projects/pokemon-omega-paradox/tools/test_p40_cross_id_review.py
       - name: Unit test with synthetic non-ROM fixtures
-        run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p40_reuse_audit.py' -v
+        run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p40_*.py' -v
