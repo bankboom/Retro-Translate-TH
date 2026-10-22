@@ -54,3 +54,11 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Report: `docs/P4_2_20261022_TRANSLATION_AND_TOKEN_QA_TH.md`.
 - Remaining critical blocking dependency: verified native E8xx encoding for **new** Unicode Thai text and tested NARC/MSG+BPS builder. The P3.7B fallback is untouched.
 - No new BPS; no claim that 100% of the game is translated or reviewed. Use the full 56,700-row P4.0 audit inventory without rescanning.
+
+## P4.3 Native E8xx gate checkpoint (2026-10-22)
+- Added `tools/p43_native_e8_encoder.py` and `tools/test_p43_native_e8_encoder.py`, plus `tools/p43_preflight_existing_drafts.py` and an empty per-renderer `glyph_maps/P4_3_NATIVE_E8_PENDING.csv` awaiting real evidence.
+- GitHub Actions [39781176864](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39781176864): **38/38 static/synthetic Python tests PASS**, plus `67/67` distinct P4.1/P4.2 draft preflight **67 CONTEXT_NOT_REVIEWED / 0 encoding-ready**, map has zero verified fragments. CI artifact `omega-p43-glyph-preflight`.
+- Report: `docs/P4_3_20261022_E8XX_GATE_AND_BUILD_BLOCKERS_TH.md`.
+- **No new ROM and no BPS.** Verified decoder/encoder *logical text* unit tests are not game-ROM bytecode validation or gameplay approval.
+- Must avoid circular proof trap: extract a source-traceable native bank-specific mapping from White TH/P3.7B, label reference material `SMOKE_ONLY` until actual melonDS validation; only then promote to `IN_GAME_VERIFIED`. Never guess glyph codepoints.
+- Next practical binary milestone remains: preserve P3.7B fallback; one-message Cynthia system 44/24 pilot; source SHA and BPS CRC/repack/revert checks; user emulator screenshot + next-page progression.
