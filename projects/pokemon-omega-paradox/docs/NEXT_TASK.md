@@ -87,3 +87,9 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Report and limitations: `docs/P4_6_CYNTHIA_NATIVE_THAI_BPS_BUILD_QA_TH.md`. Standalone BPS and ZIP given directly to project owner in the ChatGPT chat, no ROM committed.
 - G0 + G1 for this limited patch pass; **G2 contextual character review pending**, G3 rendered-layout pending, G4 emulator pending, G5 full localization pending. This build is **not** 100% translation.
 - **Next task**: obtain screenshot from melonDS Android of Cynthia both clauses, transition to next page, and Save/Load. If PASS keep P4.6 as baseline and derive a bank-specific Unicode Thai cluster encoder from proven ROM glyph/text pairs (do not guess). Continue remaining Omega-specific translated DRAFT/NEEDS_CONTEXT queue and validate each injected scene.
+
+## P4.6 emulator feedback — Save/Load verified by user (2026-10-22)
+- The user tested the current P4.6 candidate and reported **Save normal; Load normal**.
+- Log as `USER_REPORTED_SAVE_PASS` and `USER_REPORTED_LOAD_PASS` for P4.6 only. Do **not** label full G4 PASS or claim the visual QA of Cynthia's first/second clauses, whose screenshot and contextual review remain pending.
+- No new BPS was generated from this feedback. Preserve P4.6 plus P3.7B as rollback references.
+- Next: verify both Cynthia pages and text advance (no ????/clipping, correct role/context), then expand a targeted native-encoded smoke set using proven glyph/phrase mapping. Avoid redoing proven NFTR extraction or synthetic test loops.
