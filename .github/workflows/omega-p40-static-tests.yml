@@ -23,3 +23,19 @@ jobs:
         run: python -m compileall -q projects/pokemon-omega-paradox/tools
       - name: Run static audit and draft control-code tests
         run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p4*.py' -v
+
+      - name: P4.3 draft glyph-readiness audit (no ROM writes)
+        run: |
+          python projects/pokemon-omega-paradox/tools/p43_preflight_existing_drafts.py --out /tmp/omega-p43-glyph-preflight.json
+          python - <<'PY'
+          import json
+          p=json.load(open('/tmp/omega-p43-glyph-preflight.json'))
+          assert p['total_draft_rows']==67 and p['distinct_ids']==67
+          assert not p['bps_created'] and not p['code_injected']
+          assert sum(p['counts'].values())==67
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: omega-p43-glyph-preflight
+          path: /tmp/omega-p43-glyph-preflight.json
+          if-no-files-found: error
