@@ -21,3 +21,11 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Gate results and caveats: `docs/P3_9_CONTEXT_BATCH_QA.md`.
 - Do **not** claim the 31 entries are already in the ROM. No P3.9 BPS has been made.
 - Safest next real binary task: isolated one-message smoke patch from previously tested P3.7B containing only System 44/8 (after deriving exact E8xx encoding from proven dialogue strings), then verify on emulator. Do not add 44/9 until 44/8 is demonstrated.
+
+## P4.0 continuation checkpoint (2026-10-22)
+- Implemented conservative reuse-audit code at `tools/p40_reuse_audit.py`, synthetic tests at `tools/test_p40_reuse_audit.py`, and runbook at `docs/P4_0_REUSE_BUILD_RUNBOOK_TH.md`.
+- This tool matches Omega original vs White original at exact archive/file/message ID, rejects Omega-custom content, checks **whole-control sequence including parameters**, and prevents mistaking PUA glyphs for controls. It holds ambiguous source-to-Thai mappings and any inventory/master conflicts.
+- **Not executed on all 56,700 rows in this environment** due binary runtime errors; candidate counts are unknown. Test workflow has been added but no successful CI result has been observed.
+- **P4.0 BPS NOT BUILT**, no new emulator evidence, no gate progression claimed.
+- To resume: run synthetic tests and audit against full local CSV, review eligible rows, integrate approved rows into verified game-specific NARC/MSG packer, build BPS against original Omega SHA-256, compare against P3.7B, then obtain emulator test evidence before promoting P4.0.
+- Keep P3.7B fallback immutable. Do not copy all White TH messages merely by aligned indexes.
