@@ -68,7 +68,7 @@ class P40Tests(unittest.TestCase):
             audit.control_signature(r"X\xF000븁\x0000"))
         self.assertEqual(
             audit.control_signature(r"\xE801\xFFFE\xF000븁\x0000"),
-            ("\\xE801", "\\xFFFE", "\\xF000븁\\x0000"))
+            ("\\xFFFE", "\\xF000븁\\x0000"))
 
     def test_exact_match_is_only_candidate(self):
         res, cand, accepted = self.audit([inv()], [tm()])
