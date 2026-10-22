@@ -100,3 +100,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - P4.6 becomes a **scoped emulator-tested stable baseline** for these routes, with P3.7B retained as fallback. G3 = PASS within the two Cynthia clauses; G4 = PARTIAL/SMOKE PASS within Cynthia progression and Save/Load, NOT full-game PASS.
 - Context/character-semantic G2 remains PENDING since a native clause was originally translated for Bianca. No screenshot artifact was attached to this particular report.
 - **Stop repeated Cynthia smoke experiments unless bytes/fonts/renderer/control codes change.** Focus next on unverified game messages and bank-specific Unicode Thai grapheme-to-PUA mapping, review actual context, then build conservative BPS increments with regression comparisons to P4.6.
+
+## P4.7 — 98 DRAFTS UNIFIED, CI PASS, GAME STILL INCOMPLETE (2026-10-22)
+- Implemented `tools/p47_full_scope_merge.py` with fail-closed real CSV + 98 full-message draft merge; refuses truncated 56,700-row inventory, duplicate IDs, source mismatch, control sequence mismatch and ambiguous variants.
+- Full-message drafts are **98 distinct IDs**: P3.9 = 31; P4.1 = 40; P4.2 = 19; P4.2B = 8. P3.8 has partial message fragments, so must NOT inject directly. **All drafts remain context QA pending**. Do not count as translated/injected or as a 100% completion claim.
+- GitHub Actions `39818271371` **PASS 59/59 unit/static tests**, including new scope tests; not a real ROM build. CI proof: https://github.com/bankboom/Retro-Translate-TH/actions/runs/39818271371
+- Detailed report and CLI: `docs/P4_7_FULL_SCOPE_EXPANSION_CHECKPOINT_TH.md`.
+- **No P4.7 BPS generated**. This working session's native ROM execution environment raised ClientError; actual P4.6 build remains the newest binary and user-scoped emulator-tested checkpoint.
+- On restored local ROM execution: (1) run P4.7 tool on the owner's existing 56,700-row CSV and reconcile draft source IDs, (2) derive or load verified bank-specific Unicode->native Thai units and renderer widths, (3) use the actual P4.6 ZIP scripts as baseline to build a small BPS of newly reviewed scenes and compare binary diff, (4) expand genuinely reviewed translations through all remaining backlog, with changes-only emulator regression and final G0–G5 QA.
+- Never re-extract already verified 1,309 glyphs or re-run unchanged Cynthia smoke tests. Preserve immutable original Omega and P4.6 binary SHA fingerprints.
