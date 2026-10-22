@@ -72,6 +72,15 @@ def prepare(inv_path: Path, tm_path: Path, out_dir: Path,
                 raise ValueError(f"Conflicting translation memory key: {k!r}")
         memory[k] = row
 
+    # Same English source can map to different Thai depending on context.
+    # Freeze those variants instead of auto-selecting the first translation.
+    source_variants = {}
+    for mem in memory.values():
+        source_key = (mem["archive"], mem["white_english"],
+                      control_signature(mem["white_english"]))
+        source_variants.setdefault(source_key, set()).add(mem["white_thai_pua_text"])
+    memory_collision_count = sum(len(x) > 1 for x in source_variants.values())
+
     approved = {}
     if approvals:
         need = {"archive", "file_id", "message_id", "source_sha256",
@@ -126,8 +135,13 @@ def prepare(inv_path: Path, tm_path: Path, out_dir: Path,
                 reason = "SOURCE_MISMATCH_EXACT_TEXT"
             elif not tha or not PUA.search(tha):
                 reason = "NO_NATIVE_PUA_MASTER_TEXT"
+            elif row["white_thai_master"] and row["white_thai_master"] != tha:
+                reason = "INVENTORY_AND_MASTER_THAI_CONFLICT"
             elif control_signature(original) != control_signature(tha):
                 reason = "CONTROL_SIGNATURE_MISMATCH"
+            elif len(source_variants.get((k[0], original,
+                                          control_signature(original)), set())) > 1:
+                reason = "AMBIGUOUS_SAME_SOURCE_DIFFERENT_THAI"
             elif not flag(row["reuse_master_available"]) or not flag(row["control_safe_master"]):
                 reason = "PREVIOUS_AUDIT_FLAG_NOT_SAFE"
             elif current == tha:
@@ -177,7 +191,8 @@ def prepare(inv_path: Path, tm_path: Path, out_dir: Path,
         "inventory_entries_checked": count,
         "memory_keys": len(memory),
         "counts": dict(sorted(stats.items())),
-        "source_to_thai_collisions_require_manual_review": conflicts,
+        "source_to_thai_collisions_require_manual_review": memory_collision_count,
+        "candidate_collision_count_after_conservative_filter": conflicts,
         "created_nds": False,
         "created_bps": False,
         "full_game_reviewed": False,
