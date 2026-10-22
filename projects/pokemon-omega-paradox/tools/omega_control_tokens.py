@@ -11,7 +11,7 @@ import re
 
 # The CSV exporter writes non-ASCII opcode code units as the literal codepoint
 # and operands as backslash-x plus four hex digits.
-CODE = re.compile(r"\\xF000[^\\](?:\\x[0-9A-Fa-f]{4})*|\\x(?:FFFE|FFFF)", re.S)
+CODE = re.compile(r"\\xF000[^\\](?:\\x(?!F000|FFFE|FFFF)[0-9A-Fa-f]{4})*|\\x(?:FFFE|FFFF)", re.S)
 
 
 def tokens(message: str) -> tuple[str, ...]:
