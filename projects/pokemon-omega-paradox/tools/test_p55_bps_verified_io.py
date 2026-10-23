@@ -112,6 +112,13 @@ class BPSVerifiedTests(unittest.TestCase):
             apply_patch(self.clean,self.patch,self.applied,expected_sha="0"*64)
         self.assertFalse(self.applied.exists())
 
+    def test_clean_rom_full_sha_guard_even_when_crc_matches(self):
+        self.make(b"0123456789",b"01234___89")
+        with self.assertRaisesRegex(BPSError,"CLEAN_ROM_SHA256_MISMATCH"):
+            apply_patch(self.clean,self.patch,self.applied,
+                        expected_clean_sha="0"*64)
+        self.assertFalse(self.applied.exists())
+
     def test_cannot_overwrite_original_source(self):
         self.make(b"0123456789",b"01234___89")
         with self.assertRaisesRegex(BPSError,"OUTPUT_MUST_NOT_OVERWRITE"):
