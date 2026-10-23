@@ -27,6 +27,7 @@ DRAFT_FILES = [
     "P4_2B_OMEGA_COMPLEX_CONTROL_DRAFTS.csv",
     "P4_8_OMEGA_PRIORITY_FULL_MESSAGE_DRAFTS.csv",
     "P4_9_OMEGA_STORY_CONTINUATION_DRAFTS.csv",
+    "P5_0_CASTELIA_NIMBASA_CONTEXT_DRAFTS.csv",
 ]
 INV_REQUIRED = {
     "archive", "file_id", "message_id", "status", "omega_custom",
