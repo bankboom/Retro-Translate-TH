@@ -1,3 +1,15 @@
+<!-- P5.6_CURRENT_CHECKPOINT_START -->
+## CURRENT CHECKPOINT — P5.6 (2026-10-24): **REAL BPS built + independent 56,700-message binary QA**
+- **NEW:** Owner's clean Omega, White TH, English White and P4.6 BPS are mounted and real SHA256 checks passed. Independently reapplied P4.6: output target SHA256 `945c0bc11b137580311af9c38b6f62852a6cf688e16a89854e7d64ed00427a04`.
+- **NEW P5.6** actual original-ROM BPS `Pokemon_Omega_Paradox_TH_P5_6_6_Native_Donor_Pilot_from_Clean_Omega.bps` was generated and delivered in chat. BPS SHA256 `6f8cfe2caafebebe2f4710ac1b4a73f08763be4cb6ebcbc41df9fd4450e07379`; **applied target SHA256 `93df7891d410ec2eb785fe4711f90aa275e823e01ff4cc892ac4a461b93d9483`**.
+- Actual full TM audit (White TH 25,976 rows vs Omega 56,700 rows) yielded **823 Omega messages with at least one same-file exact native donor segment; 53 all-segment composable candidate messages**. This is a new **review queue**, not 53 context-certified releases. For the pilot, chose **only six** with <=3 codeunit padding, based on actual White TH ROM and paired English White ROM.
+- **Changed precisely** `system/195/3`, `story/87/6`, `story/99/2`, `story/105/2`, `story/159/57`, `story/444/8`. All 37 selected PUA glyphs verified mapped/nonblank in 3 NFTR fonts. Exact same control positions/plaintext string lengths, no relocation.
+- **Independent QA:** applied P5.6 BPS to clean source, source CRC32, patch CRC32, target CRC32 and target SHA256 passed; decrypted **all 56,700** P4.6 vs P5.6 messages and found **exactly six modified IDs**, all other messages identical, font NARC/NitroFS file map unchanged.
+- **IMPORTANT:** user previously confirmed P4.6 Cynthia + Save/Load = PASS; **P5.6 NEW six scene messages NOT emulator-tested**. Do not elevate to full G3/G4 until user tests new content. User has downloadable P5.6 BPS and ZIP with private binary QA/scripts; the ROM itself is **not** distributed. If regression, revert to P4.6.
+- Full report: `docs/P5_6_REAL_ROM_NATIVE_DONOR_BPS_BUILD_QA_TH.md`.
+- **Goal still unfinished:** this is **not 100%**; P3.5 25,001 Thai-coded snapshot, 20,096 review queue, 270 Unicode Thai full-message drafts not yet encoded in this build. Priority: user test new P5.6 content, then address real Thai-to-PUA encoder/MSG NARC packer and review backlog, using same-bank donor candidates conservatively; no more repeated static-only infrastructure loops.
+<!-- P5.6_CURRENT_CHECKPOINT_END -->
+
 # Omega Paradox — Next executable translation task
 
 <!-- P5.5_CURRENT_CHECKPOINT_START -->
