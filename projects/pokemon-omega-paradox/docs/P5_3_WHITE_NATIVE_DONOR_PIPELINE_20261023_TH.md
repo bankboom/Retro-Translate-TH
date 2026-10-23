@@ -45,3 +45,7 @@ The program **fails closed** if the master is not exactly 25,976 rows or if the 
 5. Continue remaining review inventory toward **all 56,700 classified records**, including 20,096 review candidates, maintaining exclusions for nonlinguistic rows.
 
 No new BPS and no full-game 100% assertion are made in P5.3.
+
+## Final static gate after verified-CMAP refinement
+- The donor parser now checks each native PUA escape against **the exact six ROM-verified CMAP intervals** (`E000-E0FF`, `E100-E1FF`, `E200-E2A2`, `E800-E8FF`, `E900-E9FF`, `EA00-EA79`) rather than assuming every E000-EFFF code is a valid visible glyph. This blocks false candidates in unmapped ranges.
+- Reverified GitHub Actions run [39948875182](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39948875182): **SUCCESS, 114/114 tests**. Still no owner ROM or full 25,976-row memory inside GitHub CI.
