@@ -1,5 +1,19 @@
 # Omega Paradox — Next executable translation task
 
+<!-- P5.4_CURRENT_CHECKPOINT_START -->
+## CURRENT CHECKPOINT — 23 Oct 2026, P5.4 (supersedes older NEXT_TASK entries)
+- **Last actually user-tested ROM patch:** P4.6. Cynthia's two Thai sentences render clearly without `????`, dialogue progresses, and Save/Load work (limited G3/G4 user PASS). Keep P3.7B fallback.
+- **Current actual source-aligned drafts:** 270 unique Omega full-message DRAFT IDs, with separate per-ID Context QA holds. **No later P4.7–P5.4 BPS built or emulator-approved.**
+- **Already proven White TH:** 25,976 native Thai translation-memory entries and 1,309 mapped PUA glyphs in 3 NFTR fonts, with 25,001 Thai-in-ROM P3.5 snapshot IDs (not a claim of global rendered QA).
+- **NEW P5.4:** `tools/p54_one_pass_private_audit.py` orchestrates the complete 56,700-row owner inventory + 25,976 White TM + 270 draft reconciliation, creates local private per-ID QA and Native PUA donor queues, and optionally fingerprints clean ROM/P4.6 BPS with SHA/CRC checks.
+- **Verified GitHub CI:** [39974279240](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39974279240) **SUCCESS 120/120 tests**, synthetic & integrity only, not the full owner ROM/dataset.
+- **Blocker:** Current local binary Python/container runners returned environment errors; owner ROM/raw private CSVs were not executed against P5.4 in this turn. Never report actual full source audit/P4.6 application/BPS generation as complete from the synthetic tests.
+- **One-step restart** (when owner's mounted files are accessible): `docs/P5_4_PRIVATE_FULL_DATA_AUDIT_RUNBOOK_TH.md`. This has exact source SHA and a one-command invocation; do NOT request repetitive new glossary or glyph experiments.
+- **Immediate goal:** once full private audit result is generated, choose certified same-bank native donors for a small changed scene, or verify semantic Unicode Thai->PUA encoder if no valid donor; build incremental BPS from clean ROM, verify applied target and only newly modified scenes.
+- **Release threshold:** all actual linguistic messages translated/reviewed/encoded, safe non-linguistic exclusions, game text & graphics assets audited, full gameplay regression G0–G5. Current completion **not 100%**.
+<!-- P5.4_CURRENT_CHECKPOINT_END -->
+
+
 ## Existing assets
 Reuse existing Library CSV: P3_5_All_56700_Text_Status.csv, P3_5_Reuse_Memory.csv, P3_5_Translation_Backlog_Deduplicated.csv, P3_5_Omega_Original_Custom_Queue.csv and P3_5_Previous_Thai_Drafts_23.csv. Do diff-based work; do not rescan unrelated banks without a changed checksum.
 Base tested partial patch: P3.7B; fallback P3.6B/P3.3A. Patch source is always original Omega ROM, not already patched ROM.
