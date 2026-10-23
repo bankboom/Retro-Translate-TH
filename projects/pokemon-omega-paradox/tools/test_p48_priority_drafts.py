@@ -22,7 +22,7 @@ class P48FullMessages(unittest.TestCase):
         self.assertEqual(len(self.rows), 23)
         keys = {(r["archive"], r["file_id"], r["message_id"]) for r in self.rows}
         self.assertEqual(len(keys), 23)
-                self.assertIn(("system", "44", "26"), keys)
+        self.assertIn(("system", "44", "26"), keys)
         self.assertIn(("story", "36", "18"), keys)
 
     def test_every_message_keeps_the_complete_control_sequence(self):
