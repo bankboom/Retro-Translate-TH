@@ -131,7 +131,8 @@ def _assert_new_output(out: Path, *protected: Path):
         raise BPSError("OUTPUT_DIRECTORY_MISSING")
 
 
-def apply_patch(clean: Path, bps: Path, out: Path, expected_sha: str | None = None) -> dict:
+def apply_patch(clean: Path, bps: Path, out: Path, expected_sha: str | None = None,
+                expected_clean_sha: str | None = None) -> dict:
     """Apply all four BPS actions, including overlap-safe TargetCopy.
 
     Target bytes are staged on disk and only published after final CRC & SHA.
@@ -141,6 +142,8 @@ def apply_patch(clean: Path, bps: Path, out: Path, expected_sha: str | None = No
     data = bps.read_bytes()
     header = read_header(data)
     original = fingerprint(clean)
+    if expected_clean_sha and original["sha256"] != expected_clean_sha.lower():
+        raise BPSError("CLEAN_ROM_SHA256_MISMATCH")
     if original["bytes"] != header["source_bytes"]:
         raise BPSError("SOURCE_SIZE_MISMATCH")
     if original["crc32"] != header["source_crc32"]:
@@ -405,6 +408,7 @@ def main():
     a.add_argument("--bps", required=True, type=Path)
     a.add_argument("--out", required=True, type=Path)
     a.add_argument("--expected-target-sha256")
+    a.add_argument("--expected-clean-sha256")
     b = subs.add_parser("create")
     b.add_argument("--clean", required=True, type=Path)
     b.add_argument("--target", required=True, type=Path)
@@ -416,7 +420,8 @@ def main():
     args = p.parse_args()
     if args.command == "apply":
         result = apply_patch(args.clean, args.bps, args.out,
-                             args.expected_target_sha256)
+                             args.expected_target_sha256,
+                             args.expected_clean_sha256)
     elif args.command == "create":
         result = create_patch(args.clean, args.target, args.out,
                               args.expected_clean_sha256)
