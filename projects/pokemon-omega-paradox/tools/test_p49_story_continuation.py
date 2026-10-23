@@ -54,11 +54,11 @@ class P49StoryContinuationQA(unittest.TestCase):
         for key in (("43","18"),("56","4")):
             self.assertIn("STORY CONTINUITY FLAG",by_id[key]["comment"])
 
-    def test_149_cumulative_drafts_no_conflicts(self):
+    def test_196_cumulative_drafts_no_conflicts(self):
         files=[ROOT/"translation"/name for name in DRAFT_FILES]
         report=audit_drafts_only(files)
-        self.assertEqual(report["draft_rows"],149)
-        self.assertEqual(report["unique_message_ids"],149)
+        self.assertEqual(report["draft_rows"],196)
+        self.assertEqual(report["unique_message_ids"],196)
         self.assertEqual(report["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0),0)
         self.assertEqual(report["counts"].get("CONTROL_MISMATCH",0),0)
 
