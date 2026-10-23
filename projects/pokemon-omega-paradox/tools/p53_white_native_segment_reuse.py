@@ -47,7 +47,16 @@ def native_len(text: str) -> int | None:
         m = ESCAPE.match(text, pos)
         if m:
             v = int(m.group(1), 16)
-            if not 0xE000 <= v <= 0xEFFF:
+            # Exact NFTR/CMAP blocks verified from White TH and P3.7B.
+            # E300-E7FF and EA7A-EFFF have no certified font map.
+            if not (
+                0xE000 <= v <= 0xE0FF
+                or 0xE100 <= v <= 0xE1FF
+                or 0xE200 <= v <= 0xE2A2
+                or 0xE800 <= v <= 0xE8FF
+                or 0xE900 <= v <= 0xE9FF
+                or 0xEA00 <= v <= 0xEA79
+            ):
                 return None
             pos = m.end()
         elif text[pos] in ASCII_PRINTABLE and text[pos] != "\\":
