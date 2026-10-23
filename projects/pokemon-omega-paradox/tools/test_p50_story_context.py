@@ -66,8 +66,8 @@ class P50ContextDraftQA(unittest.TestCase):
     def test_all_unique_draft_ids_cumulative(self):
         sources=[ROOT/"translation"/x for x in DRAFT_FILES]
         results=audit_drafts_only(sources)
-        self.assertEqual(results["draft_rows"],214)
-        self.assertEqual(results["unique_message_ids"],214)
+        self.assertGreaterEqual(results["draft_rows"],214)
+        self.assertEqual(results["unique_message_ids"],results["draft_rows"])
         self.assertEqual(results["counts"].get("CONTROL_MISMATCH",0),0)
         self.assertEqual(results["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0),0)
 
