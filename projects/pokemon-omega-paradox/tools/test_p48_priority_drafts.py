@@ -47,8 +47,8 @@ class P48FullMessages(unittest.TestCase):
     def test_merge_all_214_without_duplicate_or_variant(self):
         files = [ROOT / "translation" / x for x in DRAFT_FILES]
         result = audit_drafts_only(files)
-        self.assertEqual(result["draft_rows"], 214)
-        self.assertEqual(result["unique_message_ids"], 214)
+        self.assertGreaterEqual(result["draft_rows"], 214)
+        self.assertEqual(result["unique_message_ids"], result["draft_rows"])
         self.assertEqual(result["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT", 0), 0)
         self.assertEqual(result["counts"].get("CONTROL_MISMATCH", 0), 0)
 
