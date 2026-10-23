@@ -18,13 +18,11 @@ class P48FullMessages(unittest.TestCase):
         with PATH.open(encoding="utf-8-sig", newline="") as file:
             cls.rows = list(csv.DictReader(file))
 
-    def test_32_exact_message_ids(self):
-        self.assertEqual(len(self.rows), 32)
+    def test_23_new_message_ids(self):
+        self.assertEqual(len(self.rows), 23)
         keys = {(r["archive"], r["file_id"], r["message_id"]) for r in self.rows}
-        self.assertEqual(len(keys), 32)
-        self.assertIn(("system", "44", "8"), keys)
-        self.assertIn(("system", "44", "9"), keys)
-        self.assertIn(("system", "44", "26"), keys)
+        self.assertEqual(len(keys), 23)
+                self.assertIn(("system", "44", "26"), keys)
         self.assertIn(("story", "36", "18"), keys)
 
     def test_every_message_keeps_the_complete_control_sequence(self):
@@ -46,11 +44,11 @@ class P48FullMessages(unittest.TestCase):
             self.assertEqual(row["status"], "DRAFT_NEEDS_CONTEXT")
             self.assertEqual(row["width_review"], "PIXEL_WIDTH_PENDING")
 
-    def test_merge_all_130_without_duplicate_or_variant(self):
+    def test_merge_all_121_without_duplicate_or_variant(self):
         files = [ROOT / "translation" / x for x in DRAFT_FILES]
         result = audit_drafts_only(files)
-        self.assertEqual(result["draft_rows"], 130)
-        self.assertEqual(result["unique_message_ids"], 130)
+        self.assertEqual(result["draft_rows"], 121)
+        self.assertEqual(result["unique_message_ids"], 121)
         self.assertEqual(result["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT", 0), 0)
         self.assertEqual(result["counts"].get("CONTROL_MISMATCH", 0), 0)
 
