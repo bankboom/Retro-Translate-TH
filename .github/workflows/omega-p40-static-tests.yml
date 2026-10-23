@@ -1,4 +1,4 @@
-name: Omega P4.x Translation Integrity Tests
+name: Omega P4/P5 Translation Integrity Tests
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       - name: Compile P4 audit and QA scripts
         run: python -m compileall -q projects/pokemon-omega-paradox/tools
       - name: Run static audit and draft control-code tests
-        run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p4*.py' -v
+        run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p*.py' -v
 
       - name: P4.8 merge-readiness for all 214 full-message drafts
         run: |
@@ -52,7 +52,7 @@ jobs:
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: omega-p47-draft-inventory
+          name: omega-p50-draft-inventory
           path: /tmp/omega-p47-draft-preflight.json
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
