@@ -1,17 +1,16 @@
 # Omega Paradox — Next executable translation task
 
-<!-- P5.4_CURRENT_CHECKPOINT_START -->
-## CURRENT CHECKPOINT — 23 Oct 2026, P5.4 (supersedes older NEXT_TASK entries)
-- **Last actually user-tested ROM patch:** P4.6. Cynthia's two Thai sentences render clearly without `????`, dialogue progresses, and Save/Load work (limited G3/G4 user PASS). Keep P3.7B fallback.
-- **Current actual source-aligned drafts:** 270 unique Omega full-message DRAFT IDs, with separate per-ID Context QA holds. **No later P4.7–P5.4 BPS built or emulator-approved.**
-- **Already proven White TH:** 25,976 native Thai translation-memory entries and 1,309 mapped PUA glyphs in 3 NFTR fonts, with 25,001 Thai-in-ROM P3.5 snapshot IDs (not a claim of global rendered QA).
-- **NEW P5.4:** `tools/p54_one_pass_private_audit.py` orchestrates the complete 56,700-row owner inventory + 25,976 White TM + 270 draft reconciliation, creates local private per-ID QA and Native PUA donor queues, and optionally fingerprints clean ROM/P4.6 BPS with SHA/CRC checks.
-- **Verified GitHub CI:** [39974279240](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39974279240) **SUCCESS 120/120 tests**, synthetic & integrity only, not the full owner ROM/dataset.
-- **Blocker:** Current local binary Python/container runners returned environment errors; owner ROM/raw private CSVs were not executed against P5.4 in this turn. Never report actual full source audit/P4.6 application/BPS generation as complete from the synthetic tests.
-- **One-step restart** (when owner's mounted files are accessible): `docs/P5_4_PRIVATE_FULL_DATA_AUDIT_RUNBOOK_TH.md`. This has exact source SHA and a one-command invocation; do NOT request repetitive new glossary or glyph experiments.
-- **Immediate goal:** once full private audit result is generated, choose certified same-bank native donors for a small changed scene, or verify semantic Unicode Thai->PUA encoder if no valid donor; build incremental BPS from clean ROM, verify applied target and only newly modified scenes.
-- **Release threshold:** all actual linguistic messages translated/reviewed/encoded, safe non-linguistic exclusions, game text & graphics assets audited, full gameplay regression G0–G5. Current completion **not 100%**.
-<!-- P5.4_CURRENT_CHECKPOINT_END -->
+<!-- P5.5_CURRENT_CHECKPOINT_START -->
+## CURRENT CHECKPOINT — 23 Oct 2026, P5.5 (supersedes old P5.4 header)
+- **Last REAL user-tested Omega ROM patch remains P4.6** (two Cynthia Thai clauses, no ????, dialogue advances, Save/Load user PASS). Keep P3.7B as rollback. **No P5.5 or P5.4 translated BPS has been created.**
+- **Full-source text context:** 56,700 total inventory messages, 25,976 White TH translation-memory records; 25,001 P3.5 Thai-coded snapshot records, not global emulator certification. 270 Omega whole-message Unicode Thai DRAFTS, none newly encoded and certified for release.
+- **NEW P5.5 binary infrastructure:** `tools/p55_bps_verified_io.py` can create a BPS from an independently rebuilt target, apply all four BPS actions, and verify full BPS CRC, source SHA256 (optional strict), and **actual applied target CRC/SHA**. It protects the original clean ROM and never outputs an unchecked result.
+- **Evidence:** GitHub Actions [39979439095](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39979439095) SUCCESS **135/135** unit/synthetic tests, including 15 new BPS creation/application/copy/CRC/hash tests. No private game ROM used by CI.
+- **Runbook for actual clean-source P4.6 verification and future BPS creation**: `docs/P5_5_BPS_BUILD_APPLY_VERIFICATION_TH.md`.
+- **Immediate physical blocker:** local container/binary Python tool is still failing, so no real P5.4 full owner CSV re-audit or P5.5 P4.6 apply was executed here. **More important: a certified Unicode Thai -> per-bank native PUA mapping and safe Omega MSG/NARC rebuilder for NEW messages is still missing.** The P5.5 binary BPS layer cannot translate/repack a ROM by itself.
+- **Next high-value step**: recover and inspect owner P4.6 local build scripts, run P5.4 full private audit, produce a first safe changed-bank target ROM from already scene-reviewed source via validated native PUA and MSG/NARC writer, use P5.5 to generate and independently apply-verify BPS, then test changed scene(s) on melonDS. Do not retest unchanged Cynthia or re-extract NFTR without changed fingerprints.
+- **Status:** G0/G1 limited static/pilot evidence; G3/G4 user-tested for P4.6 Cynthia only; 100% game G2–G5 NOT DONE.
+<!-- P5.5_CURRENT_CHECKPOINT_END -->
 
 
 ## Existing assets
