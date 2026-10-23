@@ -17,6 +17,9 @@ class NativeWhitePhraseReuseTests(unittest.TestCase):
         self.assertIsNone(native_len(r"\x0E01"))   # raw Unicode Thai not PUA
         self.assertIsNone(native_len("ไทย"))
         self.assertIsNone(native_len(r"\xF000"))   # not a visible glyph
+        self.assertIsNone(native_len(r"\xE300"))   # outside verified CMAP
+        self.assertIsNone(native_len(r"\xEA7A"))   # outside verified CMAP
+        self.assertEqual(native_len(r"\xEA79"),1) # last verified EA glyph
         self.assertEqual(english_len("Hello"),5)
         self.assertIsNone(english_len("Pokémon"))
 
