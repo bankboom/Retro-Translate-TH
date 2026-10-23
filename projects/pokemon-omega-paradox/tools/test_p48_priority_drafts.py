@@ -53,9 +53,15 @@ class P48FullMessages(unittest.TestCase):
         self.assertEqual(result["counts"].get("CONTROL_MISMATCH", 0), 0)
 
     def test_variable_name_token_is_preserved(self):
-        for mid in ("21", "22", "23", "24"):
-            rows = [r for r in self.rows if r["archive"] == "story"
-                    and r["file_id"] == "21" and r["message_id"] == mid]
+        # Validate only new P4.8 messages; earlier story/21 drafts already
+        # have their own regression coverage.
+        for archive, fid, mid in (
+            ("system", "44", "26"),
+            ("story", "36", "12"),
+            ("story", "36", "13"),
+        ):
+            rows = [r for r in self.rows if r["archive"] == archive
+                    and r["file_id"] == fid and r["message_id"] == mid]
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["draft_thai"].count(r"\xF000Ā\x0001\x0000"), 1)
 
