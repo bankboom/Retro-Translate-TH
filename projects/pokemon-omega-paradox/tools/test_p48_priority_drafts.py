@@ -44,11 +44,11 @@ class P48FullMessages(unittest.TestCase):
             self.assertEqual(row["status"], "DRAFT_NEEDS_CONTEXT")
             self.assertEqual(row["width_review"], "PIXEL_WIDTH_PENDING")
 
-    def test_merge_all_149_without_duplicate_or_variant(self):
+    def test_merge_all_196_without_duplicate_or_variant(self):
         files = [ROOT / "translation" / x for x in DRAFT_FILES]
         result = audit_drafts_only(files)
-        self.assertEqual(result["draft_rows"], 149)
-        self.assertEqual(result["unique_message_ids"], 149)
+        self.assertEqual(result["draft_rows"], 196)
+        self.assertEqual(result["unique_message_ids"], 196)
         self.assertEqual(result["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT", 0), 0)
         self.assertEqual(result["counts"].get("CONTROL_MISMATCH", 0), 0)
 
