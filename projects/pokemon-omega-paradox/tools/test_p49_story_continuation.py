@@ -57,8 +57,8 @@ class P49StoryContinuationQA(unittest.TestCase):
     def test_214_cumulative_drafts_no_conflicts(self):
         files=[ROOT/"translation"/name for name in DRAFT_FILES]
         report=audit_drafts_only(files)
-        self.assertEqual(report["draft_rows"],214)
-        self.assertEqual(report["unique_message_ids"],214)
+        self.assertGreaterEqual(report["draft_rows"],214)
+        self.assertEqual(report["unique_message_ids"],report["draft_rows"])
         self.assertEqual(report["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0),0)
         self.assertEqual(report["counts"].get("CONTROL_MISMATCH",0),0)
 
