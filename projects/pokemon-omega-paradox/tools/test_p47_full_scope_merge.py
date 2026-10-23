@@ -88,11 +88,11 @@ class FullScopeMergeTests(unittest.TestCase):
         a,d,b=self.audit([ir(status="THAI_IN_ROM",flag="0")],[])
         self.assertEqual(a["all_row_states"]["P35_THAI_PUA_SNAPSHOT_NOT_FULL_QA"],1)
 
-    def test_existing_repository_drafts_are_196_unique(self):
+    def test_existing_repository_drafts_are_214_unique(self):
         sources=[ROOT/"translation"/x for x in DRAFT_FILES]
         report=audit_drafts_only(sources)
-        self.assertEqual(report["draft_rows"],196)
-        self.assertEqual(report["unique_message_ids"],196)
+        self.assertEqual(report["draft_rows"],214)
+        self.assertEqual(report["unique_message_ids"],214)
         self.assertEqual(report["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0),0)
 
 if __name__=="__main__":unittest.main()
