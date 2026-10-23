@@ -10,6 +10,7 @@ on:
       - 'projects/pokemon-omega-paradox/translation/P4_8*'
       - 'projects/pokemon-omega-paradox/translation/P4_9*'
       - 'projects/pokemon-omega-paradox/translation/P5_0*'
+      - 'projects/pokemon-omega-paradox/translation/P5_1*'
       - '.github/workflows/omega-p40-static-tests.yml'
   workflow_dispatch:
 
@@ -28,15 +29,15 @@ jobs:
       - name: Run static audit and draft control-code tests
         run: python -m unittest discover -s projects/pokemon-omega-paradox/tools -p 'test_p4*.py' -v
 
-      - name: P4.8 merge-readiness for all 196 full-message drafts
+      - name: P4.8 merge-readiness for all 214 full-message drafts
         run: |
           python projects/pokemon-omega-paradox/tools/p47_full_scope_merge.py \
             --check-drafts-only > /tmp/omega-p47-draft-preflight.json
           python - <<'PY'
           import json
           r=json.load(open('/tmp/omega-p47-draft-preflight.json'))
-          assert r["draft_rows"]==196
-          assert r["unique_message_ids"]==196
+          assert r["draft_rows"]==214
+          assert r["unique_message_ids"]==214
           assert not r["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0)
           PY
       - name: P4.3 draft glyph-readiness audit (no ROM writes)
