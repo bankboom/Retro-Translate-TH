@@ -118,3 +118,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - Source is owner's P3.5 Omega-custom queue, not fabricated dialogue. Previous White TH source/memory was reused into the old P3.5 snapshot; do not claim this newly drafted Omega-specific text was auto-imported from White TH.
 - Detailed audit `docs/P4_8_20261023_NEW_THAI_STORY_TRANSLATION_TH.md`.
 - **Next:** Context QA by scene/speaker; Unicode->E8xx per-bank encoder from proven native glyph/phrase mappings, then controlled source-ROM BPS smoke for intro `system/44/26` and story `story/22/13-15` with regression against P4.6. Do NOT claim 100% full-game status.
+
+## P4.9 — 149 unique full-message drafts (23 Oct 2026)
+- Added **28** fresh full-message Thai drafts from user-owned original Omega P3.5 custom dialogue queue; cumulative drafts **149 unique** (121 before this update +28, no overlapping Message IDs).
+- Covered story/43 (Team Aqua theft and Cynthia Gible), story/45 (evolution stones), story/56 (Cynthia event and Type/Route context). Source and Thai control tokens match exactly; max visible segment <=35 codepoints, pixel width and native bank encoding still pending.
+- Verified GitHub Actions [run 39929919641](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39929919641) **72/72 PASS** for synthetic/static/code/source draft tests. This is not an emulator test.
+- Continuity risks: `story/43/18` Cynthia as Champion versus `story/56/4` low-confidence novice voice. Preserve original Omega wording and mark for scene QA, do not arbitrarily change persona.
+- Deliverable: `translation/P4_9_OMEGA_STORY_CONTINUATION_DRAFTS.csv`, report `docs/P4_9_20261023_FULL_TRANSLATION_PROGRESS_TH.md`.
+- **Not 100% finished**: previous 56,700 inventory contains 20,096 items needing context/translation review; new 149 drafts not in ROM. Last actual tested BPS still P4.6. Native E8xx semantic encoder, approved context + pixel QA, full ROM integration, gameplay and G5 all pending.
+- **Highest priority technical next step**: use verified P4.6 and White TH phrasebook to derive bank-specific contextual code-unit encoder, then release one controlled, source-ROM-based BPS batch for a freshly reviewed Omega scene; no new synthetic test cycles without ROM build potential.
