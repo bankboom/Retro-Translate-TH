@@ -109,3 +109,12 @@ Conversation sandbox binary execution currently fails, so no new P3.8 BPS has be
 - **No P4.7 BPS generated**. This working session's native ROM execution environment raised ClientError; actual P4.6 build remains the newest binary and user-scoped emulator-tested checkpoint.
 - On restored local ROM execution: (1) run P4.7 tool on the owner's existing 56,700-row CSV and reconcile draft source IDs, (2) derive or load verified bank-specific Unicode->native Thai units and renderer widths, (3) use the actual P4.6 ZIP scripts as baseline to build a small BPS of newly reviewed scenes and compare binary diff, (4) expand genuinely reviewed translations through all remaining backlog, with changes-only emulator regression and final G0–G5 QA.
 - Never re-extract already verified 1,309 glyphs or re-run unchanged Cynthia smoke tests. Preserve immutable original Omega and P4.6 binary SHA fingerprints.
+
+## P4.8 — 23 NEW Omega full-message Thai drafts (23 Oct 2026)
+- Reused the existing 98 full-message drafts first. Of 32 source-aligned new translation attempts, 9 IDs already had full-message drafts and were held out to prevent duplicates. **23 new unique IDs were added; cumulative total = 121**.
+- New `translation/P4_8_OMEGA_PRIORITY_FULL_MESSAGE_DRAFTS.csv` covers `system/20/1`, `system/44/26`, `story/22/11–18/20–22`, and `story/36/7–9/12–18`. It preserves the full original message text and ordered control tokens; text segments <=35 Unicode codepoints.
+- GitHub Actions run [39909530338](https://github.com/bankboom/Retro-Translate-TH/actions/runs/39909530338) passed **65/65** Python/static tests and merged **121/121 unique draft IDs**. The P4.7 merger and workflow now include P4.8.
+- All 23 are `DRAFT_NEEDS_CONTEXT`, NOT encoded/injected nor emulator validated. P4.6 remains user-tested Save/Load/Cynthia stable baseline; its SHA and build path are unchanged.
+- Source is owner's P3.5 Omega-custom queue, not fabricated dialogue. Previous White TH source/memory was reused into the old P3.5 snapshot; do not claim this newly drafted Omega-specific text was auto-imported from White TH.
+- Detailed audit `docs/P4_8_20261023_NEW_THAI_STORY_TRANSLATION_TH.md`.
+- **Next:** Context QA by scene/speaker; Unicode->E8xx per-bank encoder from proven native glyph/phrase mappings, then controlled source-ROM BPS smoke for intro `system/44/26` and story `story/22/13-15` with regression against P4.6. Do NOT claim 100% full-game status.
