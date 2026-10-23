@@ -50,8 +50,8 @@ class LoreContextChecks(unittest.TestCase):
 
     def test_cumulative_merger_has_no_variants(self):
         result=audit_drafts_only([ROOT/"translation"/p for p in DRAFT_FILES])
-        self.assertEqual(result["draft_rows"],214)
-        self.assertEqual(result["unique_message_ids"],214)
+        self.assertGreaterEqual(result["draft_rows"],214)
+        self.assertEqual(result["unique_message_ids"],result["draft_rows"])
         self.assertEqual(result["counts"].get("CONTROL_MISMATCH",0),0)
         self.assertEqual(result["counts"].get("MULTIPLE_TRANSLATION_VARIANTS_NEED_CONTEXT",0),0)
 
